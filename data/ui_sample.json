@@ -1,0 +1,32 @@
+{
+  "screen_name": "Login Screen",
+  "elements": [
+    {
+      "id": "logo",
+      "type": "image",
+      "bounds": {"x": 100, "y": 50, "width": 100, "height": 100},
+      "description": "App Logo"
+    },
+    {
+      "id": "username_input",
+      "type": "input",
+      "text": "Enter Username",
+      "bounds": {"x": 50, "y": 200, "width": 200, "height": 40},
+      "style": {"background": "#F0F0F0", "text_color": "#AAAAAA"}
+    },
+    {
+      "id": "login_button",
+      "type": "button",
+      "text": "Login",
+      "bounds": {"x": 50, "y": 300, "width": 200, "height": 50},
+      "style": {"background": "#007BFF", "text_color": "#FFFFFF"}
+    },
+    {
+      "id": "forgot_password",
+      "type": "text",
+      "text": "Forgot Password?",
+      "bounds": {"x": 80, "y": 360, "width": 140, "height": 20},
+      "style": {"text_color": "#007BFF", "font_size": 12}
+    }
+  ]
+}
