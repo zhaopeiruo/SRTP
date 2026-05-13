@@ -1,0 +1,216 @@
+{
+    "metadata": {
+        "exportedAt": "2026-05-09T07:29:17.155Z",
+        "componentName": "Registration",
+        "totalElements": 13,
+        "nestingDepth": 3,
+        "plugin": "Figma to JSON Exporter"
+    },
+    "designTokens": {
+        "colors": {
+            "color-rgb(240, 244, 243)": "rgb(240, 244, 243)",
+            "color-rgb(0, 0, 0)": "rgb(0, 0, 0)",
+            "color-rgb(255, 255, 255)": "rgb(255, 255, 255)"
+        },
+        "fonts": {
+            "poppins": {
+                "family": "Poppins",
+                "sizes": {
+                    "size-18": "18px",
+                    "size-13": "13px",
+                    "size-16": "16px"
+                },
+                "weights": {
+                    "weight-700": "700",
+                    "weight-400": "400"
+                }
+            }
+        },
+        "spacing": {},
+        "effects": {}
+    },
+    "structure": {
+        "name": "registration",
+        "type": "FRAME",
+        "size": {
+            "w": 430,
+            "h": 932
+        },
+        "styles": {
+            "bg": "rgb(240, 244, 243)",
+            "layout": {
+                "direction": "row",
+                "gap": 0,
+                "align": {
+                    "main": "start",
+                    "cross": "start"
+                }
+            }
+        },
+        "children": [
+            {
+                "name": "shape",
+                "type": "INSTANCE",
+                "size": {
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "name": "notification",
+                "type": "INSTANCE",
+                "size": {
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "name": "button",
+                "type": "INSTANCE",
+                "size": {
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "name": "welcome-to-onboard-",
+                "type": "TEXT",
+                "size": {
+                    "w": 204,
+                    "h": 27
+                },
+                "content": "Welcome to Onboard!",
+                "styles": {
+                    "bg": "rgb(0, 0, 0)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 18,
+                        "weight": "700",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "let-s-help-to-meet-up-your-tasks-",
+                "type": "TEXT",
+                "size": {
+                    "w": 203,
+                    "h": 40
+                },
+                "content": "Let’s help to meet up your tasks.",
+                "styles": {
+                    "bg": "rgb(0, 0, 0)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 13,
+                        "weight": "400",
+                        "align": "center"
+                    }
+                }
+            },
+            {
+                "name": "input_filed",
+                "type": "COMPONENT",
+                "size": {
+                    "w": 380,
+                    "h": 50
+                },
+                "component": {
+                    "type": "main",
+                    "name": null
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "rectangle-3",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 380,
+                            "h": 50
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "radius": 100
+                        }
+                    },
+                    {
+                        "name": "enter-your-full-name",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 203,
+                            "h": 20
+                        },
+                        "content": "Enter your full name",
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "text": {
+                                "family": "Poppins",
+                                "size": 13,
+                                "weight": "400",
+                                "align": "left"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "input_filed",
+                "type": "INSTANCE",
+                "size": {
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "name": "input_filed",
+                "type": "INSTANCE",
+                "size": {
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "name": "input_filed",
+                "type": "INSTANCE",
+                "size": {
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "name": "already-have-an-account---sign-in",
+                "type": "TEXT",
+                "size": {
+                    "w": 272,
+                    "h": 25
+                },
+                "content": "Already have an account ? Sign In",
+                "styles": {
+                    "text": {
+                        "family": "Poppins",
+                        "size": 16,
+                        "weight": "400",
+                        "align": "center"
+                    }
+                }
+            }
+        ]
+    },
+    "summary": {
+        "components": 1,
+        "instances": 6,
+        "frames": 1,
+        "texts": 4,
+        "hasAutoLayout": true,
+        "hasEffects": false
+    }
+}

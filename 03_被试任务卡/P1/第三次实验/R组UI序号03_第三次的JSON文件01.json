@@ -1,0 +1,1514 @@
+{
+    "metadata": {
+        "exportedAt": "2026-05-09T07:15:52.420Z",
+        "componentName": "screen home",
+        "totalElements": 108,
+        "nestingDepth": 6,
+        "plugin": "Figma to JSON Exporter"
+    },
+    "designTokens": {
+        "colors": {
+            "color-rgb(246, 250, 255)": "rgb(246, 250, 255)",
+            "color-rgb(70, 104, 254)": "rgb(70, 104, 254)",
+            "color-rgb(89, 116, 146)": "rgb(89, 116, 146)",
+            "color-rgb(16, 22, 37)": "rgb(16, 22, 37)",
+            "color-rgb(74, 199, 238)": "rgb(74, 199, 238)",
+            "color-rgb(255, 255, 255)": "rgb(255, 255, 255)",
+            "color-rgb(196, 196, 196)": "rgb(196, 196, 196)",
+            "color-rgb(214, 221, 231)": "rgb(214, 221, 231)",
+            "color-rgb(173, 188, 206)": "rgb(173, 188, 206)",
+            "color-rgb(89, 115, 147)": "rgb(89, 115, 147)",
+            "color-rgb(0, 0, 0)": "rgb(0, 0, 0)",
+            "color-rgb(221, 234, 243)": "rgb(221, 234, 243)",
+            "color-rgb(142, 142, 147)": "rgb(142, 142, 147)"
+        },
+        "fonts": {
+            "raleway": {
+                "family": "Raleway",
+                "sizes": {
+                    "size-20": "20px",
+                    "size-18": "18px"
+                },
+                "weights": {
+                    "weight-700": "700",
+                    "weight-400": "400"
+                }
+            },
+            "open-sans": {
+                "family": "Open Sans",
+                "sizes": {
+                    "size-14": "14px",
+                    "size-8": "8px",
+                    "size-12": "12px"
+                },
+                "weights": {
+                    "weight-400": "400",
+                    "weight-700": "700"
+                }
+            },
+            "font-awesome-5-free": {
+                "family": "Font Awesome 5 Free",
+                "sizes": {
+                    "size-24": "24px"
+                },
+                "weights": {
+                    "weight-400": "400"
+                }
+            },
+            "heebo": {
+                "family": "Heebo",
+                "sizes": {
+                    "size-14": "14px"
+                },
+                "weights": {
+                    "weight-400": "400"
+                }
+            }
+        },
+        "spacing": {
+            "gap-16": "16px",
+            "gap-10": "10px",
+            "padding-top-16": "16px",
+            "padding-right-16": "16px",
+            "padding-bottom-16": "16px",
+            "padding-left-16": "16px"
+        },
+        "effects": {
+            "shadow-4-4": {
+                "x": 0,
+                "y": 4,
+                "blur": 4,
+                "color": "rgba(0, 0, 0, 0.10000000149011612)"
+            }
+        }
+    },
+    "structure": {
+        "name": "screen-home",
+        "type": "FRAME",
+        "size": {
+            "w": 390,
+            "h": 933
+        },
+        "styles": {
+            "bg": "rgb(246, 250, 255)",
+            "radius": 30,
+            "layout": {
+                "direction": "row",
+                "gap": 0,
+                "align": {
+                    "main": "start",
+                    "cross": "start"
+                }
+            }
+        },
+        "children": [
+            {
+                "name": "diets",
+                "type": "GROUP",
+                "size": {
+                    "w": 358,
+                    "h": 200
+                },
+                "children": [
+                    {
+                        "name": "background",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 358,
+                            "h": 200
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle-6",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 358,
+                                    "h": 200
+                                },
+                                "styles": {
+                                    "bg": "rgb(70, 104, 254)",
+                                    "radius": 10
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "image",
+                        "type": "INSTANCE",
+                        "size": {
+                            "w": 0,
+                            "h": 0
+                        }
+                    },
+                    {
+                        "name": "title",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 132,
+                            "h": 23
+                        },
+                        "children": [
+                            {
+                                "name": "minhas-dietas",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 132,
+                                    "h": 23
+                                },
+                                "content": "Minhas dietas",
+                                "styles": {
+                                    "bg": "rgb(89, 116, 146)",
+                                    "text": {
+                                        "family": "Raleway",
+                                        "size": 20,
+                                        "weight": "700",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "next-appointment",
+                "type": "GROUP",
+                "size": {
+                    "w": 358,
+                    "h": 100
+                },
+                "children": [
+                    {
+                        "name": "appointment",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 358,
+                            "h": 100
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 1,
+                                "color": "rgb(173, 188, 206)"
+                            },
+                            "radius": 10,
+                            "layout": {
+                                "direction": "row",
+                                "gap": 16,
+                                "align": {
+                                    "main": "center",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "title",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 151,
+                                    "h": 21
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 10,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "next-appointment",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 151,
+                                            "h": 21
+                                        },
+                                        "content": "Next appointment",
+                                        "styles": {
+                                            "bg": "rgb(16, 22, 37)",
+                                            "text": {
+                                                "family": "Raleway",
+                                                "size": 18,
+                                                "weight": "400",
+                                                "align": "center"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "date",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 139,
+                                    "h": 51
+                                },
+                                "styles": {
+                                    "bg": "rgb(74, 199, 238)",
+                                    "radius": 10,
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 10,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        },
+                                        "padding": [
+                                            16,
+                                            16,
+                                            16,
+                                            16
+                                        ]
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "24-11---16-00pm",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 107,
+                                            "h": 19
+                                        },
+                                        "content": "24/11 - 16:00pm",
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)",
+                                            "text": {
+                                                "family": "Open Sans",
+                                                "size": 14,
+                                                "weight": "400",
+                                                "align": "center"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "graphic",
+                "type": "GROUP",
+                "size": {
+                    "w": 390,
+                    "h": 496
+                },
+                "children": [
+                    {
+                        "name": "background",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 390,
+                            "h": 496
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle-15",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 390,
+                                    "h": 496
+                                },
+                                "styles": {
+                                    "bg": "rgb(246, 250, 255)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "graphic-field",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 0,
+                            "h": 0
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle-12",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 322,
+                                    "h": 211
+                                },
+                                "styles": {
+                                    "bg": "rgb(196, 196, 196)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "progress-bar",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 291,
+                            "h": 178
+                        },
+                        "children": [
+                            {
+                                "name": "vector-5",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 290,
+                                    "h": 129
+                                }
+                            },
+                            {
+                                "name": "vector-3",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 291,
+                                    "h": 80
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 2,
+                                        "color": "rgb(74, 199, 238)"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "vector-6",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 290,
+                                    "h": 129
+                                }
+                            },
+                            {
+                                "name": "vector-4",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 291,
+                                    "h": 80
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 2,
+                                        "color": "rgb(70, 104, 254)"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "lines",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 290,
+                            "h": 211
+                        },
+                        "children": [
+                            {
+                                "name": "line-4",
+                                "type": "LINE",
+                                "size": {
+                                    "w": 211,
+                                    "h": 0
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 1,
+                                        "color": "rgb(70, 104, 254)"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "line-5",
+                                "type": "LINE",
+                                "size": {
+                                    "w": 211,
+                                    "h": 0
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 1,
+                                        "color": "rgb(70, 104, 254)"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "line-7",
+                                "type": "LINE",
+                                "size": {
+                                    "w": 211,
+                                    "h": 0
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 1,
+                                        "color": "rgb(70, 104, 254)"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "line-8",
+                                "type": "LINE",
+                                "size": {
+                                    "w": 211,
+                                    "h": 0
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 1,
+                                        "color": "rgb(70, 104, 254)"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "line-6",
+                                "type": "LINE",
+                                "size": {
+                                    "w": 211,
+                                    "h": 0
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 1,
+                                        "color": "rgb(70, 104, 254)"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "indicators",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 132,
+                            "h": 11
+                        },
+                        "children": [
+                            {
+                                "name": "weight-indicator",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 71,
+                                    "h": 11
+                                },
+                                "children": [
+                                    {
+                                        "name": "weight--kg-",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 43,
+                                            "h": 11
+                                        },
+                                        "content": "Weight (Kg)",
+                                        "styles": {
+                                            "bg": "rgb(89, 116, 146)",
+                                            "text": {
+                                                "family": "Open Sans",
+                                                "size": 8,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-16",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 20,
+                                            "h": 8
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(70, 104, 254)",
+                                            "radius": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "fat-indicator",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 53,
+                                    "h": 11
+                                },
+                                "children": [
+                                    {
+                                        "name": "fat----",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 25,
+                                            "h": 11
+                                        },
+                                        "content": "Fat (%)",
+                                        "styles": {
+                                            "bg": "rgb(89, 116, 146)",
+                                            "text": {
+                                                "family": "Open Sans",
+                                                "size": 8,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-17",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 20,
+                                            "h": 8
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(74, 199, 238)",
+                                            "radius": 10
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "progress",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 64,
+                            "h": 180
+                        },
+                        "children": [
+                            {
+                                "name": "sele--o",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 20,
+                                    "h": 178
+                                },
+                                "children": [
+                                    {
+                                        "name": "sele--o-dados",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 20,
+                                            "h": 178
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "peso",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 64,
+                                    "h": 49
+                                },
+                                "children": [
+                                    {
+                                        "name": "elemento-info-peso",
+                                        "type": "GROUP",
+                                        "size": {
+                                            "w": 64,
+                                            "h": 32
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "rectangle-18",
+                                                "type": "RECTANGLE",
+                                                "size": {
+                                                    "w": 64,
+                                                    "h": 20
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)",
+                                                    "radius": 10,
+                                                    "shadow": {
+                                                        "x": 0,
+                                                        "y": 4,
+                                                        "blur": 4,
+                                                        "color": "rgba(0, 0, 0, 0.10000000149011612)"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "polygon-2",
+                                                "type": "POLYGON",
+                                                "size": {
+                                                    "w": 20,
+                                                    "h": 20
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)",
+                                                    "radius": 2
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "67",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 14,
+                                            "h": 16
+                                        },
+                                        "content": "67",
+                                        "styles": {
+                                            "bg": "rgb(70, 104, 254)",
+                                            "text": {
+                                                "family": "Open Sans",
+                                                "size": 12,
+                                                "weight": "700",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "peso-info",
+                                        "type": "ELLIPSE",
+                                        "size": {
+                                            "w": 14,
+                                            "h": 14
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(246, 250, 255)",
+                                            "border": {
+                                                "width": 2,
+                                                "color": "rgb(70, 104, 254)"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "gordura",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 64,
+                                    "h": 49
+                                },
+                                "children": [
+                                    {
+                                        "name": "elemento-info-gordura",
+                                        "type": "GROUP",
+                                        "size": {
+                                            "w": 64,
+                                            "h": 30
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "rectangle-18",
+                                                "type": "RECTANGLE",
+                                                "size": {
+                                                    "w": 64,
+                                                    "h": 20
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)",
+                                                    "radius": 10,
+                                                    "shadow": {
+                                                        "x": 0,
+                                                        "y": 4,
+                                                        "blur": 4,
+                                                        "color": "rgba(0, 0, 0, 0.10000000149011612)"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "polygon-1",
+                                                "type": "POLYGON",
+                                                "size": {
+                                                    "w": 20,
+                                                    "h": 20
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)",
+                                                    "radius": 2
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "47",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 14,
+                                            "h": 16
+                                        },
+                                        "content": "47",
+                                        "styles": {
+                                            "bg": "rgb(74, 199, 238)",
+                                            "text": {
+                                                "family": "Open Sans",
+                                                "size": 12,
+                                                "weight": "700",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "gordura-info",
+                                        "type": "ELLIPSE",
+                                        "size": {
+                                            "w": 14,
+                                            "h": 14
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(246, 250, 255)",
+                                            "border": {
+                                                "width": 2,
+                                                "color": "rgb(74, 199, 238)"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "days",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 322,
+                            "h": 16
+                        },
+                        "children": [
+                            {
+                                "name": "10-10",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 32,
+                                    "h": 16
+                                },
+                                "content": "10/10",
+                                "styles": {
+                                    "bg": "rgb(89, 116, 146)",
+                                    "text": {
+                                        "family": "Open Sans",
+                                        "size": 12,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "09-11",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 32,
+                                    "h": 16
+                                },
+                                "content": "09/11",
+                                "styles": {
+                                    "bg": "rgb(89, 116, 146)",
+                                    "text": {
+                                        "family": "Open Sans",
+                                        "size": 12,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "25-10",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 32,
+                                    "h": 16
+                                },
+                                "content": "25/10",
+                                "styles": {
+                                    "bg": "rgb(89, 116, 146)",
+                                    "text": {
+                                        "family": "Open Sans",
+                                        "size": 12,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "numbers",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 21,
+                            "h": 214
+                        },
+                        "children": [
+                            {
+                                "name": "100",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 21,
+                                    "h": 16
+                                },
+                                "content": "100",
+                                "styles": {
+                                    "bg": "rgb(89, 116, 146)",
+                                    "text": {
+                                        "family": "Open Sans",
+                                        "size": 12,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "50",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 14,
+                                    "h": 16
+                                },
+                                "content": "50",
+                                "styles": {
+                                    "bg": "rgb(89, 116, 146)",
+                                    "text": {
+                                        "family": "Open Sans",
+                                        "size": 12,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "0",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 7,
+                                    "h": 16
+                                },
+                                "content": "0",
+                                "styles": {
+                                    "bg": "rgb(89, 116, 146)",
+                                    "text": {
+                                        "family": "Open Sans",
+                                        "size": 12,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "line",
+                "type": "GROUP",
+                "size": {
+                    "w": 390,
+                    "h": 0
+                },
+                "children": [
+                    {
+                        "name": "line-9",
+                        "type": "LINE",
+                        "size": {
+                            "w": 390,
+                            "h": 0
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 1,
+                                "color": "rgb(89, 116, 146)"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "header",
+                "type": "GROUP",
+                "size": {
+                    "w": 358,
+                    "h": 48
+                },
+                "children": [
+                    {
+                        "name": "profile",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 48,
+                            "h": 48
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle-2",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 48,
+                                    "h": 48
+                                },
+                                "styles": {
+                                    "bg": "rgb(214, 221, 231)",
+                                    "radius": 100
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "title-page",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 138,
+                            "h": 23
+                        },
+                        "children": [
+                            {
+                                "name": "your-evolution",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 138,
+                                    "h": 23
+                                },
+                                "content": "Your Evolution",
+                                "styles": {
+                                    "bg": "rgb(89, 116, 146)",
+                                    "text": {
+                                        "family": "Raleway",
+                                        "size": 20,
+                                        "weight": "700",
+                                        "align": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "menu-tab",
+                "type": "GROUP",
+                "size": {
+                    "w": 390,
+                    "h": 90
+                },
+                "children": [
+                    {
+                        "name": "background-tab",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 390,
+                            "h": 90
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle-6",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 390,
+                                    "h": 90
+                                },
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "home",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 98,
+                            "h": 90
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle-20",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 98,
+                                    "h": 90
+                                }
+                            },
+                            {
+                                "name": "home",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 36,
+                                    "h": 43
+                                },
+                                "children": [
+                                    {
+                                        "name": "home",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 36,
+                                            "h": 16
+                                        },
+                                        "content": "Home",
+                                        "styles": {
+                                            "bg": "rgb(70, 104, 254)",
+                                            "text": {
+                                                "family": "Open Sans",
+                                                "size": 12,
+                                                "weight": "700",
+                                                "align": "center"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "home",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 27,
+                                            "h": 28
+                                        },
+                                        "content": "home",
+                                        "styles": {
+                                            "bg": "rgb(70, 104, 254)",
+                                            "text": {
+                                                "family": "Font Awesome 5 Free",
+                                                "size": 24,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "evolution",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 97,
+                            "h": 90
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle-21",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 97,
+                                    "h": 90
+                                }
+                            },
+                            {
+                                "name": "evolution",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 57,
+                                    "h": 43
+                                },
+                                "children": [
+                                    {
+                                        "name": "evolution",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 57,
+                                            "h": 16
+                                        },
+                                        "content": "Evolution",
+                                        "styles": {
+                                            "bg": "rgb(173, 188, 206)",
+                                            "text": {
+                                                "family": "Open Sans",
+                                                "size": 12,
+                                                "weight": "700",
+                                                "align": "center"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "chart-line",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 24,
+                                            "h": 28
+                                        },
+                                        "content": "chart-line",
+                                        "styles": {
+                                            "bg": "rgb(173, 188, 206)",
+                                            "text": {
+                                                "family": "Font Awesome 5 Free",
+                                                "size": 24,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "diets",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 98,
+                            "h": 90
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle-22",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 98,
+                                    "h": 90
+                                }
+                            },
+                            {
+                                "name": "diets",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 31,
+                                    "h": 43
+                                },
+                                "children": [
+                                    {
+                                        "name": "diets",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 31,
+                                            "h": 16
+                                        },
+                                        "content": "Diets",
+                                        "styles": {
+                                            "bg": "rgb(173, 188, 206)",
+                                            "text": {
+                                                "family": "Open Sans",
+                                                "size": 12,
+                                                "weight": "700",
+                                                "align": "center"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "apple-alt",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 21,
+                                            "h": 28
+                                        },
+                                        "content": "apple-alt",
+                                        "styles": {
+                                            "bg": "rgb(173, 188, 206)",
+                                            "text": {
+                                                "family": "Font Awesome 5 Free",
+                                                "size": 24,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "contact",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 97,
+                            "h": 90
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle-23",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 97,
+                                    "h": 90
+                                }
+                            },
+                            {
+                                "name": "contacts",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 47,
+                                    "h": 43
+                                },
+                                "children": [
+                                    {
+                                        "name": "contact",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 47,
+                                            "h": 16
+                                        },
+                                        "content": "Contact",
+                                        "styles": {
+                                            "bg": "rgb(173, 188, 206)",
+                                            "text": {
+                                                "family": "Open Sans",
+                                                "size": 12,
+                                                "weight": "700",
+                                                "align": "center"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "comment",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 24,
+                                            "h": 28
+                                        },
+                                        "content": "comment",
+                                        "styles": {
+                                            "bg": "rgb(173, 188, 206)",
+                                            "text": {
+                                                "family": "Font Awesome 5 Free",
+                                                "size": 24,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "status-bar",
+                "type": "FRAME",
+                "size": {
+                    "w": 390,
+                    "h": 43
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "wifi",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 15,
+                            "h": 11
+                        },
+                        "styles": {
+                            "bg": "rgb(89, 115, 147)"
+                        }
+                    },
+                    {
+                        "name": "battery",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 24,
+                            "h": 11
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "fill",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 18,
+                                    "h": 8
+                                },
+                                "styles": {
+                                    "bg": "rgb(89, 115, 147)"
+                                }
+                            },
+                            {
+                                "name": "outline",
+                                "type": "BOOLEAN_OPERATION",
+                                "size": {
+                                    "w": 24,
+                                    "h": 11
+                                },
+                                "styles": {
+                                    "bg": "rgb(89, 115, 147)"
+                                },
+                                "children": [
+                                    {
+                                        "name": "rectangle-2--stroke-",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 22,
+                                            "h": 11
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(0, 0, 0)"
+                                        }
+                                    },
+                                    {
+                                        "name": "subtract",
+                                        "type": "BOOLEAN_OPERATION",
+                                        "size": {
+                                            "w": 1,
+                                            "h": 4
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(196, 196, 196)"
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "ellipse-1",
+                                                "type": "ELLIPSE",
+                                                "size": {
+                                                    "w": 4,
+                                                    "h": 4
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(196, 196, 196)"
+                                                }
+                                            },
+                                            {
+                                                "name": "rectangle-4",
+                                                "type": "RECTANGLE",
+                                                "size": {
+                                                    "w": 2,
+                                                    "h": 4
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(196, 196, 196)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "reception",
+                        "type": "BOOLEAN_OPERATION",
+                        "size": {
+                            "w": 17,
+                            "h": 10
+                        },
+                        "styles": {
+                            "bg": "rgb(89, 115, 147)"
+                        },
+                        "children": [
+                            {
+                                "name": "signal",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 3,
+                                    "h": 5
+                                },
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)"
+                                }
+                            },
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 3,
+                                    "h": 6
+                                },
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)",
+                                    "radius": 1
+                                }
+                            },
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 3,
+                                    "h": 8
+                                },
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)",
+                                    "radius": 1
+                                }
+                            },
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 3,
+                                    "h": 10
+                                },
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)",
+                                    "radius": 1
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "time",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 27,
+                            "h": 14
+                        },
+                        "content": "7:02",
+                        "styles": {
+                            "bg": "rgb(89, 115, 147)",
+                            "text": {
+                                "family": "Heebo",
+                                "size": 14,
+                                "weight": "400",
+                                "align": "center"
+                            }
+                        }
+                    },
+                    {
+                        "name": "notch",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 169,
+                            "h": 33
+                        },
+                        "children": [
+                            {
+                                "name": "notch",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 169,
+                                    "h": 33
+                                },
+                                "styles": {
+                                    "bg": "rgb(221, 234, 243)"
+                                }
+                            },
+                            {
+                                "name": "rectangle-",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 49,
+                                    "h": 6
+                                },
+                                "styles": {
+                                    "bg": "rgb(142, 142, 147)",
+                                    "radius": 9
+                                }
+                            },
+                            {
+                                "name": "ellipse-",
+                                "type": "ELLIPSE",
+                                "size": {
+                                    "w": 8,
+                                    "h": 8
+                                },
+                                "styles": {
+                                    "bg": "rgb(142, 142, 147)"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "summary": {
+        "components": 0,
+        "instances": 1,
+        "frames": 6,
+        "texts": 23,
+        "hasAutoLayout": true,
+        "hasEffects": true
+    }
+}

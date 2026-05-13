@@ -1,0 +1,2739 @@
+{
+    "metadata": {
+        "exportedAt": "2026-05-09T07:20:55.712Z",
+        "componentName": "01",
+        "totalElements": 155,
+        "nestingDepth": 7,
+        "plugin": "Figma to JSON Exporter"
+    },
+    "designTokens": {
+        "colors": {
+            "color-rgb(24, 24, 25)": "rgb(24, 24, 25)",
+            "color-rgb(230, 231, 225)": "rgb(230, 231, 225)",
+            "color-rgb(23, 206, 19)": "rgb(23, 206, 19)",
+            "color-rgb(217, 217, 217)": "rgb(217, 217, 217)",
+            "color-rgb(206, 64, 19)": "rgb(206, 64, 19)",
+            "color-rgb(19, 127, 206)": "rgb(19, 127, 206)",
+            "color-rgb(255, 255, 255)": "rgb(255, 255, 255)"
+        },
+        "fonts": {
+            "avenir-next-lt-pro": {
+                "family": "Avenir Next LT Pro",
+                "sizes": {
+                    "size-24": "24px",
+                    "size-16": "16px",
+                    "size-14": "14px",
+                    "size-12": "12px",
+                    "size-20": "20px"
+                },
+                "weights": {
+                    "weight-700": "700",
+                    "weight-400": "400",
+                    "weight-500": "500"
+                }
+            },
+            "arial": {
+                "family": "Arial",
+                "sizes": {
+                    "size-16": "16px"
+                },
+                "weights": {
+                    "weight-400": "400"
+                }
+            },
+            "roboto": {
+                "family": "Roboto",
+                "sizes": {
+                    "size-14": "14px"
+                },
+                "weights": {
+                    "weight-500": "500"
+                }
+            }
+        },
+        "spacing": {
+            "padding-right-16": "16px",
+            "padding-left-16": "16px",
+            "gap-16": "16px",
+            "gap-12": "12px",
+            "gap-8": "8px",
+            "padding-top-8": "8px",
+            "padding-right-12": "12px",
+            "padding-bottom-8": "8px",
+            "padding-left-12": "12px",
+            "gap-2": "2px",
+            "gap-4": "4px",
+            "padding-top-10": "10px",
+            "padding-right-10": "10px",
+            "padding-bottom-10": "10px",
+            "padding-left-10": "10px",
+            "gap-10": "10px",
+            "padding-right-8": "8px",
+            "padding-left-8": "8px"
+        },
+        "effects": {
+            "shadow-2-0": {
+                "x": 0,
+                "y": 0,
+                "blur": 2,
+                "color": "rgba(0, 0, 0, 0.1599999964237213)"
+            },
+            "shadow-4-2": {
+                "x": 0,
+                "y": -2,
+                "blur": 4,
+                "color": "rgba(0, 0, 0, 0.07999999821186066)"
+            },
+            "shadow-4-0": {
+                "x": 0,
+                "y": 0,
+                "blur": 4,
+                "color": "rgba(23, 206, 19, 0.5)"
+            }
+        }
+    },
+    "structure": {
+        "name": "01",
+        "type": "FRAME",
+        "size": {
+            "w": 360,
+            "h": 800
+        },
+        "styles": {
+            "bg": "rgb(24, 24, 25)",
+            "border": {
+                "width": 1,
+                "color": "rgb(23, 206, 19)"
+            },
+            "radius": 24,
+            "layout": {
+                "direction": "row",
+                "gap": 0,
+                "align": {
+                    "main": "start",
+                    "cross": "start"
+                }
+            }
+        },
+        "children": [
+            {
+                "name": "rectangle-61",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 360,
+                    "h": 136
+                }
+            },
+            {
+                "name": "image-6",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 48,
+                    "h": 48
+                },
+                "styles": {
+                    "radius": 50,
+                    "shadow": {
+                        "x": 0,
+                        "y": 0,
+                        "blur": 2,
+                        "color": "rgba(0, 0, 0, 0.1599999964237213)"
+                    }
+                }
+            },
+            {
+                "name": "john-wick",
+                "type": "TEXT",
+                "size": {
+                    "w": 122,
+                    "h": 28
+                },
+                "content": "John Wick",
+                "styles": {
+                    "bg": "rgb(230, 231, 225)",
+                    "text": {
+                        "family": "Avenir Next LT Pro",
+                        "size": 24,
+                        "weight": "700",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "good-morning-",
+                "type": "TEXT",
+                "size": {
+                    "w": 114,
+                    "h": 24
+                },
+                "content": "Good morning,",
+                "styles": {
+                    "bg": "rgb(230, 231, 225)",
+                    "text": {
+                        "family": "Avenir Next LT Pro",
+                        "size": 16,
+                        "weight": "400",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "android-small---21",
+                "type": "FRAME",
+                "size": {
+                    "w": 360,
+                    "h": 408
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "my-cards--3-cards-",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 173,
+                            "h": 40
+                        },
+                        "content": "My Cards (3 cards)",
+                        "styles": {
+                            "text": {
+                                "family": "Arial",
+                                "size": 16,
+                                "weight": "400",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "solar-add-circle-bold-duotone",
+                        "type": "INSTANCE",
+                        "size": {
+                            "w": 0,
+                            "h": 0
+                        }
+                    },
+                    {
+                        "name": "frame-2608668",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 874,
+                            "h": 172
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 16,
+                                "align": {
+                                    "main": "center",
+                                    "cross": "center"
+                                },
+                                "padding": [
+                                    0,
+                                    16,
+                                    0,
+                                    16
+                                ]
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "frame-2608665",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 255,
+                                    "h": 146
+                                },
+                                "styles": {
+                                    "radius": 14,
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "noisy-gradients",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 255,
+                                            "h": 146
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-57",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 68,
+                                            "h": 68
+                                        },
+                                        "styles": {
+                                            "radius": 68
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-58",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 34,
+                                            "h": 34
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(23, 206, 19)",
+                                            "radius": 68
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-59",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 102,
+                                            "h": 102
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(23, 206, 19)",
+                                            "radius": 102
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-60",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 68,
+                                            "h": 68
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(23, 206, 19)",
+                                            "radius": 102
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-56",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 34,
+                                            "h": 34
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(23, 206, 19)",
+                                            "radius": 43
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-55",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 34,
+                                            "h": 34
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(23, 206, 19)",
+                                            "radius": 43
+                                        }
+                                    },
+                                    {
+                                        "name": "---------------1990",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 119,
+                                            "h": 21
+                                        },
+                                        "content": "**** **** **** 1990",
+                                        "styles": {
+                                            "bg": "rgb(230, 231, 225)",
+                                            "text": {
+                                                "family": "Avenir Next LT Pro",
+                                                "size": 14,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "john-wick",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 57,
+                                            "h": 21
+                                        },
+                                        "content": "John Wick",
+                                        "styles": {
+                                            "bg": "rgb(230, 231, 225)",
+                                            "text": {
+                                                "family": "Avenir Next LT Pro",
+                                                "size": 12,
+                                                "weight": "500",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "frame-2608664",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 300,
+                                    "h": 172
+                                },
+                                "styles": {
+                                    "radius": 16,
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "noisy-gradients",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 300,
+                                            "h": 172
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-57",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 80,
+                                            "h": 80
+                                        },
+                                        "styles": {
+                                            "radius": 80
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-58",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 40,
+                                            "h": 40
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(23, 206, 19)",
+                                            "radius": 80
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-59",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 120,
+                                            "h": 120
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(23, 206, 19)",
+                                            "radius": 120
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-60",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 80,
+                                            "h": 80
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(23, 206, 19)",
+                                            "radius": 120
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-56",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 40,
+                                            "h": 40
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(23, 206, 19)",
+                                            "radius": 50
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-55",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 40,
+                                            "h": 40
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(23, 206, 19)",
+                                            "radius": 50
+                                        }
+                                    },
+                                    {
+                                        "name": "---------------2000",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 140,
+                                            "h": 24
+                                        },
+                                        "content": "**** **** **** 2000",
+                                        "styles": {
+                                            "bg": "rgb(230, 231, 225)",
+                                            "text": {
+                                                "family": "Avenir Next LT Pro",
+                                                "size": 16,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "john-wick",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 67,
+                                            "h": 24
+                                        },
+                                        "content": "John Wick",
+                                        "styles": {
+                                            "bg": "rgb(230, 231, 225)",
+                                            "text": {
+                                                "family": "Avenir Next LT Pro",
+                                                "size": 14,
+                                                "weight": "500",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "frame-2608666",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 255,
+                                    "h": 146
+                                },
+                                "styles": {
+                                    "radius": 14,
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "noisy-gradients",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 255,
+                                            "h": 146
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-57",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 68,
+                                            "h": 68
+                                        },
+                                        "styles": {
+                                            "radius": 68
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-58",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 34,
+                                            "h": 34
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(23, 206, 19)",
+                                            "radius": 68
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-59",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 102,
+                                            "h": 102
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(23, 206, 19)",
+                                            "radius": 102
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-60",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 68,
+                                            "h": 68
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(23, 206, 19)",
+                                            "radius": 102
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-56",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 34,
+                                            "h": 34
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(23, 206, 19)",
+                                            "radius": 43
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-55",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 34,
+                                            "h": 34
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(23, 206, 19)",
+                                            "radius": 43
+                                        }
+                                    },
+                                    {
+                                        "name": "---------------2010",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 119,
+                                            "h": 21
+                                        },
+                                        "content": "**** **** **** 2010",
+                                        "styles": {
+                                            "bg": "rgb(230, 231, 225)",
+                                            "text": {
+                                                "family": "Avenir Next LT Pro",
+                                                "size": 14,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "john-wick",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 57,
+                                            "h": 21
+                                        },
+                                        "content": "John Wick",
+                                        "styles": {
+                                            "bg": "rgb(230, 231, 225)",
+                                            "text": {
+                                                "family": "Avenir Next LT Pro",
+                                                "size": 12,
+                                                "weight": "500",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "group-182",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 56,
+                            "h": 8
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle-41",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 8,
+                                    "h": 8
+                                },
+                                "styles": {
+                                    "bg": "rgb(23, 206, 19)",
+                                    "border": {
+                                        "width": 2,
+                                        "color": "rgb(23, 206, 19)"
+                                    },
+                                    "radius": 8
+                                }
+                            },
+                            {
+                                "name": "rectangle-42",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 8,
+                                    "h": 8
+                                },
+                                "styles": {
+                                    "bg": "rgb(23, 206, 19)",
+                                    "radius": 8
+                                }
+                            },
+                            {
+                                "name": "rectangle-43",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 8,
+                                    "h": 8
+                                },
+                                "styles": {
+                                    "bg": "rgb(23, 206, 19)",
+                                    "radius": 8
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-2608663",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 64,
+                            "h": 92
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "column",
+                                "gap": 12,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "frame-2608652",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 64,
+                                    "h": 64
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 1,
+                                        "color": "rgb(23, 206, 19)"
+                                    },
+                                    "radius": 8,
+                                    "layout": {
+                                        "direction": "column",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "center",
+                                            "cross": "center"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "solar-wallet-money-linear",
+                                        "type": "INSTANCE",
+                                        "size": {
+                                            "w": 0,
+                                            "h": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "balance",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 51,
+                                    "h": 16
+                                },
+                                "content": "Balance",
+                                "styles": {
+                                    "bg": "rgb(230, 231, 225)",
+                                    "text": {
+                                        "family": "Avenir Next LT Pro",
+                                        "size": 14,
+                                        "weight": "500",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-2608661",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 64,
+                            "h": 92
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "column",
+                                "gap": 12,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "frame-2608654",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 64,
+                                    "h": 64
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 1,
+                                        "color": "rgb(23, 206, 19)"
+                                    },
+                                    "radius": 8,
+                                    "layout": {
+                                        "direction": "column",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "center",
+                                            "cross": "center"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "solar-dollar-broken",
+                                        "type": "INSTANCE",
+                                        "size": {
+                                            "w": 0,
+                                            "h": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "payment",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 56,
+                                    "h": 16
+                                },
+                                "content": "Payment",
+                                "styles": {
+                                    "bg": "rgb(230, 231, 225)",
+                                    "text": {
+                                        "family": "Avenir Next LT Pro",
+                                        "size": 14,
+                                        "weight": "500",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-2608666",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 64,
+                            "h": 92
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "column",
+                                "gap": 12,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "frame-2608653",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 64,
+                                    "h": 64
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 1,
+                                        "color": "rgb(23, 206, 19)"
+                                    },
+                                    "radius": 8,
+                                    "layout": {
+                                        "direction": "column",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "center",
+                                            "cross": "center"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "solar-card-send-linear",
+                                        "type": "INSTANCE",
+                                        "size": {
+                                            "w": 0,
+                                            "h": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "send-to",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 52,
+                                    "h": 16
+                                },
+                                "content": "Send To",
+                                "styles": {
+                                    "bg": "rgb(230, 231, 225)",
+                                    "text": {
+                                        "family": "Avenir Next LT Pro",
+                                        "size": 14,
+                                        "weight": "500",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-2608660",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 64,
+                            "h": 92
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "column",
+                                "gap": 12,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "frame-2608652",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 64,
+                                    "h": 64
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 1,
+                                        "color": "rgb(23, 206, 19)"
+                                    },
+                                    "radius": 8,
+                                    "layout": {
+                                        "direction": "column",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "center",
+                                            "cross": "center"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "solar-card-recive-linear",
+                                        "type": "INSTANCE",
+                                        "size": {
+                                            "w": 0,
+                                            "h": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "request",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 53,
+                                    "h": 16
+                                },
+                                "content": "Request",
+                                "styles": {
+                                    "bg": "rgb(230, 231, 225)",
+                                    "text": {
+                                        "family": "Avenir Next LT Pro",
+                                        "size": 14,
+                                        "weight": "500",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "android-large---8",
+                "type": "FRAME",
+                "size": {
+                    "w": 360,
+                    "h": 664
+                },
+                "styles": {
+                    "bg": "rgb(24, 24, 25)",
+                    "shadow": {
+                        "x": 0,
+                        "y": -2,
+                        "blur": 4,
+                        "color": "rgba(0, 0, 0, 0.07999999821186066)"
+                    },
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "rectangle-12",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 48,
+                            "h": 4
+                        },
+                        "styles": {
+                            "bg": "rgb(217, 217, 217)",
+                            "radius": 8
+                        }
+                    },
+                    {
+                        "name": "android-small---27",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 360,
+                            "h": 640
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "transactions",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 137,
+                                    "h": 40
+                                },
+                                "content": "Transactions",
+                                "styles": {
+                                    "bg": "rgb(230, 231, 225)",
+                                    "text": {
+                                        "family": "Avenir Next LT Pro",
+                                        "size": 24,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "ion-filter-circle-outline",
+                                "type": "INSTANCE",
+                                "size": {
+                                    "w": 0,
+                                    "h": 0
+                                }
+                            },
+                            {
+                                "name": "frame-2608684",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 512,
+                                    "h": 32
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 8,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        },
+                                        "padding": [
+                                            0,
+                                            16,
+                                            0,
+                                            16
+                                        ]
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "frame-2608675",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 44,
+                                            "h": 32
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(23, 206, 19)",
+                                            "radius": 16,
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 8,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "center"
+                                                },
+                                                "padding": [
+                                                    8,
+                                                    12,
+                                                    8,
+                                                    12
+                                                ]
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "all",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 20,
+                                                    "h": 11
+                                                },
+                                                "content": "All",
+                                                "styles": {
+                                                    "bg": "rgb(24, 24, 25)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 16,
+                                                        "weight": "500",
+                                                        "align": "left"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "frame-2608679",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 58,
+                                            "h": 32
+                                        },
+                                        "styles": {
+                                            "radius": 16,
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 8,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "center"
+                                                },
+                                                "padding": [
+                                                    8,
+                                                    12,
+                                                    8,
+                                                    12
+                                                ]
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "rent",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 34,
+                                                    "h": 11
+                                                },
+                                                "content": "Rent",
+                                                "styles": {
+                                                    "bg": "rgb(230, 231, 225)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 16,
+                                                        "weight": "500",
+                                                        "align": "left"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "frame-2608671",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 63,
+                                            "h": 32
+                                        },
+                                        "styles": {
+                                            "radius": 16,
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 8,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "center"
+                                                },
+                                                "padding": [
+                                                    8,
+                                                    12,
+                                                    8,
+                                                    12
+                                                ]
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "food",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 39,
+                                                    "h": 11
+                                                },
+                                                "content": "Food",
+                                                "styles": {
+                                                    "bg": "rgb(230, 231, 225)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 16,
+                                                        "weight": "500",
+                                                        "align": "left"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "frame-2608677",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 95,
+                                            "h": 32
+                                        },
+                                        "styles": {
+                                            "radius": 16,
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 8,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "center"
+                                                },
+                                                "padding": [
+                                                    8,
+                                                    12,
+                                                    8,
+                                                    12
+                                                ]
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "payments",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 71,
+                                                    "h": 11
+                                                },
+                                                "content": "Payments",
+                                                "styles": {
+                                                    "bg": "rgb(230, 231, 225)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 16,
+                                                        "weight": "500",
+                                                        "align": "left"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "frame-2608678",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 56,
+                                            "h": 32
+                                        },
+                                        "styles": {
+                                            "radius": 16,
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 8,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "center"
+                                                },
+                                                "padding": [
+                                                    8,
+                                                    12,
+                                                    8,
+                                                    12
+                                                ]
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "fuel",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 32,
+                                                    "h": 11
+                                                },
+                                                "content": "Fuel",
+                                                "styles": {
+                                                    "bg": "rgb(230, 231, 225)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 16,
+                                                        "weight": "500",
+                                                        "align": "left"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "frame-2608680",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 124,
+                                            "h": 32
+                                        },
+                                        "styles": {
+                                            "radius": 16,
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 8,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "center"
+                                                },
+                                                "padding": [
+                                                    8,
+                                                    12,
+                                                    8,
+                                                    12
+                                                ]
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "subscriptions",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 100,
+                                                    "h": 11
+                                                },
+                                                "content": "Subscriptions",
+                                                "styles": {
+                                                    "bg": "rgb(230, 231, 225)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 16,
+                                                        "weight": "500",
+                                                        "align": "left"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "frame-2608669",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 360,
+                                    "h": 72
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "image-4",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 40,
+                                            "h": 40
+                                        },
+                                        "styles": {
+                                            "radius": 4
+                                        }
+                                    },
+                                    {
+                                        "name": "zomato",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 58,
+                                            "h": 20
+                                        },
+                                        "content": "Zomato",
+                                        "styles": {
+                                            "bg": "rgb(230, 231, 225)",
+                                            "text": {
+                                                "family": "Avenir Next LT Pro",
+                                                "size": 16,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "frame-489",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 86,
+                                            "h": 24
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 2,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "-",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 7,
+                                                    "h": 24
+                                                },
+                                                "content": "-",
+                                                "styles": {
+                                                    "bg": "rgb(206, 64, 19)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 20,
+                                                        "weight": "400",
+                                                        "align": "center"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "rs--812-00",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 77,
+                                                    "h": 24
+                                                },
+                                                "content": "Rs. 812.00",
+                                                "styles": {
+                                                    "bg": "rgb(206, 64, 19)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 16,
+                                                        "weight": "700",
+                                                        "align": "right"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "frame-2608668",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 134,
+                                            "h": 16
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 2,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "25-nov-2023",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 72,
+                                                    "h": 16
+                                                },
+                                                "content": "25 Nov 2023",
+                                                "styles": {
+                                                    "bg": "rgb(230, 231, 225)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 12,
+                                                        "weight": "500",
+                                                        "align": "left"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "frame-2608667",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 4,
+                                                    "h": 16
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "row",
+                                                        "gap": 0,
+                                                        "align": {
+                                                            "main": "center",
+                                                            "cross": "center"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "ellipse-1",
+                                                        "type": "ELLIPSE",
+                                                        "size": {
+                                                            "w": 3,
+                                                            "h": 3
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(230, 231, 225)"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "12-30-pm",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 54,
+                                                    "h": 16
+                                                },
+                                                "content": "12:30 PM",
+                                                "styles": {
+                                                    "bg": "rgb(230, 231, 225)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 12,
+                                                        "weight": "500",
+                                                        "align": "right"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "frame-2608681",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 360,
+                                    "h": 72
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "image-5",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 40,
+                                            "h": 40
+                                        },
+                                        "styles": {
+                                            "radius": 4
+                                        }
+                                    },
+                                    {
+                                        "name": "netflix-premium",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 121,
+                                            "h": 20
+                                        },
+                                        "content": "Netflix premium",
+                                        "styles": {
+                                            "bg": "rgb(230, 231, 225)",
+                                            "text": {
+                                                "family": "Avenir Next LT Pro",
+                                                "size": 16,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "frame-489",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 88,
+                                            "h": 24
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 4,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "-",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 7,
+                                                    "h": 24
+                                                },
+                                                "content": "-",
+                                                "styles": {
+                                                    "bg": "rgb(206, 64, 19)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 20,
+                                                        "weight": "400",
+                                                        "align": "center"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "rs--812-00",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 77,
+                                                    "h": 24
+                                                },
+                                                "content": "Rs. 812.00",
+                                                "styles": {
+                                                    "bg": "rgb(206, 64, 19)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 16,
+                                                        "weight": "700",
+                                                        "align": "right"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "frame-2608668",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 134,
+                                            "h": 16
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 2,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "25-nov-2023",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 72,
+                                                    "h": 16
+                                                },
+                                                "content": "25 Nov 2023",
+                                                "styles": {
+                                                    "bg": "rgb(230, 231, 225)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 12,
+                                                        "weight": "500",
+                                                        "align": "left"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "frame-2608667",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 4,
+                                                    "h": 16
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "row",
+                                                        "gap": 0,
+                                                        "align": {
+                                                            "main": "center",
+                                                            "cross": "center"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "ellipse-1",
+                                                        "type": "ELLIPSE",
+                                                        "size": {
+                                                            "w": 3,
+                                                            "h": 3
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(230, 231, 225)"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "12-30-pm",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 54,
+                                                    "h": 16
+                                                },
+                                                "content": "12:30 PM",
+                                                "styles": {
+                                                    "bg": "rgb(230, 231, 225)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 12,
+                                                        "weight": "500",
+                                                        "align": "right"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "frame-2608680",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 360,
+                                    "h": 72
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "frame-481",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 40,
+                                            "h": 40
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(19, 127, 206)",
+                                            "radius": 4,
+                                            "layout": {
+                                                "direction": "column",
+                                                "gap": 10,
+                                                "align": {
+                                                    "main": "center",
+                                                    "cross": "center"
+                                                },
+                                                "padding": [
+                                                    10,
+                                                    10,
+                                                    10,
+                                                    10
+                                                ]
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "s",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 12,
+                                                    "h": 14
+                                                },
+                                                "content": "S",
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 20,
+                                                        "weight": "700",
+                                                        "align": "center"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "sam-fisher",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 81,
+                                            "h": 20
+                                        },
+                                        "content": "Sam Fisher",
+                                        "styles": {
+                                            "bg": "rgb(230, 231, 225)",
+                                            "text": {
+                                                "family": "Avenir Next LT Pro",
+                                                "size": 16,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "frame-489",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 104,
+                                            "h": 24
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 2,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "-",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 10,
+                                                    "h": 24
+                                                },
+                                                "content": "+",
+                                                "styles": {
+                                                    "bg": "rgb(23, 206, 19)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 14,
+                                                        "weight": "700",
+                                                        "align": "center"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "rs--1-050-00",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 92,
+                                                    "h": 24
+                                                },
+                                                "content": "Rs. 1,050.00",
+                                                "styles": {
+                                                    "bg": "rgb(23, 206, 19)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 16,
+                                                        "weight": "700",
+                                                        "align": "right"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "frame-2608668",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 134,
+                                            "h": 16
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 2,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "25-nov-2023",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 72,
+                                                    "h": 16
+                                                },
+                                                "content": "25 Nov 2023",
+                                                "styles": {
+                                                    "bg": "rgb(230, 231, 225)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 12,
+                                                        "weight": "500",
+                                                        "align": "left"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "frame-2608667",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 4,
+                                                    "h": 16
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "row",
+                                                        "gap": 0,
+                                                        "align": {
+                                                            "main": "center",
+                                                            "cross": "center"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "ellipse-1",
+                                                        "type": "ELLIPSE",
+                                                        "size": {
+                                                            "w": 3,
+                                                            "h": 3
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(230, 231, 225)"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "12-30-pm",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 54,
+                                                    "h": 16
+                                                },
+                                                "content": "12:30 PM",
+                                                "styles": {
+                                                    "bg": "rgb(230, 231, 225)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 12,
+                                                        "weight": "500",
+                                                        "align": "right"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "frame-2608682",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 360,
+                                    "h": 72
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "image-4",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 40,
+                                            "h": 40
+                                        },
+                                        "styles": {
+                                            "radius": 4
+                                        }
+                                    },
+                                    {
+                                        "name": "zomato",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 58,
+                                            "h": 20
+                                        },
+                                        "content": "Zomato",
+                                        "styles": {
+                                            "bg": "rgb(230, 231, 225)",
+                                            "text": {
+                                                "family": "Avenir Next LT Pro",
+                                                "size": 16,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "frame-489",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 88,
+                                            "h": 24
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 4,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "-",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 7,
+                                                    "h": 24
+                                                },
+                                                "content": "-",
+                                                "styles": {
+                                                    "bg": "rgb(206, 64, 19)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 20,
+                                                        "weight": "400",
+                                                        "align": "center"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "rs--812-00",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 77,
+                                                    "h": 24
+                                                },
+                                                "content": "Rs. 812.00",
+                                                "styles": {
+                                                    "bg": "rgb(206, 64, 19)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 16,
+                                                        "weight": "700",
+                                                        "align": "right"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "frame-2608668",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 134,
+                                            "h": 16
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 2,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "25-nov-2023",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 72,
+                                                    "h": 16
+                                                },
+                                                "content": "25 Nov 2023",
+                                                "styles": {
+                                                    "bg": "rgb(230, 231, 225)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 12,
+                                                        "weight": "500",
+                                                        "align": "left"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "frame-2608667",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 4,
+                                                    "h": 16
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "row",
+                                                        "gap": 0,
+                                                        "align": {
+                                                            "main": "center",
+                                                            "cross": "center"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "ellipse-1",
+                                                        "type": "ELLIPSE",
+                                                        "size": {
+                                                            "w": 3,
+                                                            "h": 3
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(230, 231, 225)"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "12-30-pm",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 54,
+                                                    "h": 16
+                                                },
+                                                "content": "12:30 PM",
+                                                "styles": {
+                                                    "bg": "rgb(230, 231, 225)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 12,
+                                                        "weight": "500",
+                                                        "align": "right"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "frame-482",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 360,
+                                    "h": 48
+                                },
+                                "styles": {
+                                    "bg": "rgb(230, 231, 225)",
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "february--2024",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 98,
+                                            "h": 16
+                                        },
+                                        "content": "February, 2024",
+                                        "styles": {
+                                            "bg": "rgb(230, 231, 225)",
+                                            "text": {
+                                                "family": "Avenir Next LT Pro",
+                                                "size": 14,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "frame-2608682",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 88,
+                                            "h": 16
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 2,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "-",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 6,
+                                                    "h": 16
+                                                },
+                                                "content": "-",
+                                                "styles": {
+                                                    "bg": "rgb(230, 231, 225)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 16,
+                                                        "weight": "400",
+                                                        "align": "center"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "rs--3-312-00",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 80,
+                                                    "h": 16
+                                                },
+                                                "content": "Rs. 3,312.00",
+                                                "styles": {
+                                                    "bg": "rgb(230, 231, 225)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 16,
+                                                        "weight": "700",
+                                                        "align": "right"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "frame-2608683",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 360,
+                                    "h": 48
+                                },
+                                "styles": {
+                                    "bg": "rgb(230, 231, 225)",
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "january--2024",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 92,
+                                            "h": 16
+                                        },
+                                        "content": "January, 2024",
+                                        "styles": {
+                                            "bg": "rgb(230, 231, 225)",
+                                            "text": {
+                                                "family": "Avenir Next LT Pro",
+                                                "size": 14,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "frame-2608682",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 90,
+                                            "h": 16
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 4,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "-",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 6,
+                                                    "h": 16
+                                                },
+                                                "content": "-",
+                                                "styles": {
+                                                    "bg": "rgb(230, 231, 225)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 16,
+                                                        "weight": "400",
+                                                        "align": "center"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "rs--3-312-00",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 80,
+                                                    "h": 16
+                                                },
+                                                "content": "Rs. 3,312.00",
+                                                "styles": {
+                                                    "bg": "rgb(230, 231, 225)",
+                                                    "text": {
+                                                        "family": "Avenir Next LT Pro",
+                                                        "size": 16,
+                                                        "weight": "700",
+                                                        "align": "right"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "bottom",
+                "type": "FRAME",
+                "size": {
+                    "w": 360,
+                    "h": 88
+                },
+                "styles": {
+                    "bg": "rgb(24, 24, 25)",
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "frame-2608730",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 98,
+                            "h": 64
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "column",
+                                "gap": 8,
+                                "align": {
+                                    "main": "center",
+                                    "cross": "center"
+                                },
+                                "padding": [
+                                    8,
+                                    8,
+                                    8,
+                                    8
+                                ]
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "solar-home-2-broken",
+                                "type": "INSTANCE",
+                                "size": {
+                                    "w": 0,
+                                    "h": 0
+                                }
+                            },
+                            {
+                                "name": "home",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 40,
+                                    "h": 16
+                                },
+                                "content": "Home",
+                                "styles": {
+                                    "bg": "rgb(23, 206, 19)",
+                                    "text": {
+                                        "family": "Avenir Next LT Pro",
+                                        "size": 14,
+                                        "weight": "500",
+                                        "align": "center"
+                                    },
+                                    "shadow": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "blur": 4,
+                                        "color": "rgba(23, 206, 19, 0.25)"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-2608729",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 98,
+                            "h": 64
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "column",
+                                "gap": 4,
+                                "align": {
+                                    "main": "center",
+                                    "cross": "center"
+                                },
+                                "padding": [
+                                    8,
+                                    8,
+                                    8,
+                                    8
+                                ]
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "solar-code-scan-line-duotone",
+                                "type": "INSTANCE",
+                                "size": {
+                                    "w": 0,
+                                    "h": 0
+                                }
+                            },
+                            {
+                                "name": "rectangle-65",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 4,
+                                    "h": 4
+                                },
+                                "styles": {
+                                    "bg": "rgb(23, 206, 19)",
+                                    "radius": 8,
+                                    "shadow": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "blur": 4,
+                                        "color": "rgba(23, 206, 19, 0.5)"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-2608729",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 98,
+                            "h": 64
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "column",
+                                "gap": 4,
+                                "align": {
+                                    "main": "center",
+                                    "cross": "center"
+                                },
+                                "padding": [
+                                    8,
+                                    8,
+                                    8,
+                                    8
+                                ]
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "solar-diagram-up-broken",
+                                "type": "INSTANCE",
+                                "size": {
+                                    "w": 0,
+                                    "h": 0
+                                }
+                            },
+                            {
+                                "name": "rectangle-65",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 4,
+                                    "h": 4
+                                },
+                                "styles": {
+                                    "bg": "rgb(23, 206, 19)",
+                                    "radius": 8,
+                                    "shadow": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "blur": 4,
+                                        "color": "rgba(23, 206, 19, 0.5)"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "bottom",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 360,
+                            "h": 20
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle-13",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 64,
+                                    "h": 2
+                                },
+                                "styles": {
+                                    "bg": "rgb(230, 231, 225)",
+                                    "radius": 8
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "top",
+                "type": "FRAME",
+                "size": {
+                    "w": 360,
+                    "h": 40
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "frame-454",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 360,
+                            "h": 32
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "group-169",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 360,
+                                    "h": 24
+                                },
+                                "children": [
+                                    {
+                                        "name": "rectangle-1",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 360,
+                                            "h": 24
+                                        }
+                                    },
+                                    {
+                                        "name": "12-00",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 36,
+                                            "h": 16
+                                        },
+                                        "content": "12:00",
+                                        "styles": {
+                                            "bg": "rgb(230, 231, 225)",
+                                            "text": {
+                                                "family": "Roboto",
+                                                "size": 14,
+                                                "weight": "500",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "ellipse-1",
+                                        "type": "ELLIPSE",
+                                        "size": {
+                                            "w": 4,
+                                            "h": 4
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(230, 231, 225)"
+                                        }
+                                    },
+                                    {
+                                        "name": "ellipse-2",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 16,
+                                            "h": 12
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(230, 231, 225)"
+                                        }
+                                    },
+                                    {
+                                        "name": "vector-1",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 12,
+                                            "h": 12
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(230, 231, 225)",
+                                            "radius": 1
+                                        }
+                                    },
+                                    {
+                                        "name": "union",
+                                        "type": "BOOLEAN_OPERATION",
+                                        "size": {
+                                            "w": 8,
+                                            "h": 12
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(230, 231, 225)"
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "rectangle-1",
+                                                "type": "RECTANGLE",
+                                                "size": {
+                                                    "w": 8,
+                                                    "h": 11
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)",
+                                                    "radius": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "rectangle-2",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 4,
+                                                    "h": 1
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "summary": {
+        "components": 0,
+        "instances": 9,
+        "frames": 51,
+        "texts": 49,
+        "hasAutoLayout": true,
+        "hasEffects": true
+    }
+}

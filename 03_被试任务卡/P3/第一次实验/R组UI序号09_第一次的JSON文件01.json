@@ -1,0 +1,355 @@
+{
+    "metadata": {
+        "exportedAt": "2026-05-09T07:54:41.511Z",
+        "componentName": "Alterar senha",
+        "totalElements": 24,
+        "nestingDepth": 3,
+        "plugin": "Figma to JSON Exporter"
+    },
+    "designTokens": {
+        "colors": {
+            "color-rgb(26, 26, 26)": "rgb(26, 26, 26)",
+            "color-rgb(114, 39, 44)": "rgb(114, 39, 44)",
+            "color-rgb(255, 255, 255)": "rgb(255, 255, 255)",
+            "color-rgb(165, 9, 48)": "rgb(165, 9, 48)",
+            "color-rgb(69, 69, 69)": "rgb(69, 69, 69)"
+        },
+        "fonts": {
+            "poppins": {
+                "family": "Poppins",
+                "sizes": {
+                    "size-16": "16px",
+                    "size-24": "24px",
+                    "size-13": "13px"
+                },
+                "weights": {
+                    "weight-500": "500",
+                    "weight-600": "600",
+                    "weight-300": "300"
+                }
+            }
+        },
+        "spacing": {},
+        "effects": {}
+    },
+    "structure": {
+        "name": "alterar-senha",
+        "type": "FRAME",
+        "size": {
+            "w": 412,
+            "h": 917
+        },
+        "styles": {
+            "bg": "rgb(26, 26, 26)",
+            "layout": {
+                "direction": "row",
+                "gap": 0,
+                "align": {
+                    "main": "start",
+                    "cross": "start"
+                }
+            }
+        },
+        "children": [
+            {
+                "name": "fundo",
+                "type": "GROUP",
+                "size": {
+                    "w": 279,
+                    "h": 240
+                },
+                "children": [
+                    {
+                        "name": "circulo-fundo",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 274,
+                            "h": 234
+                        },
+                        "styles": {
+                            "bg": "rgb(114, 39, 44)"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "voltar",
+                "type": "GROUP",
+                "size": {
+                    "w": 64,
+                    "h": 24
+                },
+                "children": [
+                    {
+                        "name": "voltar",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 12,
+                            "h": 24
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 3,
+                                "color": "rgb(255, 255, 255)"
+                            }
+                        }
+                    },
+                    {
+                        "name": "perfil",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 40,
+                            "h": 24
+                        },
+                        "content": "Perfil",
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "text": {
+                                "family": "Poppins",
+                                "size": 16,
+                                "weight": "500",
+                                "align": "left"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "e",
+                "type": "GROUP",
+                "size": {
+                    "w": 326,
+                    "h": 51
+                },
+                "children": [
+                    {
+                        "name": "fundo",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 326,
+                            "h": 51
+                        },
+                        "styles": {
+                            "bg": "rgb(165, 9, 48)",
+                            "radius": 27
+                        }
+                    },
+                    {
+                        "name": "alterar-senha",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 133,
+                            "h": 23
+                        },
+                        "content": "Alterar Senha",
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "text": {
+                                "family": "Poppins",
+                                "size": 16,
+                                "weight": "600",
+                                "align": "center"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "alterar-dados",
+                "type": "GROUP",
+                "size": {
+                    "w": 326,
+                    "h": 73
+                },
+                "children": [
+                    {
+                        "name": "fundo",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 326,
+                            "h": 42
+                        },
+                        "styles": {
+                            "bg": "rgb(69, 69, 69)",
+                            "radius": 27
+                        }
+                    },
+                    {
+                        "name": "senha-nova",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 119,
+                            "h": 25
+                        },
+                        "content": "Senha nova",
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "text": {
+                                "family": "Poppins",
+                                "size": 16,
+                                "weight": "500",
+                                "align": "left"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "alterar-dados",
+                "type": "GROUP",
+                "size": {
+                    "w": 326,
+                    "h": 73
+                },
+                "children": [
+                    {
+                        "name": "fundo",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 326,
+                            "h": 42
+                        },
+                        "styles": {
+                            "bg": "rgb(69, 69, 69)",
+                            "radius": 27
+                        }
+                    },
+                    {
+                        "name": "senha-nova-novamente",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 209,
+                            "h": 25
+                        },
+                        "content": "Senha nova novamente",
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "text": {
+                                "family": "Poppins",
+                                "size": 16,
+                                "weight": "500",
+                                "align": "left"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "alterar-dados",
+                "type": "GROUP",
+                "size": {
+                    "w": 326,
+                    "h": 74
+                },
+                "children": [
+                    {
+                        "name": "fundo",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 326,
+                            "h": 42
+                        },
+                        "styles": {
+                            "bg": "rgb(69, 69, 69)",
+                            "radius": 27
+                        }
+                    },
+                    {
+                        "name": "senha-atual",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 138,
+                            "h": 26
+                        },
+                        "content": "Senha Atual",
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "text": {
+                                "family": "Poppins",
+                                "size": 16,
+                                "weight": "500",
+                                "align": "left"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "alterar-senha",
+                "type": "TEXT",
+                "size": {
+                    "w": 165,
+                    "h": 36
+                },
+                "content": "Alterar Senha",
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 24,
+                        "weight": "500",
+                        "align": "center"
+                    }
+                }
+            },
+            {
+                "name": "sua-senha-deve-ter--pelo-menos-8-caracteres-letras-mai-sculas--a-z--letras-min-sculas--a-z--n-meros--0-9--caracteres-especiais--------------------etc--",
+                "type": "TEXT",
+                "size": {
+                    "w": 283,
+                    "h": 120
+                },
+                "content": "Sua senha deve ter:\nPelo menos 8 caracteres\nLetras maiúsculas (A–Z)\nLetras minúsculas (a–z)\nNúmeros (0–9)\nCaracteres especiais (!, @, #, $, %, &, etc.)",
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 13,
+                        "weight": "300",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "hidden-1",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 16,
+                    "h": 16
+                }
+            },
+            {
+                "name": "hidden-2",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 16,
+                    "h": 16
+                }
+            },
+            {
+                "name": "hidden-3",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 16,
+                    "h": 16
+                }
+            },
+            {
+                "name": "alterar_senha",
+                "type": "SLICE",
+                "size": {
+                    "w": 412,
+                    "h": 917
+                }
+            }
+        ]
+    },
+    "summary": {
+        "components": 0,
+        "instances": 0,
+        "frames": 1,
+        "texts": 7,
+        "hasAutoLayout": true,
+        "hasEffects": true
+    }
+}

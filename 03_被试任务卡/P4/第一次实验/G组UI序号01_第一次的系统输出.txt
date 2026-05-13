@@ -1,0 +1,129 @@
+关键设计问题及修改建议
+1. 标题与副标题的层级对比不足
+问题：标题（“Welcome to Onboard!”）与副标题（“Let’s help to meet up your tasks.”）的对比不够明显，可能导致用户无法快速区分主次信息。
+修改建议：
+增大标题字体大小至 24px，并保持字重为 700。
+减少副标题的字体大小至 12px，并调整字重为 300。
+增加标题与副标题之间的间距至 16px。
+CSS 示例：
+       .title {
+         font-size: 24px;
+         font-weight: 700;
+         margin-bottom: 16px;
+       }
+       .subtitle {
+         font-size: 12px;
+         font-weight: 300;
+       }
+2. 输入框的提示文字（Placeholder）对比度不足
+问题：输入框内的提示文字颜色与背景颜色对比度较低，可能导致可读性问题。
+修改建议：
+将提示文字颜色调整为 rgba(0, 0, 0, 0.6)，以提高对比度。
+增加输入框的内边距（padding）至 16px，让文字更居中。
+CSS 示例：
+       .input-placeholder {
+         color: rgba(0, 0, 0, 0.6);
+         padding: 16px;
+       }
+3. 输入框的边框与背景颜色缺乏层次感
+问题：输入框的背景颜色与页面背景颜色过于相似，缺乏视觉层次感。
+修改建议：
+为输入框添加边框颜色 #E0E0E0，宽度为 1px。
+增加输入框的阴影效果，参数为 box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1)。
+CSS 示例：
+       .input-field {
+         border: 1px solid #E0E0E0;
+         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+       }
+4. 按钮的视觉吸引力不足
+问题：注册按钮的颜色和字体大小显得较为普通，未能吸引用户注意。
+修改建议：
+增大按钮字体大小至 18px，并设置字重为 700。
+调整按钮颜色为更鲜明的蓝绿色（如 #00A8E8），并在悬停时改变为稍深的颜色（如 #007BB5）。
+增加按钮的圆角值至 12px。
+CSS 示例：
+       .register-button {
+         font-size: 18px;
+         font-weight: 700;
+         background-color: #00A8E8;
+         border-radius: 12px;
+       }
+       .register-button:hover {
+         background-color: #007BB5;
+       }
+5. “Sign In”链接的可点击性不足
+问题：“Sign In”链接的颜色与正文颜色对比度较低，且未突出其可点击性。
+修改建议：
+将链接颜色调整为更鲜明的蓝色（如 #007BFF），并为其添加下划线。
+增加悬停效果（如颜色变深或下划线加粗）。
+CSS 示例：
+       .sign-in-link {
+         color: #007BFF;
+         text-decoration: underline;
+       }
+       .sign-in-link:hover {
+         color: #0056B3;
+         text-decoration: underline;
+       }
+6. 整体间距不足
+问题：各元素之间的间距过小，导致界面显得拥挤。
+修改建议：
+增加输入框之间的垂直间距至 16px。
+增加按钮与输入框之间的垂直间距至 24px。
+增加底部链接与按钮之间的间距至 32px。
+CSS 示例：
+       .input-field + .input-field {
+         margin-top: 16px;
+       }
+       .register-button {
+         margin-top: 24px;
+       }
+       .bottom-link {
+         margin-top: 32px;
+       }
+7. 页面背景颜色单调
+问题：页面背景颜色过于单一，缺乏层次感。
+修改建议：
+在页面顶部添加渐变背景（如 linear-gradient(180deg, #EAF8F6, #F0F4F3)）。
+CSS 示例：
+       .page-background {
+         background: linear-gradient(180deg, #EAF8F6, #F0F4F3);
+       }
+8. 未对齐的文本排版
+问题：副标题和输入框提示文字的对齐方式不一致。
+修改建议：
+将副标题的对齐方式调整为左对齐，与输入框保持一致。
+CSS 示例：
+       .subtitle {
+         text-align: left;
+       }
+9. 按钮与输入框宽度不一致
+问题：按钮的宽度与输入框宽度不一致，影响整体对齐感。
+修改建议：
+调整按钮宽度与输入框一致（380px）。
+CSS 示例：
+       .register-button {
+         width: 380px;
+       }
+10. 字体层级不够清晰
+问题：正文与辅助信息的字体层级不够明确。
+修改建议：
+将辅助信息字体大小调整为 12px，字重调整为 300。
+CSS 示例：
+       .auxiliary-text {
+         font-size: 12px;
+         font-weight: 300;
+       }
+---
+
+建议后的层级策略摘要
+标题：
+字体大小：24px，字重：700，颜色：#000000。
+正文：
+字体大小：13px，字重：400，颜色：rgba(0, 0, 0, 0.8)。
+输入框：
+提示文字字体大小：13px，字重：400，颜色：rgba(0, 0, 0, 0.6)。
+按钮：
+字体大小：18px，字重：700，颜色：#FFFFFF（背景：#00A8E8）。
+辅助信息：
+字体大小：12px，字重：300，颜色：#007BFF（链接）。

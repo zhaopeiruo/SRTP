@@ -1,0 +1,2688 @@
+{
+    "metadata": {
+        "exportedAt": "2026-05-09T08:01:54.989Z",
+        "componentName": "home",
+        "totalElements": 152,
+        "nestingDepth": 7,
+        "plugin": "Figma to JSON Exporter"
+    },
+    "designTokens": {
+        "colors": {
+            "color-rgb(255, 255, 255)": "rgb(255, 255, 255)",
+            "color-rgb(241, 185, 241)": "rgb(241, 185, 241)",
+            "color-rgb(17, 12, 17)": "rgb(17, 12, 17)",
+            "color-rgb(230, 61, 61)": "rgb(230, 61, 61)",
+            "color-rgb(24, 160, 251)": "rgb(24, 160, 251)",
+            "color-rgb(205, 16, 198)": "rgb(205, 16, 198)",
+            "color-rgb(61, 155, 38)": "rgb(61, 155, 38)",
+            "color-rgb(249, 116, 210)": "rgb(249, 116, 210)"
+        },
+        "fonts": {
+            "montserrat": {
+                "family": "Montserrat",
+                "sizes": {
+                    "size-14": "14px",
+                    "size-10": "10px",
+                    "size-16": "16px",
+                    "size-12": "12px",
+                    "size-20": "20px",
+                    "size-24": "24px"
+                },
+                "weights": {
+                    "weight-500": "500",
+                    "weight-400": "400",
+                    "weight-600": "600"
+                }
+            },
+            "arial": {
+                "family": "Arial",
+                "sizes": {
+                    "size-16": "16px"
+                },
+                "weights": {
+                    "weight-400": "400"
+                }
+            }
+        },
+        "spacing": {
+            "gap-4": "4px",
+            "gap-2": "2px",
+            "padding-top-12": "12px",
+            "padding-bottom-12": "12px",
+            "gap-16": "16px",
+            "padding-top-8": "8px",
+            "padding-right-12": "12px",
+            "padding-bottom-8": "8px",
+            "padding-left-12": "12px",
+            "gap-8": "8px",
+            "padding-top-2": "2px",
+            "padding-bottom-2": "2px"
+        },
+        "effects": {
+            "shadow-2-0": {
+                "x": 0,
+                "y": 0,
+                "blur": 2,
+                "color": "rgba(0, 0, 0, 0.07999999821186066)"
+            },
+            "shadow-4-1": {
+                "x": 0,
+                "y": -1,
+                "blur": 4,
+                "color": "rgba(0, 0, 0, 0.07999999821186066)"
+            },
+            "shadow-8-0": {
+                "x": 0,
+                "y": 0,
+                "blur": 8,
+                "color": "rgba(0, 0, 0, 0.1599999964237213)"
+            }
+        }
+    },
+    "structure": {
+        "name": "home",
+        "type": "FRAME",
+        "size": {
+            "w": 360,
+            "h": 800
+        },
+        "styles": {
+            "bg": "rgb(255, 255, 255)",
+            "layout": {
+                "direction": "row",
+                "gap": 0,
+                "align": {
+                    "main": "start",
+                    "cross": "start"
+                }
+            }
+        },
+        "children": [
+            {
+                "name": "home---scroll",
+                "type": "FRAME",
+                "size": {
+                    "w": 360,
+                    "h": 1114
+                },
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "yoga",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 360,
+                            "h": 86
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 1,
+                                "color": "rgb(17, 12, 17)"
+                            },
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "progress-bar",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 320,
+                                    "h": 4
+                                },
+                                "children": [
+                                    {
+                                        "name": "back",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 320,
+                                            "h": 4
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(241, 185, 241)"
+                                        }
+                                    },
+                                    {
+                                        "name": "front",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 320,
+                                            "h": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "done",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 40,
+                                    "h": 40
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "vector",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 25,
+                                            "h": 18
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(241, 185, 241)",
+                                            "border": {
+                                                "width": 1,
+                                                "color": "rgb(241, 185, 241)"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "yoga",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 36,
+                                    "h": 16
+                                },
+                                "content": "Yoga",
+                                "styles": {
+                                    "bg": "rgb(17, 12, 17)",
+                                    "text": {
+                                        "family": "Montserrat",
+                                        "size": 14,
+                                        "weight": "500",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "30-30-min",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 88,
+                                    "h": 24
+                                },
+                                "content": "30/30 min",
+                                "styles": {
+                                    "text": {
+                                        "family": "Arial",
+                                        "size": 16,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "yoga",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 48,
+                                    "h": 48
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 0,
+                                        "color": "rgb(17, 12, 17)"
+                                    },
+                                    "radius": 50
+                                }
+                            },
+                            {
+                                "name": "activity-details",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 152,
+                                    "h": 14
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 4,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "center"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "today--06-00-am",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 82,
+                                            "h": 14
+                                        },
+                                        "content": "Today, 06:00 AM",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 10,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "connect",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 2,
+                                            "h": 2
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "radius": 2
+                                        }
+                                    },
+                                    {
+                                        "name": "calories",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 60,
+                                            "h": 14
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 2,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "calories",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 14,
+                                                    "h": 14
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "row",
+                                                        "gap": 0,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "start"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "vector",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 8,
+                                                            "h": 10
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(230, 61, 61)"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "151-0-cal",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 44,
+                                                    "h": 14
+                                                },
+                                                "content": "151.0 cal",
+                                                "styles": {
+                                                    "text": {
+                                                        "family": "Arial",
+                                                        "size": 16,
+                                                        "weight": "400",
+                                                        "align": "left"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cycling",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 360,
+                            "h": 86
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 1,
+                                "color": "rgb(17, 12, 17)"
+                            },
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "progress-bar",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 320,
+                                    "h": 4
+                                },
+                                "children": [
+                                    {
+                                        "name": "back",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 320,
+                                            "h": 4
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(241, 185, 241)"
+                                        }
+                                    },
+                                    {
+                                        "name": "front",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 320,
+                                            "h": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "done",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 40,
+                                    "h": 40
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "vector",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 25,
+                                            "h": 18
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(241, 185, 241)",
+                                            "border": {
+                                                "width": 1,
+                                                "color": "rgb(241, 185, 241)"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "cycling",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 53,
+                                    "h": 16
+                                },
+                                "content": "Cycling",
+                                "styles": {
+                                    "bg": "rgb(17, 12, 17)",
+                                    "text": {
+                                        "family": "Montserrat",
+                                        "size": 14,
+                                        "weight": "500",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "10-00-10-00-miles",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 148,
+                                    "h": 24
+                                },
+                                "content": "10.00/10.00 miles",
+                                "styles": {
+                                    "text": {
+                                        "family": "Arial",
+                                        "size": 16,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "cycling",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 48,
+                                    "h": 48
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 0,
+                                        "color": "rgb(17, 12, 17)"
+                                    },
+                                    "radius": 50
+                                }
+                            },
+                            {
+                                "name": "activity-details",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 156,
+                                    "h": 14
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 4,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "center"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "today--06-30-am",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 81,
+                                            "h": 14
+                                        },
+                                        "content": "Today, 06:30 AM",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 10,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "connect",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 2,
+                                            "h": 2
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "radius": 2
+                                        }
+                                    },
+                                    {
+                                        "name": "calories",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 65,
+                                            "h": 14
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 2,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "calories",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 14,
+                                                    "h": 14
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "row",
+                                                        "gap": 0,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "start"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "vector",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 8,
+                                                            "h": 10
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(230, 61, 61)"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "563-4-cal",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 49,
+                                                    "h": 14
+                                                },
+                                                "content": "563.4 cal",
+                                                "styles": {
+                                                    "text": {
+                                                        "family": "Arial",
+                                                        "size": 16,
+                                                        "weight": "400",
+                                                        "align": "left"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "jogging",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 360,
+                            "h": 86
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 1,
+                                "color": "rgb(17, 12, 17)"
+                            },
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "progress-bar",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 320,
+                                    "h": 4
+                                },
+                                "children": [
+                                    {
+                                        "name": "back",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 320,
+                                            "h": 4
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(241, 185, 241)"
+                                        }
+                                    },
+                                    {
+                                        "name": "front",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 160,
+                                            "h": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "pause",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 40,
+                                    "h": 40
+                                },
+                                "styles": {
+                                    "shadow": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "blur": 2,
+                                        "color": "rgba(0, 0, 0, 0.07999999821186066)"
+                                    },
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "vector",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 33,
+                                            "h": 33
+                                        },
+                                        "styles": {
+                                            "border": {
+                                                "width": 0,
+                                                "color": "rgb(17, 12, 17)"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "jogging",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 59,
+                                    "h": 16
+                                },
+                                "content": "Jogging",
+                                "styles": {
+                                    "bg": "rgb(17, 12, 17)",
+                                    "text": {
+                                        "family": "Montserrat",
+                                        "size": 14,
+                                        "weight": "500",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "2-32-5-00-miles",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 128,
+                                    "h": 24
+                                },
+                                "content": "2.32/5.00 miles",
+                                "styles": {
+                                    "text": {
+                                        "family": "Arial",
+                                        "size": 16,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "jogging",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 48,
+                                    "h": 48
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 0,
+                                        "color": "rgb(17, 12, 17)"
+                                    },
+                                    "radius": 50
+                                }
+                            },
+                            {
+                                "name": "activity-details",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 154,
+                                    "h": 14
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 4,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "center"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "today--08-10-am",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 79,
+                                            "h": 14
+                                        },
+                                        "content": "Today, 08:10 AM",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 10,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "connect",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 2,
+                                            "h": 2
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "radius": 2
+                                        }
+                                    },
+                                    {
+                                        "name": "calories",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 65,
+                                            "h": 14
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 2,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "calories",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 14,
+                                                    "h": 14
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "row",
+                                                        "gap": 0,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "start"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "vector",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 8,
+                                                            "h": 10
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(230, 61, 61)"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "238-2-cal",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 49,
+                                                    "h": 14
+                                                },
+                                                "content": "238.2 cal",
+                                                "styles": {
+                                                    "text": {
+                                                        "family": "Arial",
+                                                        "size": 16,
+                                                        "weight": "400",
+                                                        "align": "left"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "see-all",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 54,
+                            "h": 20
+                        },
+                        "content": "See all",
+                        "styles": {
+                            "text": {
+                                "family": "Montserrat",
+                                "size": 16,
+                                "weight": "600",
+                                "align": "right"
+                            },
+                            "border": {
+                                "width": 0,
+                                "color": "rgb(17, 12, 17)"
+                            },
+                            "shadow": {
+                                "x": 0,
+                                "y": 0,
+                                "blur": 2,
+                                "color": "rgba(0, 0, 0, 0.07999999821186066)"
+                            }
+                        }
+                    },
+                    {
+                        "name": "your-activities",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 119,
+                            "h": 20
+                        },
+                        "content": "Your Activities",
+                        "styles": {
+                            "bg": "rgb(17, 12, 17)",
+                            "text": {
+                                "family": "Montserrat",
+                                "size": 16,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "divider",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 360,
+                            "h": 8
+                        },
+                        "styles": {
+                            "bg": "rgb(17, 12, 17)"
+                        }
+                    },
+                    {
+                        "name": "heart-rate",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 152,
+                            "h": 152
+                        },
+                        "styles": {
+                            "bg": "rgb(17, 12, 17)",
+                            "border": {
+                                "width": 0,
+                                "color": "rgb(17, 12, 17)"
+                            },
+                            "radius": 4,
+                            "layout": {
+                                "direction": "row",
+                                "gap": 4,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                },
+                                "padding": [
+                                    12,
+                                    0,
+                                    12,
+                                    0
+                                ]
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "heart-line",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 160,
+                                    "h": 80
+                                },
+                                "children": [
+                                    {
+                                        "name": "back",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 160,
+                                            "h": 80
+                                        }
+                                    },
+                                    {
+                                        "name": "front",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 160,
+                                            "h": 40
+                                        },
+                                        "styles": {
+                                            "border": {
+                                                "width": 1,
+                                                "color": "rgb(24, 160, 251)"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "88-bpm",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 59,
+                                    "h": 24
+                                },
+                                "content": "88 bpm",
+                                "styles": {
+                                    "text": {
+                                        "family": "Arial",
+                                        "size": 16,
+                                        "weight": "400",
+                                        "align": "right"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "heart-rate",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 78,
+                                    "h": 16
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 2,
+                                        "align": {
+                                            "main": "center",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "heart-rate",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 16,
+                                            "h": 16
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 0,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "vector",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 12,
+                                                    "h": 10
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(24, 160, 251)"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "heart-rate",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 60,
+                                            "h": 16
+                                        },
+                                        "content": "heart rate",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 12,
+                                                "weight": "500",
+                                                "align": "center"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "sleep",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 152,
+                            "h": 68
+                        },
+                        "styles": {
+                            "bg": "rgb(17, 12, 17)",
+                            "border": {
+                                "width": 0,
+                                "color": "rgb(17, 12, 17)"
+                            },
+                            "radius": 4,
+                            "layout": {
+                                "direction": "row",
+                                "gap": 4,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                },
+                                "padding": [
+                                    12,
+                                    0,
+                                    12,
+                                    0
+                                ]
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "progress-bar",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 152,
+                                    "h": 4
+                                },
+                                "children": [
+                                    {
+                                        "name": "back",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 152,
+                                            "h": 4
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(205, 16, 198)"
+                                        }
+                                    },
+                                    {
+                                        "name": "front",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 136,
+                                            "h": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "7h-34m",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 62,
+                                    "h": 24
+                                },
+                                "content": "7h 34m",
+                                "styles": {
+                                    "text": {
+                                        "family": "Arial",
+                                        "size": 16,
+                                        "weight": "400",
+                                        "align": "right"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "sleep",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 51,
+                                    "h": 16
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 2,
+                                        "align": {
+                                            "main": "center",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "sleep",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 16,
+                                            "h": 16
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 0,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "vector",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 12,
+                                                    "h": 12
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(205, 16, 198)"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "sleep",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 33,
+                                            "h": 16
+                                        },
+                                        "content": "sleep",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 12,
+                                                "weight": "500",
+                                                "align": "center"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "steps",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 152,
+                            "h": 68
+                        },
+                        "styles": {
+                            "bg": "rgb(17, 12, 17)",
+                            "border": {
+                                "width": 0,
+                                "color": "rgb(17, 12, 17)"
+                            },
+                            "radius": 4,
+                            "layout": {
+                                "direction": "row",
+                                "gap": 4,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                },
+                                "padding": [
+                                    12,
+                                    0,
+                                    12,
+                                    0
+                                ]
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "19-124",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 58,
+                                    "h": 24
+                                },
+                                "content": "19,124",
+                                "styles": {
+                                    "bg": "rgb(17, 12, 17)",
+                                    "text": {
+                                        "family": "Montserrat",
+                                        "size": 20,
+                                        "weight": "600",
+                                        "align": "right"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "steps",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 51,
+                                    "h": 16
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 2,
+                                        "align": {
+                                            "main": "center",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "steps",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 16,
+                                            "h": 16
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 0,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "vector",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 12,
+                                                    "h": 12
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(61, 155, 38)"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "steps",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 33,
+                                            "h": 16
+                                        },
+                                        "content": "steps",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 12,
+                                                "weight": "500",
+                                                "align": "center"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "progress-bar",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 152,
+                                    "h": 4
+                                },
+                                "children": [
+                                    {
+                                        "name": "back",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 152,
+                                            "h": 4
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(61, 155, 38)"
+                                        }
+                                    },
+                                    {
+                                        "name": "front",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 144,
+                                            "h": 4
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "your-goal",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 320,
+                            "h": 120
+                        },
+                        "styles": {
+                            "bg": "rgb(17, 12, 17)",
+                            "border": {
+                                "width": 0,
+                                "color": "rgb(17, 12, 17)"
+                            },
+                            "radius": 4,
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "out-of-2-000-cal-",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 96,
+                                    "h": 16
+                                },
+                                "content": "out of 2,000 cal.",
+                                "styles": {
+                                    "bg": "rgb(17, 12, 17)",
+                                    "text": {
+                                        "family": "Montserrat",
+                                        "size": 12,
+                                        "weight": "500",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "calories",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 68,
+                                    "h": 20
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 2,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "calories",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 20,
+                                            "h": 20
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 0,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "vector",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 12,
+                                                    "h": 15
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(230, 61, 61)"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "1-116-5",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 46,
+                                            "h": 20
+                                        },
+                                        "content": "1,116.5",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 16,
+                                                "weight": "600",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "you-ve-burned",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 88,
+                                    "h": 16
+                                },
+                                "content": "You’ve burned",
+                                "styles": {
+                                    "bg": "rgb(17, 12, 17)",
+                                    "text": {
+                                        "family": "Montserrat",
+                                        "size": 12,
+                                        "weight": "500",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "progress-bar",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 288,
+                                    "h": 4
+                                },
+                                "children": [
+                                    {
+                                        "name": "back",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 288,
+                                            "h": 4
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "radius": 2
+                                        }
+                                    },
+                                    {
+                                        "name": "front",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 162,
+                                            "h": 4
+                                        },
+                                        "styles": {
+                                            "radius": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "right-arrow",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 32,
+                                    "h": 32
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "vector",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 24,
+                                            "h": 24
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "56-",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 49,
+                                    "h": 32
+                                },
+                                "content": "56%",
+                                "styles": {
+                                    "bg": "rgb(17, 12, 17)",
+                                    "text": {
+                                        "family": "Montserrat",
+                                        "size": 24,
+                                        "weight": "500",
+                                        "align": "right"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "in-progress",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 93,
+                                    "h": 26
+                                },
+                                "content": "In-Progress",
+                                "styles": {
+                                    "bg": "rgb(17, 12, 17)",
+                                    "text": {
+                                        "family": "Montserrat",
+                                        "size": 16,
+                                        "weight": "500",
+                                        "align": "right"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "see-all",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 54,
+                            "h": 20
+                        },
+                        "content": "See all",
+                        "styles": {
+                            "text": {
+                                "family": "Montserrat",
+                                "size": 16,
+                                "weight": "600",
+                                "align": "right"
+                            },
+                            "border": {
+                                "width": 0,
+                                "color": "rgb(17, 12, 17)"
+                            },
+                            "shadow": {
+                                "x": 0,
+                                "y": 0,
+                                "blur": 2,
+                                "color": "rgba(0, 0, 0, 0.07999999821186066)"
+                            }
+                        }
+                    },
+                    {
+                        "name": "your-stats",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 84,
+                            "h": 20
+                        },
+                        "content": "Your Stats",
+                        "styles": {
+                            "bg": "rgb(17, 12, 17)",
+                            "text": {
+                                "family": "Montserrat",
+                                "size": 16,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "settings",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 32,
+                            "h": 32
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "vector",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 23,
+                                    "h": 24
+                                },
+                                "styles": {
+                                    "bg": "rgb(17, 12, 17)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "battery-status",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 156,
+                            "h": 14
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 4,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "battery",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 40,
+                                    "h": 14
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 2,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "center"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "battery",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 14,
+                                            "h": 14
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 0,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "vector",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 8,
+                                                    "h": 12
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(17, 12, 17)"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "53-",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 24,
+                                            "h": 14
+                                        },
+                                        "content": "53%",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 12,
+                                                "weight": "500",
+                                                "align": "right"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "connect",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 2,
+                                    "h": 2
+                                },
+                                "styles": {
+                                    "bg": "rgb(17, 12, 17)",
+                                    "radius": 2
+                                }
+                            },
+                            {
+                                "name": "should-last-5-days",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 106,
+                                    "h": 14
+                                },
+                                "content": "should last 5 days",
+                                "styles": {
+                                    "bg": "rgb(17, 12, 17)",
+                                    "text": {
+                                        "family": "Montserrat",
+                                        "size": 12,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "fitme-sense-2",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 115,
+                            "h": 20
+                        },
+                        "content": "FitMe Sense 2",
+                        "styles": {
+                            "bg": "rgb(17, 12, 17)",
+                            "text": {
+                                "family": "Montserrat",
+                                "size": 16,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "fitme-device",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 48,
+                            "h": 48
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 0,
+                                "color": "rgb(17, 12, 17)"
+                            },
+                            "radius": 50
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "top-navigation",
+                "type": "FRAME",
+                "size": {
+                    "w": 360,
+                    "h": 112
+                },
+                "styles": {
+                    "shadow": {
+                        "x": 0,
+                        "y": 1,
+                        "blur": 4,
+                        "color": "rgba(0, 0, 0, 0.07999999821186066)"
+                    },
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "days",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 360,
+                            "h": 72
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "scroll",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 546,
+                                    "h": 40
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 16,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "center"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "29",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 19,
+                                            "h": 24
+                                        },
+                                        "content": "29",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 16,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "30",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 20,
+                                            "h": 24
+                                        },
+                                        "content": "30",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 16,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "31",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 15,
+                                            "h": 24
+                                        },
+                                        "content": "31",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 16,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "01",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 17,
+                                            "h": 24
+                                        },
+                                        "content": "01",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 16,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "02",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 20,
+                                            "h": 24
+                                        },
+                                        "content": "02",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 16,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "03",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 20,
+                                            "h": 24
+                                        },
+                                        "content": "03",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 16,
+                                                "weight": "500",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "today",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 123,
+                                            "h": 40
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(249, 116, 210)",
+                                            "border": {
+                                                "width": 0,
+                                                "color": "rgb(17, 12, 17)"
+                                            },
+                                            "radius": 50,
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 8,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "center"
+                                                },
+                                                "padding": [
+                                                    8,
+                                                    12,
+                                                    8,
+                                                    12
+                                                ]
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "today--04-jun",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 99,
+                                                    "h": 24
+                                                },
+                                                "content": "Today, 04 Jun",
+                                                "styles": {
+                                                    "bg": "rgb(17, 12, 17)",
+                                                    "text": {
+                                                        "family": "Montserrat",
+                                                        "size": 14,
+                                                        "weight": "600",
+                                                        "align": "left"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "05",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 20,
+                                            "h": 24
+                                        },
+                                        "content": "05",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 16,
+                                                "weight": "500",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "06",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 21,
+                                            "h": 24
+                                        },
+                                        "content": "06",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 16,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "07",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 20,
+                                            "h": 24
+                                        },
+                                        "content": "07",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 16,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "08",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 21,
+                                            "h": 24
+                                        },
+                                        "content": "08",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 16,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "09",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 21,
+                                            "h": 24
+                                        },
+                                        "content": "09",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 16,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "10",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 17,
+                                            "h": 24
+                                        },
+                                        "content": "10",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 16,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "navigation",
+                "type": "FRAME",
+                "size": {
+                    "w": 360,
+                    "h": 88
+                },
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "shadow": {
+                        "x": 0,
+                        "y": -1,
+                        "blur": 4,
+                        "color": "rgba(0, 0, 0, 0.07999999821186066)"
+                    },
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "home",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 80,
+                            "h": 48
+                        },
+                        "styles": {
+                            "bg": "rgb(249, 116, 210)",
+                            "border": {
+                                "width": 0,
+                                "color": "rgb(17, 12, 17)"
+                            },
+                            "radius": 50,
+                            "layout": {
+                                "direction": "column",
+                                "gap": 4,
+                                "align": {
+                                    "main": "center",
+                                    "cross": "center"
+                                },
+                                "padding": [
+                                    2,
+                                    0,
+                                    2,
+                                    0
+                                ]
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "home",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 32,
+                                    "h": 32
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "vector",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 21,
+                                            "h": 21
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "home",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 38,
+                                    "h": 16
+                                },
+                                "content": "Home",
+                                "styles": {
+                                    "bg": "rgb(17, 12, 17)",
+                                    "text": {
+                                        "family": "Montserrat",
+                                        "size": 12,
+                                        "weight": "500",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "activites",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 80,
+                            "h": 48
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 0,
+                                "color": "rgb(17, 12, 17)"
+                            },
+                            "radius": 50,
+                            "layout": {
+                                "direction": "column",
+                                "gap": 4,
+                                "align": {
+                                    "main": "center",
+                                    "cross": "center"
+                                },
+                                "padding": [
+                                    2,
+                                    0,
+                                    2,
+                                    0
+                                ]
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "statistics",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 24,
+                                    "h": 24
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "vector",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 16,
+                                            "h": 16
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "statistics",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 56,
+                                    "h": 16
+                                },
+                                "content": "Statistics",
+                                "styles": {
+                                    "bg": "rgb(17, 12, 17)",
+                                    "text": {
+                                        "family": "Montserrat",
+                                        "size": 12,
+                                        "weight": "500",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "profile",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 80,
+                            "h": 48
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 0,
+                                "color": "rgb(17, 12, 17)"
+                            },
+                            "radius": 50,
+                            "layout": {
+                                "direction": "column",
+                                "gap": 4,
+                                "align": {
+                                    "main": "center",
+                                    "cross": "center"
+                                },
+                                "padding": [
+                                    2,
+                                    0,
+                                    2,
+                                    0
+                                ]
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "profile",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 24,
+                                    "h": 24
+                                },
+                                "styles": {
+                                    "radius": 50,
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "vector",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 16,
+                                            "h": 14
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "you",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 23,
+                                    "h": 16
+                                },
+                                "content": "You",
+                                "styles": {
+                                    "bg": "rgb(17, 12, 17)",
+                                    "text": {
+                                        "family": "Montserrat",
+                                        "size": 12,
+                                        "weight": "500",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "add-activity",
+                "type": "FRAME",
+                "size": {
+                    "w": 64,
+                    "h": 64
+                },
+                "styles": {
+                    "radius": 50,
+                    "shadow": {
+                        "x": 0,
+                        "y": 0,
+                        "blur": 8,
+                        "color": "rgba(0, 0, 0, 0.1599999964237213)"
+                    },
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "vector",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 20,
+                            "h": 20
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "border": {
+                                "width": 1,
+                                "color": "rgb(255, 255, 255)"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "bottom",
+                "type": "FRAME",
+                "size": {
+                    "w": 360,
+                    "h": 20
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "rectangle-13",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 64,
+                            "h": 2
+                        },
+                        "styles": {
+                            "bg": "rgb(17, 12, 17)",
+                            "radius": 8
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "top",
+                "type": "FRAME",
+                "size": {
+                    "w": 360,
+                    "h": 40
+                },
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "frame-454",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 360,
+                            "h": 32
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "group-169",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 360,
+                                    "h": 24
+                                },
+                                "children": [
+                                    {
+                                        "name": "rectangle-1",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 360,
+                                            "h": 24
+                                        }
+                                    },
+                                    {
+                                        "name": "12-00",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 36,
+                                            "h": 17
+                                        },
+                                        "content": "12:00",
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "text": {
+                                                "family": "Montserrat",
+                                                "size": 14,
+                                                "weight": "500",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "ellipse-1",
+                                        "type": "ELLIPSE",
+                                        "size": {
+                                            "w": 4,
+                                            "h": 4
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)"
+                                        }
+                                    },
+                                    {
+                                        "name": "ellipse-2",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 16,
+                                            "h": 12
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)"
+                                        }
+                                    },
+                                    {
+                                        "name": "vector-1",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 12,
+                                            "h": 12
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)",
+                                            "radius": 1
+                                        }
+                                    },
+                                    {
+                                        "name": "union",
+                                        "type": "BOOLEAN_OPERATION",
+                                        "size": {
+                                            "w": 8,
+                                            "h": 12
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(17, 12, 17)"
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "rectangle-1",
+                                                "type": "RECTANGLE",
+                                                "size": {
+                                                    "w": 8,
+                                                    "h": 11
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)",
+                                                    "radius": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "rectangle-2",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 4,
+                                                    "h": 1
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "summary": {
+        "components": 0,
+        "instances": 0,
+        "frames": 49,
+        "texts": 47,
+        "hasAutoLayout": true,
+        "hasEffects": true
+    }
+}

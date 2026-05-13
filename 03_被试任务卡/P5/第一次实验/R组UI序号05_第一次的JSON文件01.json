@@ -1,0 +1,466 @@
+{
+    "metadata": {
+        "exportedAt": "2026-05-09T07:38:26.066Z",
+        "componentName": "Analysis DIsplay Card Alternative",
+        "totalElements": 29,
+        "nestingDepth": 3,
+        "plugin": "Figma to JSON Exporter"
+    },
+    "designTokens": {
+        "colors": {
+            "color-rgb(40, 40, 40)": "rgb(40, 40, 40)",
+            "color-rgb(255, 255, 255)": "rgb(255, 255, 255)",
+            "color-rgb(68, 68, 68)": "rgb(68, 68, 68)",
+            "color-rgb(0, 0, 0)": "rgb(0, 0, 0)"
+        },
+        "fonts": {
+            "poppins": {
+                "family": "Poppins",
+                "sizes": {
+                    "size-36": "36px",
+                    "size-20": "20px",
+                    "size-16": "16px"
+                },
+                "weights": {
+                    "weight-400": "400"
+                }
+            }
+        },
+        "spacing": {
+            "gap-8": "8px"
+        },
+        "effects": {}
+    },
+    "structure": {
+        "name": "analysis-display-card-alternative",
+        "type": "FRAME",
+        "size": {
+            "w": 393,
+            "h": 852
+        },
+        "styles": {
+            "bg": "rgb(40, 40, 40)",
+            "layout": {
+                "direction": "row",
+                "gap": 0,
+                "align": {
+                    "main": "start",
+                    "cross": "start"
+                }
+            }
+        },
+        "children": [
+            {
+                "name": "frame-4",
+                "type": "FRAME",
+                "size": {
+                    "w": 363,
+                    "h": 4
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 8,
+                        "align": {
+                            "main": "center",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "rectangle-1",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 100,
+                            "h": 4
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)"
+                        }
+                    },
+                    {
+                        "name": "rectangle-6",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 100,
+                            "h": 4
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)"
+                        }
+                    },
+                    {
+                        "name": "rectangle-5",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 100,
+                            "h": 4
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "16---x",
+                "type": "INSTANCE",
+                "size": {
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "name": "playlist-frequencies",
+                "type": "TEXT",
+                "size": {
+                    "w": 353,
+                    "h": 54
+                },
+                "content": "Playlist Frequencies",
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 36,
+                        "weight": "400",
+                        "align": "center"
+                    }
+                }
+            },
+            {
+                "name": "music-analysis",
+                "type": "TEXT",
+                "size": {
+                    "w": 145,
+                    "h": 30
+                },
+                "content": "Music Analysis",
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 20,
+                        "weight": "400",
+                        "align": "center"
+                    }
+                }
+            },
+            {
+                "name": "rectangle-8",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 353,
+                    "h": 66
+                },
+                "styles": {
+                    "bg": "rgb(68, 68, 68)",
+                    "radius": 10
+                }
+            },
+            {
+                "name": "frequency-range",
+                "type": "TEXT",
+                "size": {
+                    "w": 140,
+                    "h": 24
+                },
+                "content": "Frequency Range",
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 16,
+                        "weight": "400",
+                        "align": "center"
+                    }
+                }
+            },
+            {
+                "name": "20-20000-hz",
+                "type": "TEXT",
+                "size": {
+                    "w": 101,
+                    "h": 24
+                },
+                "content": "20-20000 Hz",
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 16,
+                        "weight": "400",
+                        "align": "center"
+                    }
+                }
+            },
+            {
+                "name": "rectangle-9",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 321,
+                    "h": 10
+                },
+                "styles": {
+                    "bg": "rgb(0, 0, 0)",
+                    "radius": 10
+                }
+            },
+            {
+                "name": "rectangle-10",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 220,
+                    "h": 10
+                },
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "radius": 10
+                }
+            },
+            {
+                "name": "rectangle-11",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 353,
+                    "h": 66
+                },
+                "styles": {
+                    "bg": "rgb(68, 68, 68)",
+                    "radius": 10
+                }
+            },
+            {
+                "name": "bass-range",
+                "type": "TEXT",
+                "size": {
+                    "w": 94,
+                    "h": 24
+                },
+                "content": "Bass Range",
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 16,
+                        "weight": "400",
+                        "align": "center"
+                    }
+                }
+            },
+            {
+                "name": "20-250-hz",
+                "type": "TEXT",
+                "size": {
+                    "w": 80,
+                    "h": 24
+                },
+                "content": "20-250 Hz",
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 16,
+                        "weight": "400",
+                        "align": "center"
+                    }
+                }
+            },
+            {
+                "name": "rectangle-12",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 321,
+                    "h": 10
+                },
+                "styles": {
+                    "bg": "rgb(0, 0, 0)",
+                    "radius": 10
+                }
+            },
+            {
+                "name": "rectangle-13",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 220,
+                    "h": 10
+                },
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "radius": 10
+                }
+            },
+            {
+                "name": "rectangle-14",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 353,
+                    "h": 66
+                },
+                "styles": {
+                    "bg": "rgb(68, 68, 68)",
+                    "radius": 10
+                }
+            },
+            {
+                "name": "mid-range",
+                "type": "TEXT",
+                "size": {
+                    "w": 85,
+                    "h": 24
+                },
+                "content": "Mid Range",
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 16,
+                        "weight": "400",
+                        "align": "center"
+                    }
+                }
+            },
+            {
+                "name": "250-2000-hz",
+                "type": "TEXT",
+                "size": {
+                    "w": 101,
+                    "h": 24
+                },
+                "content": "250-2000 Hz",
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 16,
+                        "weight": "400",
+                        "align": "center"
+                    }
+                }
+            },
+            {
+                "name": "rectangle-15",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 321,
+                    "h": 10
+                },
+                "styles": {
+                    "bg": "rgb(0, 0, 0)",
+                    "radius": 10
+                }
+            },
+            {
+                "name": "rectangle-16",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 220,
+                    "h": 10
+                },
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "radius": 10
+                }
+            },
+            {
+                "name": "rectangle-17",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 353,
+                    "h": 66
+                },
+                "styles": {
+                    "bg": "rgb(68, 68, 68)",
+                    "radius": 10
+                }
+            },
+            {
+                "name": "high-range",
+                "type": "TEXT",
+                "size": {
+                    "w": 92,
+                    "h": 24
+                },
+                "content": "High Range",
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 16,
+                        "weight": "400",
+                        "align": "center"
+                    }
+                }
+            },
+            {
+                "name": "2000-20000-hz",
+                "type": "TEXT",
+                "size": {
+                    "w": 121,
+                    "h": 24
+                },
+                "content": "2000-20000 Hz",
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 16,
+                        "weight": "400",
+                        "align": "center"
+                    }
+                }
+            },
+            {
+                "name": "rectangle-18",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 321,
+                    "h": 10
+                },
+                "styles": {
+                    "bg": "rgb(0, 0, 0)",
+                    "radius": 10
+                }
+            },
+            {
+                "name": "rectangle-19",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 220,
+                    "h": 10
+                },
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "radius": 10
+                }
+            },
+            {
+                "name": "based-on-analysis",
+                "type": "TEXT",
+                "size": {
+                    "w": 145,
+                    "h": 24
+                },
+                "content": "Based on analysis",
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 16,
+                        "weight": "400",
+                        "align": "center"
+                    }
+                }
+            }
+        ]
+    },
+    "summary": {
+        "components": 0,
+        "instances": 1,
+        "frames": 2,
+        "texts": 11,
+        "hasAutoLayout": true,
+        "hasEffects": false
+    }
+}

@@ -1,0 +1,688 @@
+{
+    "metadata": {
+        "exportedAt": "2026-05-09T07:38:48.844Z",
+        "componentName": "Playlist Details 2",
+        "totalElements": 52,
+        "nestingDepth": 3,
+        "plugin": "Figma to JSON Exporter"
+    },
+    "designTokens": {
+        "colors": {
+            "color-rgb(255, 255, 255)": "rgb(255, 255, 255)",
+            "color-rgb(254, 250, 224)": "rgb(254, 250, 224)",
+            "color-rgb(96, 108, 56)": "rgb(96, 108, 56)",
+            "color-rgb(246, 233, 201)": "rgb(246, 233, 201)"
+        },
+        "fonts": {
+            "poppins": {
+                "family": "Poppins",
+                "sizes": {
+                    "size-24": "24px",
+                    "size-16": "16px",
+                    "size-20": "20px"
+                },
+                "weights": {
+                    "weight-700": "700",
+                    "weight-400": "400"
+                }
+            }
+        },
+        "spacing": {},
+        "effects": {}
+    },
+    "structure": {
+        "name": "playlist-details-2",
+        "type": "FRAME",
+        "size": {
+            "w": 393,
+            "h": 852
+        },
+        "styles": {
+            "bg": "rgb(255, 255, 255)",
+            "layout": {
+                "direction": "row",
+                "gap": 0,
+                "align": {
+                    "main": "start",
+                    "cross": "start"
+                }
+            }
+        },
+        "children": [
+            {
+                "name": "screen-bg",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 393,
+                    "h": 852
+                }
+            },
+            {
+                "name": "rectangle-61",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 168,
+                    "h": 167
+                },
+                "styles": {
+                    "bg": "rgb(254, 250, 224)",
+                    "radius": 25
+                }
+            },
+            {
+                "name": "mood",
+                "type": "TEXT",
+                "size": {
+                    "w": 73,
+                    "h": 36
+                },
+                "content": "mood",
+                "styles": {
+                    "bg": "rgb(254, 250, 224)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 24,
+                        "weight": "700",
+                        "align": "center"
+                    }
+                }
+            },
+            {
+                "name": "description-of-mood-which-would-presumably-take-up-this-whole-spot-",
+                "type": "TEXT",
+                "size": {
+                    "w": 164,
+                    "h": 167
+                },
+                "content": "description of mood which would presumably take up this whole spot.",
+                "styles": {
+                    "bg": "rgb(254, 250, 224)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 16,
+                        "weight": "700",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "rectangle-62",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 56,
+                    "h": 53
+                },
+                "styles": {
+                    "bg": "rgb(96, 108, 56)",
+                    "radius": 25
+                }
+            },
+            {
+                "name": "rectangle-63",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 56,
+                    "h": 53
+                },
+                "styles": {
+                    "bg": "rgb(96, 108, 56)",
+                    "radius": 25
+                }
+            },
+            {
+                "name": "rectangle-64",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 56,
+                    "h": 53
+                },
+                "styles": {
+                    "bg": "rgb(96, 108, 56)",
+                    "radius": 25
+                }
+            },
+            {
+                "name": "rectangle-65",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 56,
+                    "h": 53
+                },
+                "styles": {
+                    "bg": "rgb(96, 108, 56)",
+                    "radius": 25
+                }
+            },
+            {
+                "name": "rectangle-66",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 56,
+                    "h": 53
+                },
+                "styles": {
+                    "bg": "rgb(96, 108, 56)",
+                    "radius": 25
+                }
+            },
+            {
+                "name": "rectangle-67",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 58,
+                    "h": 59
+                },
+                "styles": {
+                    "bg": "rgb(254, 250, 224)",
+                    "radius": 10
+                }
+            },
+            {
+                "name": "song-title",
+                "type": "TEXT",
+                "size": {
+                    "w": 196,
+                    "h": 36
+                },
+                "content": "Song title",
+                "styles": {
+                    "bg": "rgb(254, 250, 224)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 24,
+                        "weight": "400",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "artist",
+                "type": "TEXT",
+                "size": {
+                    "w": 196,
+                    "h": 30
+                },
+                "content": "Artist",
+                "styles": {
+                    "bg": "rgb(96, 108, 56)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 20,
+                        "weight": "400",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "icon",
+                "type": "BOOLEAN_OPERATION",
+                "size": {
+                    "w": 5,
+                    "h": 21
+                },
+                "styles": {
+                    "bg": "rgb(246, 233, 201)"
+                },
+                "children": [
+                    {
+                        "name": "path",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 5,
+                            "h": 5
+                        }
+                    },
+                    {
+                        "name": "path",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 5,
+                            "h": 5
+                        }
+                    },
+                    {
+                        "name": "path",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 5,
+                            "h": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "rectangle-68",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 58,
+                    "h": 59
+                },
+                "styles": {
+                    "bg": "rgb(254, 250, 224)",
+                    "radius": 10
+                }
+            },
+            {
+                "name": "song-title",
+                "type": "TEXT",
+                "size": {
+                    "w": 196,
+                    "h": 36
+                },
+                "content": "Song title",
+                "styles": {
+                    "bg": "rgb(254, 250, 224)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 24,
+                        "weight": "400",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "artist",
+                "type": "TEXT",
+                "size": {
+                    "w": 196,
+                    "h": 30
+                },
+                "content": "Artist",
+                "styles": {
+                    "bg": "rgb(96, 108, 56)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 20,
+                        "weight": "400",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "icon",
+                "type": "BOOLEAN_OPERATION",
+                "size": {
+                    "w": 5,
+                    "h": 21
+                },
+                "styles": {
+                    "bg": "rgb(246, 233, 201)"
+                },
+                "children": [
+                    {
+                        "name": "path",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 5,
+                            "h": 5
+                        }
+                    },
+                    {
+                        "name": "path",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 5,
+                            "h": 5
+                        }
+                    },
+                    {
+                        "name": "path",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 5,
+                            "h": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "rectangle-69",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 58,
+                    "h": 59
+                },
+                "styles": {
+                    "bg": "rgb(254, 250, 224)",
+                    "radius": 10
+                }
+            },
+            {
+                "name": "song-title",
+                "type": "TEXT",
+                "size": {
+                    "w": 196,
+                    "h": 36
+                },
+                "content": "Song title",
+                "styles": {
+                    "bg": "rgb(254, 250, 224)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 24,
+                        "weight": "400",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "artist",
+                "type": "TEXT",
+                "size": {
+                    "w": 196,
+                    "h": 30
+                },
+                "content": "Artist",
+                "styles": {
+                    "bg": "rgb(96, 108, 56)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 20,
+                        "weight": "400",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "icon",
+                "type": "BOOLEAN_OPERATION",
+                "size": {
+                    "w": 5,
+                    "h": 21
+                },
+                "styles": {
+                    "bg": "rgb(246, 233, 201)"
+                },
+                "children": [
+                    {
+                        "name": "path",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 5,
+                            "h": 5
+                        }
+                    },
+                    {
+                        "name": "path",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 5,
+                            "h": 5
+                        }
+                    },
+                    {
+                        "name": "path",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 5,
+                            "h": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "rectangle-70",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 58,
+                    "h": 59
+                },
+                "styles": {
+                    "bg": "rgb(254, 250, 224)",
+                    "radius": 10
+                }
+            },
+            {
+                "name": "song-title",
+                "type": "TEXT",
+                "size": {
+                    "w": 196,
+                    "h": 36
+                },
+                "content": "Song title",
+                "styles": {
+                    "bg": "rgb(254, 250, 224)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 24,
+                        "weight": "400",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "artist",
+                "type": "TEXT",
+                "size": {
+                    "w": 196,
+                    "h": 30
+                },
+                "content": "Artist",
+                "styles": {
+                    "bg": "rgb(96, 108, 56)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 20,
+                        "weight": "400",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "icon",
+                "type": "BOOLEAN_OPERATION",
+                "size": {
+                    "w": 5,
+                    "h": 21
+                },
+                "styles": {
+                    "bg": "rgb(246, 233, 201)"
+                },
+                "children": [
+                    {
+                        "name": "path",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 5,
+                            "h": 5
+                        }
+                    },
+                    {
+                        "name": "path",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 5,
+                            "h": 5
+                        }
+                    },
+                    {
+                        "name": "path",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 5,
+                            "h": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "rectangle-73",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 58,
+                    "h": 59
+                },
+                "styles": {
+                    "bg": "rgb(254, 250, 224)",
+                    "radius": 10
+                }
+            },
+            {
+                "name": "song-title",
+                "type": "TEXT",
+                "size": {
+                    "w": 196,
+                    "h": 36
+                },
+                "content": "Song title",
+                "styles": {
+                    "bg": "rgb(254, 250, 224)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 24,
+                        "weight": "400",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "artist",
+                "type": "TEXT",
+                "size": {
+                    "w": 196,
+                    "h": 30
+                },
+                "content": "Artist",
+                "styles": {
+                    "bg": "rgb(96, 108, 56)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 20,
+                        "weight": "400",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "icon",
+                "type": "BOOLEAN_OPERATION",
+                "size": {
+                    "w": 5,
+                    "h": 21
+                },
+                "styles": {
+                    "bg": "rgb(246, 233, 201)"
+                },
+                "children": [
+                    {
+                        "name": "path",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 5,
+                            "h": 5
+                        }
+                    },
+                    {
+                        "name": "path",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 5,
+                            "h": 5
+                        }
+                    },
+                    {
+                        "name": "path",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 5,
+                            "h": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "rectangle-74",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 58,
+                    "h": 59
+                },
+                "styles": {
+                    "bg": "rgb(254, 250, 224)",
+                    "radius": 10
+                }
+            },
+            {
+                "name": "song-title",
+                "type": "TEXT",
+                "size": {
+                    "w": 196,
+                    "h": 36
+                },
+                "content": "Song title",
+                "styles": {
+                    "bg": "rgb(254, 250, 224)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 24,
+                        "weight": "400",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "artist",
+                "type": "TEXT",
+                "size": {
+                    "w": 196,
+                    "h": 30
+                },
+                "content": "Artist",
+                "styles": {
+                    "bg": "rgb(96, 108, 56)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 20,
+                        "weight": "400",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "icon",
+                "type": "BOOLEAN_OPERATION",
+                "size": {
+                    "w": 5,
+                    "h": 21
+                },
+                "styles": {
+                    "bg": "rgb(246, 233, 201)"
+                },
+                "children": [
+                    {
+                        "name": "path",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 5,
+                            "h": 5
+                        }
+                    },
+                    {
+                        "name": "path",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 5,
+                            "h": 5
+                        }
+                    },
+                    {
+                        "name": "path",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 5,
+                            "h": 5
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "summary": {
+        "components": 0,
+        "instances": 0,
+        "frames": 1,
+        "texts": 14,
+        "hasAutoLayout": true,
+        "hasEffects": false
+    }
+}

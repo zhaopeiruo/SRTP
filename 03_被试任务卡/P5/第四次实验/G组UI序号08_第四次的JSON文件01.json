@@ -1,0 +1,2050 @@
+{
+    "metadata": {
+        "exportedAt": "2026-05-09T07:50:34.685Z",
+        "componentName": "Checkout",
+        "totalElements": 114,
+        "nestingDepth": 9,
+        "plugin": "Figma to JSON Exporter"
+    },
+    "designTokens": {
+        "colors": {
+            "color-rgb(255, 255, 255)": "rgb(255, 255, 255)",
+            "color-rgb(253, 250, 240)": "rgb(253, 250, 240)",
+            "color-rgb(134, 31, 66)": "rgb(134, 31, 66)",
+            "color-rgb(0, 0, 0)": "rgb(0, 0, 0)",
+            "color-rgb(230, 210, 217)": "rgb(230, 210, 217)"
+        },
+        "fonts": {
+            "fahkwang": {
+                "family": "Fahkwang",
+                "sizes": {
+                    "size-10": "10px",
+                    "size-14": "14px",
+                    "size-12": "12px",
+                    "size-8": "8px"
+                },
+                "weights": {
+                    "weight-700": "700"
+                }
+            },
+            "dm-sans": {
+                "family": "DM Sans",
+                "sizes": {
+                    "size-8": "8px",
+                    "size-14": "14px",
+                    "size-12": "12px"
+                },
+                "weights": {
+                    "weight-700": "700",
+                    "weight-400": "400"
+                }
+            }
+        },
+        "spacing": {
+            "gap-17": "17px",
+            "gap-12": "12px",
+            "padding-top-6": "6px",
+            "padding-right-49": "49px",
+            "padding-bottom-6": "6px",
+            "padding-left-49": "49px",
+            "gap-8": "8px",
+            "gap-95": "95px",
+            "gap-66": "66px",
+            "gap-202": "202px",
+            "gap-24": "24px",
+            "padding-right-10": "10px",
+            "padding-left-10": "10px",
+            "gap-87": "87px",
+            "gap-14": "14px",
+            "gap-150": "150px",
+            "padding-top-10": "10px",
+            "padding-right-15": "15px",
+            "padding-bottom-10": "10px",
+            "padding-left-15": "15px",
+            "gap-181": "181px",
+            "padding-top-8": "8px",
+            "padding-right-8": "8px",
+            "padding-bottom-8": "8px",
+            "padding-left-8": "8px",
+            "gap-6": "6px",
+            "gap-13": "13px",
+            "gap-30": "30px",
+            "gap-11": "11px",
+            "gap-23": "23px",
+            "gap-18": "18px",
+            "gap-205": "205px",
+            "gap-5": "5px"
+        },
+        "effects": {}
+    },
+    "structure": {
+        "name": "checkout",
+        "type": "FRAME",
+        "size": {
+            "w": 393,
+            "h": 1086
+        },
+        "styles": {
+            "bg": "rgb(255, 255, 255)",
+            "layout": {
+                "direction": "row",
+                "gap": 0,
+                "align": {
+                    "main": "start",
+                    "cross": "start"
+                }
+            }
+        },
+        "children": [
+            {
+                "name": "rectangle-37",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 393,
+                    "h": 954
+                },
+                "styles": {
+                    "bg": "rgb(253, 250, 240)"
+                }
+            },
+            {
+                "name": "rectangle-38",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 364,
+                    "h": 267
+                },
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "radius": 10
+                }
+            },
+            {
+                "name": "frame-311",
+                "type": "FRAME",
+                "size": {
+                    "w": 393,
+                    "h": 67
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "column",
+                        "gap": 17,
+                        "align": {
+                            "main": "start",
+                            "cross": "center"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "frame-301",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 393,
+                            "h": 37
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "column",
+                                "gap": 12,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "vector-16",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 393,
+                                    "h": 0
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 1,
+                                        "color": "rgb(230, 210, 217)"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "frame-281",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 324,
+                                    "h": 13
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "column",
+                                        "gap": 8,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        },
+                                        "padding": [
+                                            6,
+                                            49,
+                                            6,
+                                            49
+                                        ]
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "frame-279",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 324,
+                                            "h": 13
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 95,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "center"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "my-bag",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 40,
+                                                    "h": 13
+                                                },
+                                                "content": "My bag",
+                                                "styles": {
+                                                    "bg": "rgb(134, 31, 66)",
+                                                    "text": {
+                                                        "family": "Fahkwang",
+                                                        "size": 10,
+                                                        "weight": "700",
+                                                        "align": "center"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "address",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 46,
+                                                    "h": 13
+                                                },
+                                                "content": "Address",
+                                                "styles": {
+                                                    "bg": "rgb(134, 31, 66)",
+                                                    "text": {
+                                                        "family": "Fahkwang",
+                                                        "size": 10,
+                                                        "weight": "700",
+                                                        "align": "center"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "payment",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 48,
+                                                    "h": 13
+                                                },
+                                                "content": "Payment",
+                                                "styles": {
+                                                    "bg": "rgb(0, 0, 0)",
+                                                    "text": {
+                                                        "family": "Fahkwang",
+                                                        "size": 10,
+                                                        "weight": "700",
+                                                        "align": "center"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "frame-280",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 220,
+                                            "h": 0
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 66,
+                                                "align": {
+                                                    "main": "space-between",
+                                                    "cross": "center"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "vector-17",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 77,
+                                                    "h": 0
+                                                },
+                                                "styles": {
+                                                    "border": {
+                                                        "width": 1,
+                                                        "color": "rgb(134, 31, 66)"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "vector-18",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 77,
+                                                    "h": 0
+                                                },
+                                                "styles": {
+                                                    "border": {
+                                                        "width": 1,
+                                                        "color": "rgb(134, 31, 66)"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "vector-17",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 393,
+                                    "h": 0
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 1,
+                                        "color": "rgb(230, 210, 217)"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "you-are-eligible-for-free-shipping--",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 393,
+                            "h": 13
+                        },
+                        "content": "You are eligible for free shipping !",
+                        "styles": {
+                            "bg": "rgb(134, 31, 66)",
+                            "text": {
+                                "family": "Fahkwang",
+                                "size": 10,
+                                "weight": "700",
+                                "align": "center"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "frame-312",
+                "type": "FRAME",
+                "size": {
+                    "w": 324,
+                    "h": 24
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 202,
+                        "align": {
+                            "main": "space-between",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "frame-282",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 104,
+                            "h": 23
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 24,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "bytesize-cart",
+                                "type": "INSTANCE",
+                                "size": {
+                                    "w": 0,
+                                    "h": 0
+                                }
+                            },
+                            {
+                                "name": "2-items",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 57,
+                                    "h": 18
+                                },
+                                "content": "2 items",
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)",
+                                    "text": {
+                                        "family": "Fahkwang",
+                                        "size": 14,
+                                        "weight": "700",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "material-symbols-light-cancel-outline",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 24,
+                            "h": 24
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "vector",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 18,
+                                    "h": 18
+                                },
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "frame-330",
+                "type": "FRAME",
+                "size": {
+                    "w": 364,
+                    "h": 44
+                },
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "radius": 5,
+                    "layout": {
+                        "direction": "row",
+                        "gap": 87,
+                        "align": {
+                            "main": "start",
+                            "cross": "center"
+                        },
+                        "padding": [
+                            0,
+                            10,
+                            0,
+                            10
+                        ]
+                    }
+                },
+                "children": [
+                    {
+                        "name": "frame-328",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 178,
+                            "h": 23
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 14,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "bytesize-cart",
+                                "type": "INSTANCE",
+                                "size": {
+                                    "w": 0,
+                                    "h": 0
+                                }
+                            },
+                            {
+                                "name": "order-summary",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 103,
+                                    "h": 16
+                                },
+                                "content": "Order Summary",
+                                "styles": {
+                                    "bg": "rgb(134, 31, 66)",
+                                    "text": {
+                                        "family": "Fahkwang",
+                                        "size": 12,
+                                        "weight": "700",
+                                        "align": "center"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "weui-arrow-outlined",
+                                "type": "COMPONENT",
+                                "size": {
+                                    "w": 12,
+                                    "h": 24
+                                },
+                                "component": {
+                                    "type": "main",
+                                    "name": null
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "vector",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 7,
+                                            "h": 13
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(134, 31, 66)"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-329",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 72,
+                            "h": 31
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "column",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "group-11",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 62,
+                                    "h": 13
+                                },
+                                "children": [
+                                    {
+                                        "name": "rs-5-998",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 49,
+                                            "h": 13
+                                        },
+                                        "content": "Rs 5,998",
+                                        "styles": {
+                                            "bg": "rgb(134, 31, 66)",
+                                            "text": {
+                                                "family": "Fahkwang",
+                                                "size": 10,
+                                                "weight": "700",
+                                                "align": "center"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "vector-31",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 62,
+                                            "h": 0
+                                        },
+                                        "styles": {
+                                            "border": {
+                                                "width": 1,
+                                                "color": "rgb(134, 31, 66)"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "rs-2-998",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 72,
+                                    "h": 18
+                                },
+                                "content": "Rs 2,998",
+                                "styles": {
+                                    "bg": "rgb(134, 31, 66)",
+                                    "text": {
+                                        "family": "Fahkwang",
+                                        "size": 14,
+                                        "weight": "700",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "frame-311",
+                "type": "FRAME",
+                "size": {
+                    "w": 364,
+                    "h": 44
+                },
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "layout": {
+                        "direction": "column",
+                        "gap": 14,
+                        "align": {
+                            "main": "center",
+                            "cross": "center"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "frame-292",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 330,
+                            "h": 18
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 150,
+                                "align": {
+                                    "main": "space-between",
+                                    "cross": "end"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "frame-291",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 140,
+                                    "h": 18
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 14,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "streamline-flex-discount-percent-coupon",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 17,
+                                            "h": 17
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 0,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "group",
+                                                "type": "GROUP",
+                                                "size": {
+                                                    "w": 15,
+                                                    "h": 13
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "vector",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 7,
+                                                            "h": 7
+                                                        },
+                                                        "styles": {
+                                                            "border": {
+                                                                "width": 1,
+                                                                "color": "rgb(134, 31, 66)"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "vector",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 15,
+                                                            "h": 13
+                                                        },
+                                                        "styles": {
+                                                            "border": {
+                                                                "width": 1,
+                                                                "color": "rgb(134, 31, 66)"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "vector",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 6,
+                                                            "h": 6
+                                                        },
+                                                        "styles": {
+                                                            "border": {
+                                                                "width": 1,
+                                                                "color": "rgb(134, 31, 66)"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "apply-coupon",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 109,
+                                            "h": 18
+                                        },
+                                        "content": "Apply Coupon",
+                                        "styles": {
+                                            "bg": "rgb(134, 31, 66)",
+                                            "text": {
+                                                "family": "Fahkwang",
+                                                "size": 14,
+                                                "weight": "700",
+                                                "align": "center"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "weui-arrow-filled",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 12,
+                                    "h": 24
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "vector",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 7,
+                                            "h": 13
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(134, 31, 66)"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "frame-337",
+                "type": "FRAME",
+                "size": {
+                    "w": 364,
+                    "h": 179
+                },
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "radius": 10,
+                    "layout": {
+                        "direction": "column",
+                        "gap": 12,
+                        "align": {
+                            "main": "center",
+                            "cross": "start"
+                        },
+                        "padding": [
+                            10,
+                            15,
+                            10,
+                            15
+                        ]
+                    }
+                },
+                "children": [
+                    {
+                        "name": "frame-334",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 334,
+                            "h": 18
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 181,
+                                "align": {
+                                    "main": "space-between",
+                                    "cross": "end"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "deliver-to",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 78,
+                                    "h": 18
+                                },
+                                "content": "Deliver To",
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)",
+                                    "text": {
+                                        "family": "Fahkwang",
+                                        "size": 14,
+                                        "weight": "700",
+                                        "align": "center"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "frame-331",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 61,
+                                    "h": 16
+                                },
+                                "styles": {
+                                    "bg": "rgb(230, 210, 217)",
+                                    "radius": 5,
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 8,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "center"
+                                        },
+                                        "padding": [
+                                            8,
+                                            8,
+                                            8,
+                                            8
+                                        ]
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "click-to-edit",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 48,
+                                            "h": 10
+                                        },
+                                        "content": "Click to edit",
+                                        "styles": {
+                                            "bg": "rgb(134, 31, 66)",
+                                            "text": {
+                                                "family": "DM Sans",
+                                                "size": 8,
+                                                "weight": "700",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-335",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 280,
+                            "h": 60
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "column",
+                                "gap": 6,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "smriti",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 280,
+                                    "h": 18
+                                },
+                                "content": "Smriti",
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)",
+                                    "text": {
+                                        "family": "DM Sans",
+                                        "size": 14,
+                                        "weight": "700",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "1369-601-3--khandsa-road--gurugram--haryana--122001---india",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 280,
+                                    "h": 36
+                                },
+                                "content": "1369/601/3, Khandsa Road, Gurugram, Haryana (122001), India",
+                                "styles": {
+                                    "bg": "rgb(134, 31, 66)",
+                                    "text": {
+                                        "family": "DM Sans",
+                                        "size": 14,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-336",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 193,
+                            "h": 57
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "column",
+                                "gap": 13,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "frame-333",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 193,
+                                    "h": 22
+                                },
+                                "styles": {
+                                    "bg": "rgb(230, 210, 217)",
+                                    "radius": 5,
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 8,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "center"
+                                        },
+                                        "padding": [
+                                            8,
+                                            8,
+                                            8,
+                                            8
+                                        ]
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "-91-9123456789",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 92,
+                                            "h": 16
+                                        },
+                                        "content": "+91 9123456789",
+                                        "styles": {
+                                            "bg": "rgb(134, 31, 66)",
+                                            "text": {
+                                                "family": "DM Sans",
+                                                "size": 12,
+                                                "weight": "700",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "frame-332",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 193,
+                                    "h": 22
+                                },
+                                "styles": {
+                                    "bg": "rgb(230, 210, 217)",
+                                    "radius": 5,
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 8,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "center"
+                                        },
+                                        "padding": [
+                                            8,
+                                            8,
+                                            8,
+                                            8
+                                        ]
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "mazsdemmde1-gmail-com",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 162,
+                                            "h": 16
+                                        },
+                                        "content": "mazsdemmde1@gmail.com",
+                                        "styles": {
+                                            "bg": "rgb(134, 31, 66)",
+                                            "text": {
+                                                "family": "DM Sans",
+                                                "size": 12,
+                                                "weight": "700",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "payment-options",
+                "type": "TEXT",
+                "size": {
+                    "w": 131,
+                    "h": 18
+                },
+                "content": "Payment Options",
+                "styles": {
+                    "bg": "rgb(134, 31, 66)",
+                    "text": {
+                        "family": "Fahkwang",
+                        "size": 14,
+                        "weight": "700",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "frame-343",
+                "type": "FRAME",
+                "size": {
+                    "w": 169,
+                    "h": 227
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "column",
+                        "gap": 30,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "frame-343",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 150,
+                            "h": 22
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 13,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "grommet-icons-money",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 22,
+                                    "h": 22
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "vector",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 20,
+                                            "h": 19
+                                        },
+                                        "styles": {
+                                            "border": {
+                                                "width": 2,
+                                                "color": "rgb(134, 31, 66)"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "cash-on-delivery",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 115,
+                                    "h": 18
+                                },
+                                "content": "Cash on Delivery",
+                                "styles": {
+                                    "bg": "rgb(134, 31, 66)",
+                                    "text": {
+                                        "family": "DM Sans",
+                                        "size": 14,
+                                        "weight": "700",
+                                        "align": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-339",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 59,
+                            "h": 24
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 13,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "material-symbols-upi-pay",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 24,
+                                    "h": 24
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "vector",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 22,
+                                            "h": 18
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(134, 31, 66)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "upi",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 22,
+                                    "h": 18
+                                },
+                                "content": "UPI",
+                                "styles": {
+                                    "bg": "rgb(134, 31, 66)",
+                                    "text": {
+                                        "family": "DM Sans",
+                                        "size": 14,
+                                        "weight": "700",
+                                        "align": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-340",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 169,
+                            "h": 18
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 13,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "vector",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 21,
+                                    "h": 18
+                                },
+                                "styles": {
+                                    "bg": "rgb(134, 31, 66)"
+                                }
+                            },
+                            {
+                                "name": "credit--debit-cards",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 135,
+                                    "h": 18
+                                },
+                                "content": "Credit/ Debit Cards",
+                                "styles": {
+                                    "bg": "rgb(134, 31, 66)",
+                                    "text": {
+                                        "family": "DM Sans",
+                                        "size": 14,
+                                        "weight": "700",
+                                        "align": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-341",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 85,
+                            "h": 19
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 13,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "group",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 21,
+                                    "h": 19
+                                },
+                                "children": [
+                                    {
+                                        "name": "vector",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 21,
+                                            "h": 16
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(134, 31, 66)"
+                                        }
+                                    },
+                                    {
+                                        "name": "vector",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 11,
+                                            "h": 2
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(134, 31, 66)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "wallets",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 51,
+                                    "h": 18
+                                },
+                                "content": "Wallets",
+                                "styles": {
+                                    "bg": "rgb(134, 31, 66)",
+                                    "text": {
+                                        "family": "DM Sans",
+                                        "size": 14,
+                                        "weight": "700",
+                                        "align": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-342",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 115,
+                            "h": 24
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 11,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "mdi-bank",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 24,
+                                    "h": 24
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "vector",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 19,
+                                            "h": 21
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(134, 31, 66)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "netbanking",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 80,
+                                    "h": 18
+                                },
+                                "content": "Netbanking",
+                                "styles": {
+                                    "bg": "rgb(134, 31, 66)",
+                                    "text": {
+                                        "family": "DM Sans",
+                                        "size": 14,
+                                        "weight": "700",
+                                        "align": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "vector-32",
+                "type": "VECTOR",
+                "size": {
+                    "w": 364,
+                    "h": 0
+                },
+                "styles": {
+                    "border": {
+                        "width": 1,
+                        "color": "rgb(230, 210, 217)"
+                    }
+                }
+            },
+            {
+                "name": "vector-33",
+                "type": "VECTOR",
+                "size": {
+                    "w": 364,
+                    "h": 0
+                },
+                "styles": {
+                    "border": {
+                        "width": 1,
+                        "color": "rgb(230, 210, 217)"
+                    }
+                }
+            },
+            {
+                "name": "vector-34",
+                "type": "VECTOR",
+                "size": {
+                    "w": 364,
+                    "h": 0
+                },
+                "styles": {
+                    "border": {
+                        "width": 1,
+                        "color": "rgb(230, 210, 217)"
+                    }
+                }
+            },
+            {
+                "name": "vector-35",
+                "type": "VECTOR",
+                "size": {
+                    "w": 364,
+                    "h": 0
+                },
+                "styles": {
+                    "border": {
+                        "width": 1,
+                        "color": "rgb(230, 210, 217)"
+                    }
+                }
+            },
+            {
+                "name": "footer",
+                "type": "GROUP",
+                "size": {
+                    "w": 394,
+                    "h": 359
+                },
+                "children": [
+                    {
+                        "name": "footer-illustration-01-1",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 394,
+                            "h": 345
+                        }
+                    },
+                    {
+                        "name": "rectangle-19",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 393,
+                            "h": 165
+                        },
+                        "styles": {
+                            "bg": "rgb(134, 31, 66)"
+                        }
+                    },
+                    {
+                        "name": "group-4",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 138,
+                            "h": 58
+                        },
+                        "children": [
+                            {
+                                "name": "frame-145",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 138,
+                                    "h": 58
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "column",
+                                        "gap": 8,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        },
+                                        "padding": [
+                                            8,
+                                            8,
+                                            8,
+                                            8
+                                        ]
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "frame-100",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 122,
+                                            "h": 42
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "column",
+                                                "gap": 8,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                },
+                                                "padding": [
+                                                    8,
+                                                    8,
+                                                    8,
+                                                    8
+                                                ]
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "frame-97",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 106,
+                                                    "h": 26
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "row",
+                                                        "gap": 23,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "center"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "frame-94",
+                                                        "type": "FRAME",
+                                                        "size": {
+                                                            "w": 10,
+                                                            "h": 21
+                                                        },
+                                                        "styles": {
+                                                            "layout": {
+                                                                "direction": "row",
+                                                                "gap": 0,
+                                                                "align": {
+                                                                    "main": "start",
+                                                                    "cross": "start"
+                                                                }
+                                                            }
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "name": "brandico-facebook",
+                                                                "type": "INSTANCE",
+                                                                "size": {
+                                                                    "w": 0,
+                                                                    "h": 0
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "frame-98",
+                                                        "type": "FRAME",
+                                                        "size": {
+                                                            "w": 73,
+                                                            "h": 26
+                                                        },
+                                                        "styles": {
+                                                            "layout": {
+                                                                "direction": "row",
+                                                                "gap": 18,
+                                                                "align": {
+                                                                    "main": "start",
+                                                                    "cross": "center"
+                                                                }
+                                                            }
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "name": "frame-95",
+                                                                "type": "FRAME",
+                                                                "size": {
+                                                                    "w": 26,
+                                                                    "h": 26
+                                                                },
+                                                                "styles": {
+                                                                    "layout": {
+                                                                        "direction": "row",
+                                                                        "gap": 0,
+                                                                        "align": {
+                                                                            "main": "start",
+                                                                            "cross": "start"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "name": "mingcute-instagram-line",
+                                                                        "type": "INSTANCE",
+                                                                        "size": {
+                                                                            "w": 0,
+                                                                            "h": 0
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "frame-96",
+                                                                "type": "FRAME",
+                                                                "size": {
+                                                                    "w": 24,
+                                                                    "h": 24
+                                                                },
+                                                                "styles": {
+                                                                    "layout": {
+                                                                        "direction": "row",
+                                                                        "gap": 0,
+                                                                        "align": {
+                                                                            "main": "start",
+                                                                            "cross": "start"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "name": "jam-pinterest",
+                                                                        "type": "INSTANCE",
+                                                                        "size": {
+                                                                            "w": 0,
+                                                                            "h": 0
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "brand-identity-design-02-2",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 149,
+                            "h": 84
+                        }
+                    },
+                    {
+                        "name": "frame-144",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 106,
+                            "h": 42
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "column",
+                                "gap": 8,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                },
+                                "padding": [
+                                    8,
+                                    8,
+                                    8,
+                                    8
+                                ]
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "frame-99",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 90,
+                                    "h": 26
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 8,
+                                        "align": {
+                                            "main": "center",
+                                            "cross": "center"
+                                        },
+                                        "padding": [
+                                            8,
+                                            8,
+                                            8,
+                                            8
+                                        ]
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "-2025--winered",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 74,
+                                            "h": 10
+                                        },
+                                        "content": "@2025, WineRed",
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)",
+                                            "text": {
+                                                "family": "Fahkwang",
+                                                "size": 8,
+                                                "weight": "700",
+                                                "align": "center"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-146",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 328,
+                            "h": 74
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "column",
+                                "gap": 23,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "frame-142",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 328,
+                                    "h": 26
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "column",
+                                        "gap": 6,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "center"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "frame-92",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 328,
+                                            "h": 20
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 205,
+                                                "align": {
+                                                    "main": "space-between",
+                                                    "cross": "center"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "information",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 99,
+                                                    "h": 16
+                                                },
+                                                "content": "INFORMATION",
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)",
+                                                    "text": {
+                                                        "family": "Fahkwang",
+                                                        "size": 12,
+                                                        "weight": "700",
+                                                        "align": "center"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "frame-90",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 20,
+                                                    "h": 20
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "row",
+                                                        "gap": 0,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "start"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "ic-twotone-plus",
+                                                        "type": "INSTANCE",
+                                                        "size": {
+                                                            "w": 0,
+                                                            "h": 0
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "vector-5",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 328,
+                                            "h": 0
+                                        },
+                                        "styles": {
+                                            "border": {
+                                                "width": 1,
+                                                "color": "rgb(255, 255, 255)"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "frame-143",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 328,
+                                    "h": 25
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "column",
+                                        "gap": 5,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "center"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "frame-93",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 328,
+                                            "h": 20
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 181,
+                                                "align": {
+                                                    "main": "space-between",
+                                                    "cross": "center"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "customer-care",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 123,
+                                                    "h": 16
+                                                },
+                                                "content": "CUSTOMER CARE",
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)",
+                                                    "text": {
+                                                        "family": "Fahkwang",
+                                                        "size": 12,
+                                                        "weight": "700",
+                                                        "align": "center"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "frame-91",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 20,
+                                                    "h": 20
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "row",
+                                                        "gap": 0,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "start"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "ic-twotone-plus",
+                                                        "type": "INSTANCE",
+                                                        "size": {
+                                                            "w": 0,
+                                                            "h": 0
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "vector-6",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 328,
+                                            "h": 0
+                                        },
+                                        "styles": {
+                                            "border": {
+                                                "width": 1,
+                                                "color": "rgb(255, 255, 255)"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "summary": {
+        "components": 1,
+        "instances": 7,
+        "frames": 49,
+        "texts": 24,
+        "hasAutoLayout": true,
+        "hasEffects": false
+    }
+}

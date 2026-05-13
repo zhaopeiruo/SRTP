@@ -1,0 +1,716 @@
+{
+    "metadata": {
+        "exportedAt": "2026-05-09T07:16:16.697Z",
+        "componentName": "screen login",
+        "totalElements": 40,
+        "nestingDepth": 6,
+        "plugin": "Figma to JSON Exporter"
+    },
+    "designTokens": {
+        "colors": {
+            "color-rgb(70, 104, 254)": "rgb(70, 104, 254)",
+            "color-rgb(255, 255, 255)": "rgb(255, 255, 255)",
+            "color-rgb(74, 199, 238)": "rgb(74, 199, 238)",
+            "color-rgb(253, 253, 253)": "rgb(253, 253, 253)",
+            "color-rgb(196, 196, 196)": "rgb(196, 196, 196)",
+            "color-rgb(0, 0, 0)": "rgb(0, 0, 0)",
+            "color-rgb(142, 142, 147)": "rgb(142, 142, 147)"
+        },
+        "fonts": {
+            "raleway": {
+                "family": "Raleway",
+                "sizes": {
+                    "size-14": "14px",
+                    "size-20": "20px",
+                    "size-16": "16px"
+                },
+                "weights": {
+                    "weight-400": "400",
+                    "weight-700": "700"
+                }
+            },
+            "font-awesome-5-free": {
+                "family": "Font Awesome 5 Free",
+                "sizes": {
+                    "size-48": "48px"
+                },
+                "weights": {
+                    "weight-400": "400"
+                }
+            },
+            "heebo": {
+                "family": "Heebo",
+                "sizes": {
+                    "size-14": "14px"
+                },
+                "weights": {
+                    "weight-400": "400"
+                }
+            }
+        },
+        "spacing": {
+            "gap-10": "10px",
+            "padding-top-18": "18px",
+            "padding-right-127": "127px",
+            "padding-bottom-18": "18px",
+            "padding-left-127": "127px",
+            "gap-16": "16px",
+            "padding-top-8": "8px",
+            "padding-bottom-8": "8px",
+            "padding-top-120": "120px",
+            "padding-right-120": "120px",
+            "padding-bottom-120": "120px",
+            "padding-left-120": "120px"
+        },
+        "effects": {}
+    },
+    "structure": {
+        "name": "screen-login",
+        "type": "FRAME",
+        "size": {
+            "w": 390,
+            "h": 844
+        },
+        "styles": {
+            "bg": "rgb(70, 104, 254)",
+            "radius": 30,
+            "layout": {
+                "direction": "row",
+                "gap": 0,
+                "align": {
+                    "main": "start",
+                    "cross": "start"
+                }
+            }
+        },
+        "children": [
+            {
+                "name": "forgot-password",
+                "type": "FRAME",
+                "size": {
+                    "w": 138,
+                    "h": 16
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 10,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "i-forgot-the-password",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 137,
+                            "h": 16
+                        },
+                        "content": "I forgot the password",
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "text": {
+                                "family": "Raleway",
+                                "size": 14,
+                                "weight": "400",
+                                "align": "center"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "login-button",
+                "type": "FRAME",
+                "size": {
+                    "w": 358,
+                    "h": 59
+                },
+                "styles": {
+                    "bg": "rgb(74, 199, 238)",
+                    "radius": 100,
+                    "layout": {
+                        "direction": "row",
+                        "gap": 10,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        },
+                        "padding": [
+                            18,
+                            127,
+                            18,
+                            127
+                        ]
+                    }
+                },
+                "children": [
+                    {
+                        "name": "login",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 54,
+                            "h": 23
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 10,
+                                "align": {
+                                    "main": "center",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "login",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 54,
+                                    "h": 23
+                                },
+                                "content": "Login",
+                                "styles": {
+                                    "bg": "rgb(253, 253, 253)",
+                                    "text": {
+                                        "family": "Raleway",
+                                        "size": 20,
+                                        "weight": "700",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "password",
+                "type": "FRAME",
+                "size": {
+                    "w": 358,
+                    "h": 35
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 16,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "password",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 358,
+                            "h": 19
+                        },
+                        "content": "Password",
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "text": {
+                                "family": "Raleway",
+                                "size": 16,
+                                "weight": "400",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "line-11",
+                        "type": "LINE",
+                        "size": {
+                            "w": 358,
+                            "h": 0
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 1,
+                                "color": "rgb(255, 255, 255)"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "email",
+                "type": "FRAME",
+                "size": {
+                    "w": 358,
+                    "h": 35
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 16,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "e-mail",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 358,
+                            "h": 19
+                        },
+                        "content": "E-mail",
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "text": {
+                                "family": "Raleway",
+                                "size": 16,
+                                "weight": "400",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "line-11",
+                        "type": "LINE",
+                        "size": {
+                            "w": 358,
+                            "h": 0
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 1,
+                                "color": "rgb(255, 255, 255)"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "description",
+                "type": "FRAME",
+                "size": {
+                    "w": 279,
+                    "h": 77
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "column",
+                        "gap": 0,
+                        "align": {
+                            "main": "center",
+                            "cross": "center"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "title",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 209,
+                            "h": 23
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "center",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "welcome-to-nutriapp",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 209,
+                                    "h": 23
+                                },
+                                "content": "Welcome to NutriApp",
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)",
+                                    "text": {
+                                        "family": "Raleway",
+                                        "size": 20,
+                                        "weight": "700",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "description",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 279,
+                            "h": 54
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "center",
+                                    "cross": "center"
+                                },
+                                "padding": [
+                                    8,
+                                    0,
+                                    8,
+                                    0
+                                ]
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "access-your-profile-with-the-login-provided-by-the-nutritionist",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 263,
+                                    "h": 38
+                                },
+                                "content": "Access your profile with the login provided by the nutritionist",
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)",
+                                    "text": {
+                                        "family": "Raleway",
+                                        "size": 16,
+                                        "weight": "400",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "logo",
+                "type": "FRAME",
+                "size": {
+                    "w": 390,
+                    "h": 390
+                },
+                "styles": {
+                    "bg": "rgb(196, 196, 196)",
+                    "layout": {
+                        "direction": "row",
+                        "gap": 10,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        },
+                        "padding": [
+                            120,
+                            120,
+                            120,
+                            120
+                        ]
+                    }
+                },
+                "children": [
+                    {
+                        "name": "nutri-app",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 150,
+                            "h": 150
+                        },
+                        "children": [
+                            {
+                                "name": "ellipse-1",
+                                "type": "ELLIPSE",
+                                "size": {
+                                    "w": 150,
+                                    "h": 150
+                                },
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)"
+                                }
+                            },
+                            {
+                                "name": "seedling",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 48,
+                                    "h": 55
+                                },
+                                "content": "seedling",
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)",
+                                    "text": {
+                                        "family": "Font Awesome 5 Free",
+                                        "size": 48,
+                                        "weight": "400",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "status-bar",
+                "type": "FRAME",
+                "size": {
+                    "w": 390,
+                    "h": 43
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "wifi",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 15,
+                            "h": 11
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)"
+                        }
+                    },
+                    {
+                        "name": "battery",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 24,
+                            "h": 11
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "fill",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 18,
+                                    "h": 8
+                                },
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)"
+                                }
+                            },
+                            {
+                                "name": "outline",
+                                "type": "BOOLEAN_OPERATION",
+                                "size": {
+                                    "w": 24,
+                                    "h": 11
+                                },
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)"
+                                },
+                                "children": [
+                                    {
+                                        "name": "rectangle-2--stroke-",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 22,
+                                            "h": 11
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)"
+                                        }
+                                    },
+                                    {
+                                        "name": "subtract",
+                                        "type": "BOOLEAN_OPERATION",
+                                        "size": {
+                                            "w": 1,
+                                            "h": 4
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)"
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "ellipse-1",
+                                                "type": "ELLIPSE",
+                                                "size": {
+                                                    "w": 4,
+                                                    "h": 4
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)"
+                                                }
+                                            },
+                                            {
+                                                "name": "rectangle-4",
+                                                "type": "RECTANGLE",
+                                                "size": {
+                                                    "w": 2,
+                                                    "h": 4
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "reception",
+                        "type": "BOOLEAN_OPERATION",
+                        "size": {
+                            "w": 17,
+                            "h": 10
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)"
+                        },
+                        "children": [
+                            {
+                                "name": "signal",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 3,
+                                    "h": 5
+                                },
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)"
+                                }
+                            },
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 3,
+                                    "h": 6
+                                },
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)",
+                                    "radius": 1
+                                }
+                            },
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 3,
+                                    "h": 8
+                                },
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)",
+                                    "radius": 1
+                                }
+                            },
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 3,
+                                    "h": 10
+                                },
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)",
+                                    "radius": 1
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "time",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 27,
+                            "h": 14
+                        },
+                        "content": "7:02",
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "text": {
+                                "family": "Heebo",
+                                "size": 14,
+                                "weight": "400",
+                                "align": "center"
+                            }
+                        }
+                    },
+                    {
+                        "name": "notch",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 169,
+                            "h": 33
+                        },
+                        "children": [
+                            {
+                                "name": "notch",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 169,
+                                    "h": 33
+                                },
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)"
+                                }
+                            },
+                            {
+                                "name": "rectangle-",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 49,
+                                    "h": 6
+                                },
+                                "styles": {
+                                    "bg": "rgb(142, 142, 147)",
+                                    "radius": 9
+                                }
+                            },
+                            {
+                                "name": "ellipse-",
+                                "type": "ELLIPSE",
+                                "size": {
+                                    "w": 8,
+                                    "h": 8
+                                },
+                                "styles": {
+                                    "bg": "rgb(142, 142, 147)"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "summary": {
+        "components": 0,
+        "instances": 0,
+        "frames": 12,
+        "texts": 8,
+        "hasAutoLayout": true,
+        "hasEffects": false
+    }
+}

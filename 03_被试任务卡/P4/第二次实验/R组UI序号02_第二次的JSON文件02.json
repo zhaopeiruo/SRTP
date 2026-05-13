@@ -1,0 +1,1287 @@
+{
+    "metadata": {
+        "exportedAt": "2026-05-09T07:09:00.501Z",
+        "componentName": "mian",
+        "totalElements": 88,
+        "nestingDepth": 4,
+        "plugin": "Figma to JSON Exporter"
+    },
+    "designTokens": {
+        "colors": {
+            "color-rgb(255, 255, 255)": "rgb(255, 255, 255)",
+            "color-rgb(0, 0, 0)": "rgb(0, 0, 0)",
+            "color-rgb(34, 34, 34)": "rgb(34, 34, 34)",
+            "color-rgb(51, 54, 63)": "rgb(51, 54, 63)",
+            "color-rgb(252, 37, 37)": "rgb(252, 37, 37)",
+            "color-rgb(217, 217, 217)": "rgb(217, 217, 217)",
+            "color-rgb(44, 44, 44)": "rgb(44, 44, 44)",
+            "color-rgb(38, 38, 38)": "rgb(38, 38, 38)",
+            "color-rgb(40, 40, 40)": "rgb(40, 40, 40)"
+        },
+        "fonts": {
+            "inter": {
+                "family": "Inter",
+                "sizes": {
+                    "size-16": "16px",
+                    "size-12": "12px",
+                    "size-14": "14px",
+                    "size-20": "20px",
+                    "size-10": "10px"
+                },
+                "weights": {
+                    "weight-400": "400",
+                    "weight-500": "500"
+                }
+            }
+        },
+        "spacing": {},
+        "effects": {}
+    },
+    "structure": {
+        "name": "mian",
+        "type": "FRAME",
+        "size": {
+            "w": 430,
+            "h": 932
+        },
+        "styles": {
+            "bg": "rgb(255, 255, 255)",
+            "border": {
+                "width": 6,
+                "color": "rgb(90, 90, 90)"
+            },
+            "radius": 45,
+            "layout": {
+                "direction": "row",
+                "gap": 0,
+                "align": {
+                    "main": "start",
+                    "cross": "start"
+                }
+            }
+        },
+        "children": [
+            {
+                "name": "bar",
+                "type": "GROUP",
+                "size": {
+                    "w": 376,
+                    "h": 19
+                },
+                "children": [
+                    {
+                        "name": "ellipse-28",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 9,
+                            "h": 9
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)"
+                        }
+                    },
+                    {
+                        "name": "ellipse-29",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 9,
+                            "h": 9
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)"
+                        }
+                    },
+                    {
+                        "name": "ellipse-30",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 9,
+                            "h": 9
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)"
+                        }
+                    },
+                    {
+                        "name": "9-45",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 34,
+                            "h": 19
+                        },
+                        "content": "9:45",
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "text": {
+                                "family": "Inter",
+                                "size": 16,
+                                "weight": "400",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "vector-5",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 24,
+                            "h": 17
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)"
+                        }
+                    },
+                    {
+                        "name": "98-",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 25,
+                            "h": 15
+                        },
+                        "content": "98%",
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "text": {
+                                "family": "Inter",
+                                "size": 12,
+                                "weight": "400",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "vector",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 24,
+                            "h": 10
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "line-8",
+                "type": "LINE",
+                "size": {
+                    "w": 64,
+                    "h": 0
+                },
+                "styles": {
+                    "border": {
+                        "width": 1,
+                        "color": "rgb(0, 0, 0)"
+                    }
+                }
+            },
+            {
+                "name": "line-9",
+                "type": "LINE",
+                "size": {
+                    "w": 37,
+                    "h": 0
+                },
+                "styles": {
+                    "border": {
+                        "width": 1,
+                        "color": "rgb(0, 0, 0)"
+                    }
+                }
+            },
+            {
+                "name": "line-10",
+                "type": "LINE",
+                "size": {
+                    "w": 37,
+                    "h": 0
+                },
+                "styles": {
+                    "border": {
+                        "width": 1,
+                        "color": "rgb(0, 0, 0)"
+                    }
+                }
+            },
+            {
+                "name": "bell_pin_fill",
+                "type": "COMPONENT",
+                "size": {
+                    "w": 35,
+                    "h": 35
+                },
+                "component": {
+                    "type": "main",
+                    "name": null
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "subtract",
+                        "type": "BOOLEAN_OPERATION",
+                        "size": {
+                            "w": 25,
+                            "h": 20
+                        },
+                        "styles": {
+                            "bg": "rgb(34, 34, 34)"
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle-1",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 26,
+                                    "h": 20
+                                },
+                                "styles": {
+                                    "bg": "rgb(51, 54, 63)"
+                                }
+                            },
+                            {
+                                "name": "ellipse-46",
+                                "type": "ELLIPSE",
+                                "size": {
+                                    "w": 6,
+                                    "h": 6
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 3,
+                                        "color": "rgb(51, 54, 63)"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ellipse-45",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 9,
+                            "h": 9
+                        },
+                        "styles": {
+                            "bg": "rgb(34, 34, 34)"
+                        }
+                    },
+                    {
+                        "name": "ellipse-6",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 6,
+                            "h": 6
+                        },
+                        "styles": {
+                            "bg": "rgb(252, 37, 37)",
+                            "border": {
+                                "width": 1,
+                                "color": "rgb(252, 37, 37)"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "search",
+                "type": "GROUP",
+                "size": {
+                    "w": 382,
+                    "h": 41
+                },
+                "children": [
+                    {
+                        "name": "rectangle-98",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 382,
+                            "h": 41
+                        },
+                        "styles": {
+                            "bg": "rgb(217, 217, 217)",
+                            "radius": 50
+                        }
+                    },
+                    {
+                        "name": "what-are-you-looking-for-",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 187,
+                            "h": 19
+                        },
+                        "content": "What are you looking for?",
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "text": {
+                                "family": "Inter",
+                                "size": 16,
+                                "weight": "400",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "search_light",
+                        "type": "COMPONENT",
+                        "size": {
+                            "w": 35,
+                            "h": 35
+                        },
+                        "component": {
+                            "type": "main",
+                            "name": null
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "ellipse-65",
+                                "type": "ELLIPSE",
+                                "size": {
+                                    "w": 18,
+                                    "h": 18
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 1,
+                                        "color": "rgb(34, 34, 34)"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "vector-109",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 4,
+                                    "h": 4
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 1,
+                                        "color": "rgb(34, 34, 34)"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "gallery",
+                "type": "GROUP",
+                "size": {
+                    "w": 382,
+                    "h": 208
+                },
+                "children": [
+                    {
+                        "name": "ellipse-31",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 9,
+                            "h": 9
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)"
+                        }
+                    },
+                    {
+                        "name": "ellipse-32",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 9,
+                            "h": 9
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)"
+                        }
+                    },
+                    {
+                        "name": "ellipse-35",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 9,
+                            "h": 9
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)"
+                        }
+                    },
+                    {
+                        "name": "ellipse-36",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 9,
+                            "h": 9
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)"
+                        }
+                    },
+                    {
+                        "name": "rectangle-99",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 382,
+                            "h": 192
+                        },
+                        "styles": {
+                            "bg": "rgb(44, 44, 44)",
+                            "radius": 10
+                        }
+                    },
+                    {
+                        "name": "img",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 48,
+                            "h": 48
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle-101",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 48,
+                                    "h": 48
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 3,
+                                        "color": "rgb(0, 0, 0)"
+                                    },
+                                    "radius": 16
+                                }
+                            },
+                            {
+                                "name": "ellipse-70",
+                                "type": "ELLIPSE",
+                                "size": {
+                                    "w": 9,
+                                    "h": 9
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 3,
+                                        "color": "rgb(0, 0, 0)"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "vector-110",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 44,
+                                    "h": 18
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 3,
+                                        "color": "rgb(0, 0, 0)"
+                                    },
+                                    "radius": 3
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "rectangle-100",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 120,
+                    "h": 32
+                },
+                "styles": {
+                    "bg": "rgb(0, 0, 0)",
+                    "radius": 10
+                }
+            },
+            {
+                "name": "shop-now",
+                "type": "TEXT",
+                "size": {
+                    "w": 67,
+                    "h": 17
+                },
+                "content": "Shop Now",
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "text": {
+                        "family": "Inter",
+                        "size": 14,
+                        "weight": "500",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "brands",
+                "type": "GROUP",
+                "size": {
+                    "w": 427,
+                    "h": 123
+                },
+                "children": [
+                    {
+                        "name": "brands",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 68,
+                            "h": 21
+                        },
+                        "content": "Brands",
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "text": {
+                                "family": "Inter",
+                                "size": 20,
+                                "weight": "500",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "ellipse-66",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 88,
+                            "h": 88
+                        },
+                        "styles": {
+                            "bg": "rgb(217, 217, 217)"
+                        }
+                    },
+                    {
+                        "name": "ellipse-67",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 88,
+                            "h": 88
+                        },
+                        "styles": {
+                            "bg": "rgb(217, 217, 217)"
+                        }
+                    },
+                    {
+                        "name": "ellipse-68",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 88,
+                            "h": 88
+                        },
+                        "styles": {
+                            "bg": "rgb(217, 217, 217)"
+                        }
+                    },
+                    {
+                        "name": "ellipse-69",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 88,
+                            "h": 88
+                        },
+                        "styles": {
+                            "bg": "rgb(217, 217, 217)"
+                        }
+                    },
+                    {
+                        "name": "vans-1",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 53,
+                            "h": 53
+                        }
+                    },
+                    {
+                        "name": "vector",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 55,
+                            "h": 20
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)"
+                        }
+                    },
+                    {
+                        "name": "vector",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 55,
+                            "h": 39
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)"
+                        }
+                    },
+                    {
+                        "name": "icons8-reebok-an-english-footwear-and-apparel-company-produces-and-distributes-sportswear-clothing-and-footwear-48-1",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 53,
+                            "h": 53
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "bottom-bar",
+                "type": "GROUP",
+                "size": {
+                    "w": 382,
+                    "h": 73
+                },
+                "children": [
+                    {
+                        "name": "rectangle-104",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 382,
+                            "h": 73
+                        },
+                        "styles": {
+                            "bg": "rgb(38, 38, 38)",
+                            "radius": 50
+                        }
+                    },
+                    {
+                        "name": "favorite",
+                        "type": "COMPONENT",
+                        "size": {
+                            "w": 24,
+                            "h": 24
+                        },
+                        "component": {
+                            "type": "main",
+                            "name": null
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "vector-15",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 22,
+                                    "h": 20
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 2,
+                                        "color": "rgb(226, 226, 226)"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "user",
+                        "type": "COMPONENT",
+                        "size": {
+                            "w": 24,
+                            "h": 24
+                        },
+                        "component": {
+                            "type": "main",
+                            "name": null
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "ellipse-45",
+                                "type": "ELLIPSE",
+                                "size": {
+                                    "w": 16,
+                                    "h": 12
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 2,
+                                        "color": "rgb(226, 226, 226)"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "ellipse-46",
+                                "type": "ELLIPSE",
+                                "size": {
+                                    "w": 8,
+                                    "h": 8
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 2,
+                                        "color": "rgb(226, 226, 226)"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "home-1",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 32,
+                            "h": 32
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "vector",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 25,
+                                    "h": 26
+                                },
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)",
+                                    "border": {
+                                        "width": 2,
+                                        "color": "rgb(255, 255, 255)"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "search",
+                        "type": "COMPONENT",
+                        "size": {
+                            "w": 24,
+                            "h": 24
+                        },
+                        "component": {
+                            "type": "main",
+                            "name": null
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "ellipse-65",
+                                "type": "ELLIPSE",
+                                "size": {
+                                    "w": 14,
+                                    "h": 14
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 2,
+                                        "color": "rgb(226, 226, 226)"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "vector-109",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 3,
+                                    "h": 3
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 2,
+                                        "color": "rgb(226, 226, 226)"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "trending",
+                "type": "GROUP",
+                "size": {
+                    "w": 438,
+                    "h": 181
+                },
+                "children": [
+                    {
+                        "name": "trending",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 83,
+                            "h": 24
+                        },
+                        "content": "Trending",
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "text": {
+                                "family": "Inter",
+                                "size": 20,
+                                "weight": "500",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "rectangle-100",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 133,
+                            "h": 133
+                        },
+                        "styles": {
+                            "bg": "rgb(44, 44, 44)",
+                            "radius": 10
+                        }
+                    },
+                    {
+                        "name": "rectangle-101",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 133,
+                            "h": 133
+                        },
+                        "styles": {
+                            "bg": "rgb(44, 44, 44)",
+                            "radius": 10
+                        }
+                    },
+                    {
+                        "name": "rectangle-102",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 133,
+                            "h": 133
+                        },
+                        "styles": {
+                            "bg": "rgb(44, 44, 44)",
+                            "radius": 10
+                        }
+                    },
+                    {
+                        "name": "img",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 48,
+                            "h": 48
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle-101",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 48,
+                                    "h": 48
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 3,
+                                        "color": "rgb(67, 67, 67)"
+                                    },
+                                    "radius": 16
+                                }
+                            },
+                            {
+                                "name": "ellipse-70",
+                                "type": "ELLIPSE",
+                                "size": {
+                                    "w": 9,
+                                    "h": 9
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 3,
+                                        "color": "rgb(67, 67, 67)"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "vector-110",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 44,
+                                    "h": 18
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 3,
+                                        "color": "rgb(67, 67, 67)"
+                                    },
+                                    "radius": 3
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "img",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 48,
+                            "h": 48
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle-101",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 48,
+                                    "h": 48
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 3,
+                                        "color": "rgb(67, 67, 67)"
+                                    },
+                                    "radius": 16
+                                }
+                            },
+                            {
+                                "name": "ellipse-70",
+                                "type": "ELLIPSE",
+                                "size": {
+                                    "w": 9,
+                                    "h": 9
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 3,
+                                        "color": "rgb(67, 67, 67)"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "vector-110",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 44,
+                                    "h": 18
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 3,
+                                        "color": "rgb(67, 67, 67)"
+                                    },
+                                    "radius": 3
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "img",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 48,
+                            "h": 48
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle-101",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 48,
+                                    "h": 48
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 3,
+                                        "color": "rgb(67, 67, 67)"
+                                    },
+                                    "radius": 16
+                                }
+                            },
+                            {
+                                "name": "ellipse-70",
+                                "type": "ELLIPSE",
+                                "size": {
+                                    "w": 9,
+                                    "h": 9
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 3,
+                                        "color": "rgb(67, 67, 67)"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "vector-110",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 44,
+                                    "h": 18
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 3,
+                                        "color": "rgb(67, 67, 67)"
+                                    },
+                                    "radius": 3
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "vector-16",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 17,
+                            "h": 15
+                        },
+                        "styles": {
+                            "bg": "rgb(40, 40, 40)",
+                            "border": {
+                                "width": 2,
+                                "color": "rgb(51, 54, 63)"
+                            }
+                        }
+                    },
+                    {
+                        "name": "vector-17",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 17,
+                            "h": 15
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 2,
+                                "color": "rgb(51, 54, 63)"
+                            }
+                        }
+                    },
+                    {
+                        "name": "vector-18",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 22,
+                            "h": 20
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 2,
+                                "color": "rgb(51, 54, 63)"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "nike---air-force-1",
+                "type": "TEXT",
+                "size": {
+                    "w": 92,
+                    "h": 15
+                },
+                "content": "Nike - Air force 1",
+                "styles": {
+                    "bg": "rgb(0, 0, 0)",
+                    "text": {
+                        "family": "Inter",
+                        "size": 12,
+                        "weight": "500",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "nike---zion-1",
+                "type": "TEXT",
+                "size": {
+                    "w": 89,
+                    "h": 15
+                },
+                "content": "Nike - Zion 1",
+                "styles": {
+                    "bg": "rgb(0, 0, 0)",
+                    "text": {
+                        "family": "Inter",
+                        "size": 12,
+                        "weight": "500",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "adidas---nmd",
+                "type": "TEXT",
+                "size": {
+                    "w": 81,
+                    "h": 15
+                },
+                "content": "Adidas - NMD",
+                "styles": {
+                    "bg": "rgb(0, 0, 0)",
+                    "text": {
+                        "family": "Inter",
+                        "size": 12,
+                        "weight": "500",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "star_light",
+                "type": "COMPONENT",
+                "size": {
+                    "w": 15,
+                    "h": 15
+                },
+                "component": {
+                    "type": "main",
+                    "name": null
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "star-1",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 11,
+                            "h": 10
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 1,
+                                "color": "rgb(34, 34, 34)"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "star_light",
+                "type": "INSTANCE",
+                "size": {
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "name": "star_light",
+                "type": "INSTANCE",
+                "size": {
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "name": "4-5",
+                "type": "TEXT",
+                "size": {
+                    "w": 15,
+                    "h": 12
+                },
+                "content": "4.5",
+                "styles": {
+                    "bg": "rgb(0, 0, 0)",
+                    "text": {
+                        "family": "Inter",
+                        "size": 10,
+                        "weight": "500",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "4-5",
+                "type": "TEXT",
+                "size": {
+                    "w": 15,
+                    "h": 12
+                },
+                "content": "4.5",
+                "styles": {
+                    "bg": "rgb(0, 0, 0)",
+                    "text": {
+                        "family": "Inter",
+                        "size": 10,
+                        "weight": "500",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "3-9",
+                "type": "TEXT",
+                "size": {
+                    "w": 16,
+                    "h": 12
+                },
+                "content": "3.9",
+                "styles": {
+                    "bg": "rgb(0, 0, 0)",
+                    "text": {
+                        "family": "Inter",
+                        "size": 10,
+                        "weight": "500",
+                        "align": "left"
+                    }
+                }
+            }
+        ]
+    },
+    "summary": {
+        "components": 6,
+        "instances": 2,
+        "frames": 2,
+        "texts": 12,
+        "hasAutoLayout": true,
+        "hasEffects": false
+    }
+}

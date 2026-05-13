@@ -1,0 +1,150 @@
+{
+    "metadata": {
+        "exportedAt": "2026-05-09T07:58:30.049Z",
+        "componentName": "Homepage",
+        "totalElements": 7,
+        "nestingDepth": 2,
+        "plugin": "Figma to JSON Exporter"
+    },
+    "designTokens": {
+        "colors": {
+            "color-rgb(255, 255, 255)": "rgb(255, 255, 255)",
+            "color-rgb(244, 196, 196)": "rgb(244, 196, 196)",
+            "color-rgb(230, 22, 22)": "rgb(230, 22, 22)"
+        },
+        "fonts": {
+            "inter": {
+                "family": "Inter",
+                "sizes": {
+                    "size-24": "24px"
+                },
+                "weights": {
+                    "weight-400": "400"
+                }
+            }
+        },
+        "spacing": {},
+        "effects": {}
+    },
+    "structure": {
+        "name": "homepage",
+        "type": "FRAME",
+        "size": {
+            "w": 360,
+            "h": 800
+        },
+        "styles": {
+            "layout": {
+                "direction": "row",
+                "gap": 0,
+                "align": {
+                    "main": "start",
+                    "cross": "start"
+                }
+            }
+        },
+        "children": [
+            {
+                "name": "image-1",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 217,
+                    "h": 229
+                },
+                "styles": {
+                    "radius": 28
+                }
+            },
+            {
+                "name": "rectangle-1",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 255,
+                    "h": 59
+                },
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "radius": 45
+                }
+            },
+            {
+                "name": "rectangle-2",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 255,
+                    "h": 59
+                },
+                "styles": {
+                    "bg": "rgb(244, 196, 196)",
+                    "border": {
+                        "width": 1,
+                        "color": "rgb(255, 255, 255)"
+                    },
+                    "radius": 45
+                }
+            },
+            {
+                "name": "log-in",
+                "type": "TEXT",
+                "size": {
+                    "w": 182,
+                    "h": 48
+                },
+                "content": "Log in",
+                "styles": {
+                    "bg": "rgb(230, 22, 22)",
+                    "text": {
+                        "family": "Inter",
+                        "size": 24,
+                        "weight": "400",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "create-account",
+                "type": "TEXT",
+                "size": {
+                    "w": 211,
+                    "h": 52
+                },
+                "content": "Create account",
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "text": {
+                        "family": "Inter",
+                        "size": 24,
+                        "weight": "400",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "frame-3",
+                "type": "FRAME",
+                "size": {
+                    "w": 100,
+                    "h": 100
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "summary": {
+        "components": 0,
+        "instances": 0,
+        "frames": 2,
+        "texts": 2,
+        "hasAutoLayout": true,
+        "hasEffects": false
+    }
+}

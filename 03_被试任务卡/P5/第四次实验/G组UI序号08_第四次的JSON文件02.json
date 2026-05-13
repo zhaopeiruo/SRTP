@@ -1,0 +1,2398 @@
+{
+    "metadata": {
+        "exportedAt": "2026-05-09T07:50:48.576Z",
+        "componentName": "My order",
+        "totalElements": 126,
+        "nestingDepth": 9,
+        "plugin": "Figma to JSON Exporter"
+    },
+    "designTokens": {
+        "colors": {
+            "color-rgb(255, 255, 255)": "rgb(255, 255, 255)",
+            "color-rgb(0, 0, 0)": "rgb(0, 0, 0)",
+            "color-rgb(230, 210, 217)": "rgb(230, 210, 217)",
+            "color-rgb(134, 31, 66)": "rgb(134, 31, 66)",
+            "color-rgb(253, 250, 240)": "rgb(253, 250, 240)",
+            "color-rgb(217, 217, 217)": "rgb(217, 217, 217)",
+            "color-rgb(24, 22, 23)": "rgb(24, 22, 23)"
+        },
+        "fonts": {
+            "dm-sans": {
+                "family": "DM Sans",
+                "sizes": {
+                    "size-12": "12px",
+                    "size-14": "14px",
+                    "size-16": "16px"
+                },
+                "weights": {
+                    "weight-700": "700",
+                    "weight-400": "400",
+                    "weight-500": "500"
+                }
+            },
+            "fahkwang": {
+                "family": "Fahkwang",
+                "sizes": {
+                    "size-14": "14px",
+                    "size-12": "12px",
+                    "size-16": "16px",
+                    "size-8": "8px"
+                },
+                "weights": {
+                    "weight-700": "700"
+                }
+            }
+        },
+        "spacing": {
+            "padding-right-20": "20px",
+            "padding-left-20": "20px",
+            "gap-109": "109px",
+            "gap-11": "11px",
+            "gap-19": "19px",
+            "padding-right-16": "16px",
+            "padding-left-16": "16px",
+            "gap-13": "13px",
+            "gap-12": "12px",
+            "gap-8": "8px",
+            "gap-173": "173px",
+            "gap-122": "122px",
+            "padding-top-8": "8px",
+            "padding-right-8": "8px",
+            "padding-bottom-8": "8px",
+            "padding-left-8": "8px",
+            "padding-top-10": "10px",
+            "padding-right-10": "10px",
+            "padding-bottom-10": "10px",
+            "padding-left-10": "10px",
+            "gap-33": "33px",
+            "gap-9": "9px",
+            "gap-2": "2px",
+            "gap-25": "25px",
+            "gap-23": "23px",
+            "gap-18": "18px",
+            "gap-6": "6px",
+            "gap-205": "205px",
+            "gap-5": "5px",
+            "gap-181": "181px"
+        },
+        "effects": {}
+    },
+    "structure": {
+        "name": "my-order",
+        "type": "FRAME",
+        "size": {
+            "w": 393,
+            "h": 1131
+        },
+        "styles": {
+            "bg": "rgb(255, 255, 255)",
+            "layout": {
+                "direction": "row",
+                "gap": 0,
+                "align": {
+                    "main": "start",
+                    "cross": "start"
+                }
+            }
+        },
+        "children": [
+            {
+                "name": "sale",
+                "type": "INSTANCE",
+                "size": {
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "name": "navigation-bar",
+                "type": "FRAME",
+                "size": {
+                    "w": 393,
+                    "h": 50
+                },
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "layout": {
+                        "direction": "row",
+                        "gap": 109,
+                        "align": {
+                            "main": "space-between",
+                            "cross": "center"
+                        },
+                        "padding": [
+                            0,
+                            20,
+                            0,
+                            20
+                        ]
+                    }
+                },
+                "children": [
+                    {
+                        "name": "frame-17",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 144,
+                            "h": 64
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 11,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "pajamas-hamburger",
+                                "type": "INSTANCE",
+                                "size": {
+                                    "w": 0,
+                                    "h": 0
+                                }
+                            },
+                            {
+                                "name": "brand-identity-design-02-1",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 114,
+                                    "h": 64
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-16",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 109,
+                            "h": 24
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 19,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "circum-search",
+                                "type": "INSTANCE",
+                                "size": {
+                                    "w": 0,
+                                    "h": 0
+                                }
+                            },
+                            {
+                                "name": "solar-heart-linear",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 24,
+                                    "h": 24
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "vector",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 22,
+                                            "h": 19
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(0, 0, 0)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "bytesize-cart",
+                                "type": "INSTANCE",
+                                "size": {
+                                    "w": 0,
+                                    "h": 0
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "frame-278",
+                "type": "FRAME",
+                "size": {
+                    "w": 393,
+                    "h": 21
+                },
+                "styles": {
+                    "bg": "rgb(230, 210, 217)",
+                    "layout": {
+                        "direction": "row",
+                        "gap": 13,
+                        "align": {
+                            "main": "start",
+                            "cross": "center"
+                        },
+                        "padding": [
+                            0,
+                            16,
+                            0,
+                            16
+                        ]
+                    }
+                },
+                "children": [
+                    {
+                        "name": "material-symbols-light-home-outline",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 19,
+                            "h": 19
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "vector",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 11,
+                                    "h": 12
+                                },
+                                "styles": {
+                                    "bg": "rgb(134, 31, 66)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "weui-arrow-filled",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 6,
+                            "h": 13
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "vector",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 4,
+                                    "h": 7
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 1,
+                                        "color": "rgb(134, 31, 66)"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "my-order",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 53,
+                            "h": 14
+                        },
+                        "content": "My order",
+                        "styles": {
+                            "bg": "rgb(134, 31, 66)",
+                            "text": {
+                                "family": "DM Sans",
+                                "size": 12,
+                                "weight": "700",
+                                "align": "left"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "frame-361",
+                "type": "FRAME",
+                "size": {
+                    "w": 398,
+                    "h": 282
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "column",
+                        "gap": 12,
+                        "align": {
+                            "main": "start",
+                            "cross": "center"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "frame-360",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 398,
+                            "h": 242
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "column",
+                                "gap": 12,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "frame-359",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 398,
+                                    "h": 82
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "column",
+                                        "gap": 8,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "center"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "frame-358",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 398,
+                                            "h": 52
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "column",
+                                                "gap": 13,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "center"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "frame-355",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 361,
+                                                    "h": 39
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "column",
+                                                        "gap": 11,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "start"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "order-id",
+                                                        "type": "TEXT",
+                                                        "size": {
+                                                            "w": 361,
+                                                            "h": 14
+                                                        },
+                                                        "content": "Order ID",
+                                                        "styles": {
+                                                            "bg": "rgb(134, 31, 66)",
+                                                            "text": {
+                                                                "family": "Fahkwang",
+                                                                "size": 14,
+                                                                "weight": "700",
+                                                                "align": "left"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "frame-354",
+                                                        "type": "FRAME",
+                                                        "size": {
+                                                            "w": 361,
+                                                            "h": 14
+                                                        },
+                                                        "styles": {
+                                                            "layout": {
+                                                                "direction": "row",
+                                                                "gap": 173,
+                                                                "align": {
+                                                                    "main": "space-between",
+                                                                    "cross": "center"
+                                                                }
+                                                            }
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "name": "winered123401",
+                                                                "type": "TEXT",
+                                                                "size": {
+                                                                    "w": 107,
+                                                                    "h": 14
+                                                                },
+                                                                "content": "WineRed123401",
+                                                                "styles": {
+                                                                    "bg": "rgb(134, 31, 66)",
+                                                                    "text": {
+                                                                        "family": "DM Sans",
+                                                                        "size": 14,
+                                                                        "weight": "700",
+                                                                        "align": "left"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "name": "17-06-2025",
+                                                                "type": "TEXT",
+                                                                "size": {
+                                                                    "w": 66,
+                                                                    "h": 14
+                                                                },
+                                                                "content": "17/06/2025",
+                                                                "styles": {
+                                                                    "bg": "rgb(134, 31, 66)",
+                                                                    "text": {
+                                                                        "family": "DM Sans",
+                                                                        "size": 12,
+                                                                        "weight": "700",
+                                                                        "align": "left"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "vector-36",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 398,
+                                                    "h": 0
+                                                },
+                                                "styles": {
+                                                    "border": {
+                                                        "width": 1,
+                                                        "color": "rgb(230, 210, 217)"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "frame-357",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 361,
+                                            "h": 22
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 122,
+                                                "align": {
+                                                    "main": "space-between",
+                                                    "cross": "center"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "frame-356",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 92,
+                                                    "h": 22
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "row",
+                                                        "gap": 12,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "center"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "frame-344",
+                                                        "type": "FRAME",
+                                                        "size": {
+                                                            "w": 92,
+                                                            "h": 22
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(230, 210, 217)",
+                                                            "radius": 3,
+                                                            "layout": {
+                                                                "direction": "row",
+                                                                "gap": 8,
+                                                                "align": {
+                                                                    "main": "center",
+                                                                    "cross": "center"
+                                                                },
+                                                                "padding": [
+                                                                    8,
+                                                                    8,
+                                                                    8,
+                                                                    8
+                                                                ]
+                                                            }
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "name": "not-delivered",
+                                                                "type": "TEXT",
+                                                                "size": {
+                                                                    "w": 76,
+                                                                    "h": 14
+                                                                },
+                                                                "content": "Not Delivered",
+                                                                "styles": {
+                                                                    "bg": "rgb(134, 31, 66)",
+                                                                    "text": {
+                                                                        "family": "DM Sans",
+                                                                        "size": 12,
+                                                                        "weight": "400",
+                                                                        "align": "left"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "frame-357",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 95,
+                                                    "h": 22
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(134, 31, 66)",
+                                                    "radius": 3,
+                                                    "layout": {
+                                                        "direction": "row",
+                                                        "gap": 8,
+                                                        "align": {
+                                                            "main": "center",
+                                                            "cross": "center"
+                                                        },
+                                                        "padding": [
+                                                            8,
+                                                            8,
+                                                            8,
+                                                            8
+                                                        ]
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "track-order",
+                                                        "type": "TEXT",
+                                                        "size": {
+                                                            "w": 79,
+                                                            "h": 14
+                                                        },
+                                                        "content": "Track Order",
+                                                        "styles": {
+                                                            "bg": "rgb(255, 255, 255)",
+                                                            "text": {
+                                                                "family": "Fahkwang",
+                                                                "size": 12,
+                                                                "weight": "700",
+                                                                "align": "left"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "frame-291",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 362,
+                                    "h": 148
+                                },
+                                "styles": {
+                                    "bg": "rgb(253, 250, 240)",
+                                    "radius": 10,
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 33,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "center"
+                                        },
+                                        "padding": [
+                                            10,
+                                            10,
+                                            10,
+                                            10
+                                        ]
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "mask-group",
+                                        "type": "GROUP",
+                                        "size": {
+                                            "w": 99,
+                                            "h": 136
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "rectangle-36",
+                                                "type": "RECTANGLE",
+                                                "size": {
+                                                    "w": 99,
+                                                    "h": 136
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(217, 217, 217)",
+                                                    "radius": 3
+                                                }
+                                            },
+                                            {
+                                                "name": "8-3",
+                                                "type": "RECTANGLE",
+                                                "size": {
+                                                    "w": 101,
+                                                    "h": 135
+                                                },
+                                                "styles": {
+                                                    "radius": 10
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "frame-288",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 190,
+                                            "h": 120
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "column",
+                                                "gap": 9,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "frame-284",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 154,
+                                                    "h": 60
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "column",
+                                                        "gap": 2,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "start"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "women-yellow-solid-trouser",
+                                                        "type": "TEXT",
+                                                        "size": {
+                                                            "w": 154,
+                                                            "h": 42
+                                                        },
+                                                        "content": "Women yellow Solid \nTrouser",
+                                                        "styles": {
+                                                            "bg": "rgb(0, 0, 0)",
+                                                            "text": {
+                                                                "family": "DM Sans",
+                                                                "size": 16,
+                                                                "weight": "500",
+                                                                "align": "left"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "s-yellow",
+                                                        "type": "TEXT",
+                                                        "size": {
+                                                            "w": 154,
+                                                            "h": 16
+                                                        },
+                                                        "content": "S/Yellow",
+                                                        "styles": {
+                                                            "bg": "rgb(24, 22, 23)",
+                                                            "text": {
+                                                                "family": "DM Sans",
+                                                                "size": 12,
+                                                                "weight": "400",
+                                                                "align": "left"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "frame-287",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 123,
+                                                    "h": 21
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "column",
+                                                        "gap": -12,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "start"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "frame-286",
+                                                        "type": "FRAME",
+                                                        "size": {
+                                                            "w": 123,
+                                                            "h": 21
+                                                        },
+                                                        "styles": {
+                                                            "layout": {
+                                                                "direction": "row",
+                                                                "gap": 9,
+                                                                "align": {
+                                                                    "main": "start",
+                                                                    "cross": "center"
+                                                                }
+                                                            }
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "name": "rs-1-499",
+                                                                "type": "TEXT",
+                                                                "size": {
+                                                                    "w": 61,
+                                                                    "h": 21
+                                                                },
+                                                                "content": "Rs 1,499",
+                                                                "styles": {
+                                                                    "bg": "rgb(0, 0, 0)",
+                                                                    "text": {
+                                                                        "family": "DM Sans",
+                                                                        "size": 16,
+                                                                        "weight": "500",
+                                                                        "align": "left"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "frame-288",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 123,
+                                                    "h": 21
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "column",
+                                                        "gap": -12,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "start"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "frame-286",
+                                                        "type": "FRAME",
+                                                        "size": {
+                                                            "w": 123,
+                                                            "h": 21
+                                                        },
+                                                        "styles": {
+                                                            "layout": {
+                                                                "direction": "row",
+                                                                "gap": 9,
+                                                                "align": {
+                                                                    "main": "start",
+                                                                    "cross": "center"
+                                                                }
+                                                            }
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "name": "total-items--1",
+                                                                "type": "TEXT",
+                                                                "size": {
+                                                                    "w": 123,
+                                                                    "h": 21
+                                                                },
+                                                                "content": "Total Items: 1",
+                                                                "styles": {
+                                                                    "bg": "rgb(0, 0, 0)",
+                                                                    "text": {
+                                                                        "family": "DM Sans",
+                                                                        "size": 16,
+                                                                        "weight": "500",
+                                                                        "align": "left"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-337",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 352,
+                            "h": 28
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 25,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "frame-333",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 100,
+                                    "h": 28
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 1,
+                                        "color": "rgb(134, 31, 66)"
+                                    },
+                                    "radius": 5,
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 19,
+                                        "align": {
+                                            "main": "center",
+                                            "cross": "center"
+                                        },
+                                        "padding": [
+                                            8,
+                                            8,
+                                            8,
+                                            8
+                                        ]
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "view-details",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 73,
+                                            "h": 16
+                                        },
+                                        "content": "View Details",
+                                        "styles": {
+                                            "bg": "rgb(134, 31, 66)",
+                                            "text": {
+                                                "family": "DM Sans",
+                                                "size": 12,
+                                                "weight": "700",
+                                                "align": "center"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "frame-334",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 103,
+                                    "h": 28
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 1,
+                                        "color": "rgb(134, 31, 66)"
+                                    },
+                                    "radius": 5,
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 8,
+                                        "align": {
+                                            "main": "center",
+                                            "cross": "center"
+                                        },
+                                        "padding": [
+                                            8,
+                                            8,
+                                            8,
+                                            8
+                                        ]
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "contact-us",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 66,
+                                            "h": 16
+                                        },
+                                        "content": "Contact Us",
+                                        "styles": {
+                                            "bg": "rgb(134, 31, 66)",
+                                            "text": {
+                                                "family": "DM Sans",
+                                                "size": 12,
+                                                "weight": "700",
+                                                "align": "center"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "frame-332",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 100,
+                                    "h": 28
+                                },
+                                "styles": {
+                                    "bg": "rgb(230, 210, 217)",
+                                    "radius": 5,
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 8,
+                                        "align": {
+                                            "main": "center",
+                                            "cross": "center"
+                                        },
+                                        "padding": [
+                                            8,
+                                            8,
+                                            8,
+                                            8
+                                        ]
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "cancel-order",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 79,
+                                            "h": 16
+                                        },
+                                        "content": "Cancel Order",
+                                        "styles": {
+                                            "bg": "rgb(134, 31, 66)",
+                                            "text": {
+                                                "family": "DM Sans",
+                                                "size": 12,
+                                                "weight": "700",
+                                                "align": "center"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "frame-362",
+                "type": "FRAME",
+                "size": {
+                    "w": 398,
+                    "h": 282
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "column",
+                        "gap": 12,
+                        "align": {
+                            "main": "start",
+                            "cross": "center"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "frame-360",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 398,
+                            "h": 242
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "column",
+                                "gap": 12,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "frame-359",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 398,
+                                    "h": 82
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "column",
+                                        "gap": 8,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "center"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "frame-358",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 398,
+                                            "h": 52
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "column",
+                                                "gap": 13,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "center"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "frame-355",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 361,
+                                                    "h": 39
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "column",
+                                                        "gap": 11,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "start"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "order-id",
+                                                        "type": "TEXT",
+                                                        "size": {
+                                                            "w": 361,
+                                                            "h": 14
+                                                        },
+                                                        "content": "Order ID",
+                                                        "styles": {
+                                                            "bg": "rgb(134, 31, 66)",
+                                                            "text": {
+                                                                "family": "Fahkwang",
+                                                                "size": 14,
+                                                                "weight": "700",
+                                                                "align": "left"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "frame-354",
+                                                        "type": "FRAME",
+                                                        "size": {
+                                                            "w": 361,
+                                                            "h": 14
+                                                        },
+                                                        "styles": {
+                                                            "layout": {
+                                                                "direction": "row",
+                                                                "gap": 173,
+                                                                "align": {
+                                                                    "main": "space-between",
+                                                                    "cross": "center"
+                                                                }
+                                                            }
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "name": "winered213490",
+                                                                "type": "TEXT",
+                                                                "size": {
+                                                                    "w": 111,
+                                                                    "h": 14
+                                                                },
+                                                                "content": "WineRed213490",
+                                                                "styles": {
+                                                                    "bg": "rgb(134, 31, 66)",
+                                                                    "text": {
+                                                                        "family": "DM Sans",
+                                                                        "size": 14,
+                                                                        "weight": "700",
+                                                                        "align": "left"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "name": "10-06-2025",
+                                                                "type": "TEXT",
+                                                                "size": {
+                                                                    "w": 68,
+                                                                    "h": 14
+                                                                },
+                                                                "content": "10/06/2025",
+                                                                "styles": {
+                                                                    "bg": "rgb(134, 31, 66)",
+                                                                    "text": {
+                                                                        "family": "DM Sans",
+                                                                        "size": 12,
+                                                                        "weight": "700",
+                                                                        "align": "left"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "vector-36",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 398,
+                                                    "h": 0
+                                                },
+                                                "styles": {
+                                                    "border": {
+                                                        "width": 1,
+                                                        "color": "rgb(230, 210, 217)"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "frame-357",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 361,
+                                            "h": 22
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 122,
+                                                "align": {
+                                                    "main": "space-between",
+                                                    "cross": "center"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "frame-356",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 148,
+                                                    "h": 22
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "row",
+                                                        "gap": 12,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "center"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "frame-345",
+                                                        "type": "FRAME",
+                                                        "size": {
+                                                            "w": 148,
+                                                            "h": 22
+                                                        },
+                                                        "styles": {
+                                                            "border": {
+                                                                "width": 0,
+                                                                "color": "rgb(134, 31, 66)"
+                                                            },
+                                                            "radius": 3,
+                                                            "layout": {
+                                                                "direction": "row",
+                                                                "gap": 8,
+                                                                "align": {
+                                                                    "main": "center",
+                                                                    "cross": "center"
+                                                                },
+                                                                "padding": [
+                                                                    8,
+                                                                    8,
+                                                                    8,
+                                                                    8
+                                                                ]
+                                                            }
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "name": "delivered-10-06-2025-10-00-am",
+                                                                "type": "TEXT",
+                                                                "size": {
+                                                                    "w": 141,
+                                                                    "h": 14
+                                                                },
+                                                                "content": "Delivered     10.06.2025    10:00 AM",
+                                                                "styles": {
+                                                                    "bg": "rgb(134, 31, 66)",
+                                                                    "text": {
+                                                                        "family": "DM Sans",
+                                                                        "size": 16,
+                                                                        "weight": "400",
+                                                                        "align": "center"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "frame-346",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 98,
+                                                    "h": 22
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(134, 31, 66)",
+                                                    "radius": 3,
+                                                    "layout": {
+                                                        "direction": "row",
+                                                        "gap": 8,
+                                                        "align": {
+                                                            "main": "center",
+                                                            "cross": "center"
+                                                        },
+                                                        "padding": [
+                                                            8,
+                                                            8,
+                                                            8,
+                                                            8
+                                                        ]
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "view-details",
+                                                        "type": "TEXT",
+                                                        "size": {
+                                                            "w": 82,
+                                                            "h": 14
+                                                        },
+                                                        "content": "View Details",
+                                                        "styles": {
+                                                            "bg": "rgb(255, 255, 255)",
+                                                            "text": {
+                                                                "family": "Fahkwang",
+                                                                "size": 12,
+                                                                "weight": "700",
+                                                                "align": "left"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "frame-291",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 362,
+                                    "h": 148
+                                },
+                                "styles": {
+                                    "bg": "rgb(253, 250, 240)",
+                                    "radius": 10,
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 33,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "center"
+                                        },
+                                        "padding": [
+                                            10,
+                                            10,
+                                            10,
+                                            10
+                                        ]
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "mask-group",
+                                        "type": "GROUP",
+                                        "size": {
+                                            "w": 99,
+                                            "h": 136
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "rectangle-36",
+                                                "type": "RECTANGLE",
+                                                "size": {
+                                                    "w": 99,
+                                                    "h": 136
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(217, 217, 217)",
+                                                    "radius": 3
+                                                }
+                                            },
+                                            {
+                                                "name": "8-3",
+                                                "type": "RECTANGLE",
+                                                "size": {
+                                                    "w": 101,
+                                                    "h": 135
+                                                },
+                                                "styles": {
+                                                    "radius": 10
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "frame-288",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 190,
+                                            "h": 120
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "column",
+                                                "gap": 9,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "frame-284",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 154,
+                                                    "h": 60
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "column",
+                                                        "gap": 2,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "start"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "women-jumpsuit-tropical-printed",
+                                                        "type": "TEXT",
+                                                        "size": {
+                                                            "w": 154,
+                                                            "h": 42
+                                                        },
+                                                        "content": "Women Jumpsuit tropical printed",
+                                                        "styles": {
+                                                            "bg": "rgb(0, 0, 0)",
+                                                            "text": {
+                                                                "family": "DM Sans",
+                                                                "size": 16,
+                                                                "weight": "500",
+                                                                "align": "left"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "s-yellow",
+                                                        "type": "TEXT",
+                                                        "size": {
+                                                            "w": 154,
+                                                            "h": 16
+                                                        },
+                                                        "content": "S/Yellow",
+                                                        "styles": {
+                                                            "bg": "rgb(24, 22, 23)",
+                                                            "text": {
+                                                                "family": "DM Sans",
+                                                                "size": 12,
+                                                                "weight": "400",
+                                                                "align": "left"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "frame-287",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 123,
+                                                    "h": 21
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "column",
+                                                        "gap": -12,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "start"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "frame-286",
+                                                        "type": "FRAME",
+                                                        "size": {
+                                                            "w": 123,
+                                                            "h": 21
+                                                        },
+                                                        "styles": {
+                                                            "layout": {
+                                                                "direction": "row",
+                                                                "gap": 9,
+                                                                "align": {
+                                                                    "main": "start",
+                                                                    "cross": "center"
+                                                                }
+                                                            }
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "name": "rs-1-499",
+                                                                "type": "TEXT",
+                                                                "size": {
+                                                                    "w": 61,
+                                                                    "h": 21
+                                                                },
+                                                                "content": "Rs 1,499",
+                                                                "styles": {
+                                                                    "bg": "rgb(0, 0, 0)",
+                                                                    "text": {
+                                                                        "family": "DM Sans",
+                                                                        "size": 16,
+                                                                        "weight": "500",
+                                                                        "align": "left"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "frame-288",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 123,
+                                                    "h": 21
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "column",
+                                                        "gap": -12,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "start"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "frame-286",
+                                                        "type": "FRAME",
+                                                        "size": {
+                                                            "w": 123,
+                                                            "h": 21
+                                                        },
+                                                        "styles": {
+                                                            "layout": {
+                                                                "direction": "row",
+                                                                "gap": 9,
+                                                                "align": {
+                                                                    "main": "start",
+                                                                    "cross": "center"
+                                                                }
+                                                            }
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "name": "total-items--1",
+                                                                "type": "TEXT",
+                                                                "size": {
+                                                                    "w": 123,
+                                                                    "h": 21
+                                                                },
+                                                                "content": "Total Items: 1",
+                                                                "styles": {
+                                                                    "bg": "rgb(0, 0, 0)",
+                                                                    "text": {
+                                                                        "family": "DM Sans",
+                                                                        "size": 16,
+                                                                        "weight": "500",
+                                                                        "align": "left"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-337",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 352,
+                            "h": 28
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 25,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "frame-333",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 100,
+                                    "h": 28
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 1,
+                                        "color": "rgb(134, 31, 66)"
+                                    },
+                                    "radius": 5,
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 19,
+                                        "align": {
+                                            "main": "center",
+                                            "cross": "center"
+                                        },
+                                        "padding": [
+                                            8,
+                                            8,
+                                            8,
+                                            8
+                                        ]
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "contact-us",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 66,
+                                            "h": 16
+                                        },
+                                        "content": "Contact Us",
+                                        "styles": {
+                                            "bg": "rgb(134, 31, 66)",
+                                            "text": {
+                                                "family": "DM Sans",
+                                                "size": 12,
+                                                "weight": "700",
+                                                "align": "center"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "frame-334",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 103,
+                                    "h": 28
+                                },
+                                "styles": {
+                                    "bg": "rgb(230, 210, 217)",
+                                    "radius": 5,
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 8,
+                                        "align": {
+                                            "main": "center",
+                                            "cross": "center"
+                                        },
+                                        "padding": [
+                                            8,
+                                            8,
+                                            8,
+                                            8
+                                        ]
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "exchange-order",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 94,
+                                            "h": 16
+                                        },
+                                        "content": "Exchange Order",
+                                        "styles": {
+                                            "bg": "rgb(134, 31, 66)",
+                                            "text": {
+                                                "family": "DM Sans",
+                                                "size": 12,
+                                                "weight": "700",
+                                                "align": "center"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "frame-332",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 100,
+                                    "h": 28
+                                },
+                                "styles": {
+                                    "bg": "rgb(230, 210, 217)",
+                                    "radius": 5,
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 8,
+                                        "align": {
+                                            "main": "center",
+                                            "cross": "center"
+                                        },
+                                        "padding": [
+                                            8,
+                                            8,
+                                            8,
+                                            8
+                                        ]
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "return-order",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 77,
+                                            "h": 16
+                                        },
+                                        "content": "Return Order",
+                                        "styles": {
+                                            "bg": "rgb(134, 31, 66)",
+                                            "text": {
+                                                "family": "DM Sans",
+                                                "size": 12,
+                                                "weight": "700",
+                                                "align": "center"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "delivered-orders",
+                "type": "TEXT",
+                "size": {
+                    "w": 361,
+                    "h": 14
+                },
+                "content": "Delivered Orders",
+                "styles": {
+                    "bg": "rgb(134, 31, 66)",
+                    "text": {
+                        "family": "Fahkwang",
+                        "size": 16,
+                        "weight": "700",
+                        "align": "center"
+                    }
+                }
+            },
+            {
+                "name": "footer",
+                "type": "GROUP",
+                "size": {
+                    "w": 394,
+                    "h": 359
+                },
+                "children": [
+                    {
+                        "name": "rectangle-16",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 393,
+                            "h": 286
+                        }
+                    },
+                    {
+                        "name": "footer-illustration-01-1",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 394,
+                            "h": 345
+                        }
+                    },
+                    {
+                        "name": "rectangle-19",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 393,
+                            "h": 165
+                        },
+                        "styles": {
+                            "bg": "rgb(134, 31, 66)"
+                        }
+                    },
+                    {
+                        "name": "group-4",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 138,
+                            "h": 58
+                        },
+                        "children": [
+                            {
+                                "name": "frame-145",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 138,
+                                    "h": 58
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "column",
+                                        "gap": 8,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        },
+                                        "padding": [
+                                            8,
+                                            8,
+                                            8,
+                                            8
+                                        ]
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "frame-100",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 122,
+                                            "h": 42
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "column",
+                                                "gap": 8,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                },
+                                                "padding": [
+                                                    8,
+                                                    8,
+                                                    8,
+                                                    8
+                                                ]
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "frame-97",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 106,
+                                                    "h": 26
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "row",
+                                                        "gap": 23,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "center"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "frame-94",
+                                                        "type": "FRAME",
+                                                        "size": {
+                                                            "w": 10,
+                                                            "h": 21
+                                                        },
+                                                        "styles": {
+                                                            "layout": {
+                                                                "direction": "row",
+                                                                "gap": 0,
+                                                                "align": {
+                                                                    "main": "start",
+                                                                    "cross": "start"
+                                                                }
+                                                            }
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "name": "brandico-facebook",
+                                                                "type": "INSTANCE",
+                                                                "size": {
+                                                                    "w": 0,
+                                                                    "h": 0
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "frame-98",
+                                                        "type": "FRAME",
+                                                        "size": {
+                                                            "w": 73,
+                                                            "h": 26
+                                                        },
+                                                        "styles": {
+                                                            "layout": {
+                                                                "direction": "row",
+                                                                "gap": 18,
+                                                                "align": {
+                                                                    "main": "start",
+                                                                    "cross": "center"
+                                                                }
+                                                            }
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "name": "frame-95",
+                                                                "type": "FRAME",
+                                                                "size": {
+                                                                    "w": 26,
+                                                                    "h": 26
+                                                                },
+                                                                "styles": {
+                                                                    "layout": {
+                                                                        "direction": "row",
+                                                                        "gap": 0,
+                                                                        "align": {
+                                                                            "main": "start",
+                                                                            "cross": "start"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "name": "mingcute-instagram-line",
+                                                                        "type": "INSTANCE",
+                                                                        "size": {
+                                                                            "w": 0,
+                                                                            "h": 0
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "frame-96",
+                                                                "type": "FRAME",
+                                                                "size": {
+                                                                    "w": 24,
+                                                                    "h": 24
+                                                                },
+                                                                "styles": {
+                                                                    "layout": {
+                                                                        "direction": "row",
+                                                                        "gap": 0,
+                                                                        "align": {
+                                                                            "main": "start",
+                                                                            "cross": "start"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "name": "jam-pinterest",
+                                                                        "type": "INSTANCE",
+                                                                        "size": {
+                                                                            "w": 0,
+                                                                            "h": 0
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "brand-identity-design-02-2",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 149,
+                            "h": 84
+                        }
+                    },
+                    {
+                        "name": "frame-144",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 106,
+                            "h": 42
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "column",
+                                "gap": 8,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                },
+                                "padding": [
+                                    8,
+                                    8,
+                                    8,
+                                    8
+                                ]
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "frame-99",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 90,
+                                    "h": 26
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 8,
+                                        "align": {
+                                            "main": "center",
+                                            "cross": "center"
+                                        },
+                                        "padding": [
+                                            8,
+                                            8,
+                                            8,
+                                            8
+                                        ]
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "-2025--winered",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 74,
+                                            "h": 10
+                                        },
+                                        "content": "@2025, WineRed",
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)",
+                                            "text": {
+                                                "family": "Fahkwang",
+                                                "size": 8,
+                                                "weight": "700",
+                                                "align": "center"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-146",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 328,
+                            "h": 74
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "column",
+                                "gap": 23,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "frame-142",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 328,
+                                    "h": 26
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "column",
+                                        "gap": 6,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "center"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "frame-92",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 328,
+                                            "h": 20
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 205,
+                                                "align": {
+                                                    "main": "space-between",
+                                                    "cross": "center"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "information",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 99,
+                                                    "h": 16
+                                                },
+                                                "content": "INFORMATION",
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)",
+                                                    "text": {
+                                                        "family": "Fahkwang",
+                                                        "size": 12,
+                                                        "weight": "700",
+                                                        "align": "center"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "frame-90",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 20,
+                                                    "h": 20
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "row",
+                                                        "gap": 0,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "start"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "ic-twotone-plus",
+                                                        "type": "INSTANCE",
+                                                        "size": {
+                                                            "w": 0,
+                                                            "h": 0
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "vector-5",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 328,
+                                            "h": 0
+                                        },
+                                        "styles": {
+                                            "border": {
+                                                "width": 1,
+                                                "color": "rgb(255, 255, 255)"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "frame-143",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 328,
+                                    "h": 25
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "column",
+                                        "gap": 5,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "center"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "frame-93",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 328,
+                                            "h": 20
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 181,
+                                                "align": {
+                                                    "main": "space-between",
+                                                    "cross": "center"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "customer-care",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 123,
+                                                    "h": 16
+                                                },
+                                                "content": "CUSTOMER CARE",
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)",
+                                                    "text": {
+                                                        "family": "Fahkwang",
+                                                        "size": 12,
+                                                        "weight": "700",
+                                                        "align": "center"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "frame-91",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 20,
+                                                    "h": 20
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "row",
+                                                        "gap": 0,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "start"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "ic-twotone-plus",
+                                                        "type": "INSTANCE",
+                                                        "size": {
+                                                            "w": 0,
+                                                            "h": 0
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "vector-6",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 328,
+                                            "h": 0
+                                        },
+                                        "styles": {
+                                            "border": {
+                                                "width": 1,
+                                                "color": "rgb(255, 255, 255)"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "vector-37",
+                "type": "VECTOR",
+                "size": {
+                    "w": 395,
+                    "h": 1
+                },
+                "styles": {
+                    "border": {
+                        "width": 1,
+                        "color": "rgb(230, 210, 217)"
+                    }
+                }
+            },
+            {
+                "name": "vector-38",
+                "type": "VECTOR",
+                "size": {
+                    "w": 395,
+                    "h": 1
+                },
+                "styles": {
+                    "border": {
+                        "width": 1,
+                        "color": "rgb(230, 210, 217)"
+                    }
+                }
+            }
+        ]
+    },
+    "summary": {
+        "components": 0,
+        "instances": 9,
+        "frames": 66,
+        "texts": 29,
+        "hasAutoLayout": true,
+        "hasEffects": false
+    }
+}

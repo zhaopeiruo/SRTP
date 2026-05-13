@@ -1,0 +1,2314 @@
+{
+    "metadata": {
+        "exportedAt": "2026-05-09T08:07:10.338Z",
+        "componentName": "WhatsApp Settings",
+        "totalElements": 173,
+        "nestingDepth": 6,
+        "plugin": "Figma to JSON Exporter"
+    },
+    "designTokens": {
+        "colors": {
+            "color-rgb(239, 239, 244)": "rgb(239, 239, 244)",
+            "color-rgb(142, 142, 147)": "rgb(142, 142, 147)",
+            "color-rgb(255, 255, 255)": "rgb(255, 255, 255)",
+            "color-rgb(0, 0, 0)": "rgb(0, 0, 0)",
+            "color-rgb(60, 60, 67)": "rgb(60, 60, 67)",
+            "color-rgb(251, 181, 0)": "rgb(251, 181, 0)",
+            "color-rgb(7, 173, 159)": "rgb(7, 173, 159)",
+            "color-rgb(151, 151, 151)": "rgb(151, 151, 151)",
+            "color-rgb(75, 160, 254)": "rgb(75, 160, 254)",
+            "color-rgb(255, 44, 85)": "rgb(255, 44, 85)",
+            "color-rgb(57, 122, 254)": "rgb(57, 122, 254)",
+            "color-rgb(75, 215, 99)": "rgb(75, 215, 99)",
+            "color-rgb(255, 59, 47)": "rgb(255, 59, 47)",
+            "color-rgb(246, 246, 246)": "rgb(246, 246, 246)",
+            "color-rgb(0, 122, 255)": "rgb(0, 122, 255)",
+            "color-rgb(168, 87, 87)": "rgb(168, 87, 87)",
+            "color-rgb(84, 84, 88)": "rgb(84, 84, 88)",
+            "color-rgb(6, 6, 6)": "rgb(6, 6, 6)",
+            "color-rgb(171, 171, 171)": "rgb(171, 171, 171)",
+            "color-rgb(62, 81, 85)": "rgb(62, 81, 85)",
+            "color-rgb(69, 81, 84)": "rgb(69, 81, 84)",
+            "color-rgb(23, 23, 23)": "rgb(23, 23, 23)"
+        },
+        "fonts": {
+            "sf-pro-text": {
+                "family": "SF Pro Text",
+                "sizes": {
+                    "size-12": "12px",
+                    "size-20": "20px",
+                    "size-16": "16px",
+                    "size-17": "17px",
+                    "size-10": "10px",
+                    "size-15": "15px"
+                },
+                "weights": {
+                    "weight-400": "400",
+                    "weight-500": "500"
+                }
+            }
+        },
+        "spacing": {},
+        "effects": {
+            "shadow-0-0": {
+                "x": 0,
+                "y": 0,
+                "blur": 0,
+                "color": "rgb(166, 166, 170)"
+            }
+        }
+    },
+    "structure": {
+        "name": "whatsapp-settings",
+        "type": "FRAME",
+        "size": {
+            "w": 375,
+            "h": 812
+        },
+        "styles": {
+            "bg": "rgb(239, 239, 244)",
+            "layout": {
+                "direction": "row",
+                "gap": 0,
+                "align": {
+                    "main": "start",
+                    "cross": "start"
+                }
+            }
+        },
+        "children": [
+            {
+                "name": "whatsapp-from-facebo",
+                "type": "TEXT",
+                "size": {
+                    "w": 147,
+                    "h": 18
+                },
+                "content": "WhatsApp from Facebook",
+                "styles": {
+                    "bg": "rgb(142, 142, 147)",
+                    "text": {
+                        "family": "SF Pro Text",
+                        "size": 12,
+                        "weight": "400",
+                        "align": "center"
+                    }
+                }
+            },
+            {
+                "name": "name",
+                "type": "FRAME",
+                "size": {
+                    "w": 375,
+                    "h": 76
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "rectangle",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 375,
+                            "h": 76
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "shadow": {
+                                "x": 0,
+                                "y": 0,
+                                "blur": 0,
+                                "color": "rgba(60, 60, 67, 0.28999999165534973)"
+                            }
+                        }
+                    },
+                    {
+                        "name": "oval",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 58,
+                            "h": 58
+                        }
+                    },
+                    {
+                        "name": "sabohiddin",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 104,
+                            "h": 24
+                        },
+                        "content": "Sabohiddin",
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "text": {
+                                "family": "SF Pro Text",
+                                "size": 20,
+                                "weight": "400",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "digital-goodies-desi",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 232,
+                            "h": 20
+                        },
+                        "content": "Digital goodies designer - Pixsellz",
+                        "styles": {
+                            "bg": "rgb(60, 60, 67)",
+                            "text": {
+                                "family": "SF Pro Text",
+                                "size": 16,
+                                "weight": "400",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "arrow-right",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 7,
+                            "h": 12
+                        },
+                        "children": [
+                            {
+                                "name": "shape",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 7,
+                                    "h": 12
+                                },
+                                "styles": {
+                                    "bg": "rgb(60, 60, 67)"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "rows",
+                "type": "GROUP",
+                "size": {
+                    "w": 375,
+                    "h": 94
+                },
+                "children": [
+                    {
+                        "name": "rectangle",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 375,
+                            "h": 94
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "shadow": {
+                                "x": 0,
+                                "y": 0,
+                                "blur": 0,
+                                "color": "rgba(60, 60, 67, 0.28999999165534973)"
+                            }
+                        }
+                    },
+                    {
+                        "name": "row",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 375,
+                            "h": 47
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 375,
+                                    "h": 47
+                                },
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)"
+                                }
+                            },
+                            {
+                                "name": "arrow-right",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 7,
+                                    "h": 12
+                                },
+                                "children": [
+                                    {
+                                        "name": "shape",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 7,
+                                            "h": 12
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(60, 60, 67)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "icon",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 29,
+                                    "h": 29
+                                },
+                                "children": [
+                                    {
+                                        "name": "rectangle",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 29,
+                                            "h": 29
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(251, 181, 0)",
+                                            "radius": 6
+                                        }
+                                    },
+                                    {
+                                        "name": "star",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 19,
+                                            "h": 19
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "starred-messages",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 132,
+                                    "h": 22
+                                },
+                                "content": "Starred Messages",
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)",
+                                    "text": {
+                                        "family": "SF Pro Text",
+                                        "size": 16,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "row",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 375,
+                            "h": 47
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 375,
+                                    "h": 47
+                                },
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)"
+                                }
+                            },
+                            {
+                                "name": "arrow-right",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 7,
+                                    "h": 12
+                                },
+                                "children": [
+                                    {
+                                        "name": "shape",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 7,
+                                            "h": 12
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(60, 60, 67)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "icon",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 29,
+                                    "h": 29
+                                },
+                                "children": [
+                                    {
+                                        "name": "rectangle",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 29,
+                                            "h": 29
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(7, 173, 159)",
+                                            "radius": 6
+                                        }
+                                    },
+                                    {
+                                        "name": "shape",
+                                        "type": "BOOLEAN_OPERATION",
+                                        "size": {
+                                            "w": 22,
+                                            "h": 14
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)"
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 22,
+                                                    "h": 2
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(151, 151, 151)"
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 16,
+                                                    "h": 12
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(151, 151, 151)"
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 13,
+                                                    "h": 9
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(151, 151, 151)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "whatsapp-web-desktop",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 178,
+                                    "h": 22
+                                },
+                                "content": "WhatsApp Web/Desktop",
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)",
+                                    "text": {
+                                        "family": "SF Pro Text",
+                                        "size": 16,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "seperator",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 316,
+                            "h": 1
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 0,
+                                "color": "rgb(60, 60, 67)"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "rows",
+                "type": "GROUP",
+                "size": {
+                    "w": 375,
+                    "h": 94
+                },
+                "children": [
+                    {
+                        "name": "rectangle",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 375,
+                            "h": 94
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "shadow": {
+                                "x": 0,
+                                "y": 0,
+                                "blur": 0,
+                                "color": "rgba(60, 60, 67, 0.28999999165534973)"
+                            }
+                        }
+                    },
+                    {
+                        "name": "row",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 375,
+                            "h": 47
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 375,
+                                    "h": 47
+                                },
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)"
+                                }
+                            },
+                            {
+                                "name": "arrow-right",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 7,
+                                    "h": 12
+                                },
+                                "children": [
+                                    {
+                                        "name": "shape",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 7,
+                                            "h": 12
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(60, 60, 67)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "icon",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 29,
+                                    "h": 29
+                                },
+                                "children": [
+                                    {
+                                        "name": "rectangle",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 29,
+                                            "h": 29
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(75, 160, 254)",
+                                            "radius": 6
+                                        }
+                                    },
+                                    {
+                                        "name": "shape",
+                                        "type": "BOOLEAN_OPERATION",
+                                        "size": {
+                                            "w": 6,
+                                            "h": 15
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)"
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 6,
+                                                    "h": 10
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)"
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 3,
+                                                    "h": 3
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "help",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 34,
+                                    "h": 22
+                                },
+                                "content": "Help",
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)",
+                                    "text": {
+                                        "family": "SF Pro Text",
+                                        "size": 16,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "row",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 375,
+                            "h": 47
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 375,
+                                    "h": 47
+                                },
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)"
+                                }
+                            },
+                            {
+                                "name": "arrow-right",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 7,
+                                    "h": 12
+                                },
+                                "children": [
+                                    {
+                                        "name": "shape",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 7,
+                                            "h": 12
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(60, 60, 67)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "icon",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 29,
+                                    "h": 29
+                                },
+                                "children": [
+                                    {
+                                        "name": "rectangle",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 29,
+                                            "h": 29
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 44, 85)",
+                                            "radius": 6
+                                        }
+                                    },
+                                    {
+                                        "name": "shape",
+                                        "type": "BOOLEAN_OPERATION",
+                                        "size": {
+                                            "w": 15,
+                                            "h": 13
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)"
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 15,
+                                                    "h": 13
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)"
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 12,
+                                                    "h": 10
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "tell-a-friend",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 88,
+                                    "h": 22
+                                },
+                                "content": "Tell a Friend",
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)",
+                                    "text": {
+                                        "family": "SF Pro Text",
+                                        "size": 16,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "seperator",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 316,
+                            "h": 1
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 0,
+                                "color": "rgb(60, 60, 67)"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "rows",
+                "type": "GROUP",
+                "size": {
+                    "w": 375,
+                    "h": 188
+                },
+                "children": [
+                    {
+                        "name": "rectangle",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 375,
+                            "h": 188
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "shadow": {
+                                "x": 0,
+                                "y": 0,
+                                "blur": 0,
+                                "color": "rgba(60, 60, 67, 0.28999999165534973)"
+                            }
+                        }
+                    },
+                    {
+                        "name": "row",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 375,
+                            "h": 47
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 375,
+                                    "h": 47
+                                },
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)"
+                                }
+                            },
+                            {
+                                "name": "arrow-right",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 7,
+                                    "h": 12
+                                },
+                                "children": [
+                                    {
+                                        "name": "shape",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 7,
+                                            "h": 12
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(60, 60, 67)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "icon",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 29,
+                                    "h": 29
+                                },
+                                "children": [
+                                    {
+                                        "name": "rectangle",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 29,
+                                            "h": 29
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(57, 122, 254)",
+                                            "radius": 6
+                                        }
+                                    },
+                                    {
+                                        "name": "shape",
+                                        "type": "BOOLEAN_OPERATION",
+                                        "size": {
+                                            "w": 10,
+                                            "h": 19
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)"
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 10,
+                                                    "h": 19
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)"
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 3,
+                                                    "h": 3
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "account",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 61,
+                                    "h": 22
+                                },
+                                "content": "Account",
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)",
+                                    "text": {
+                                        "family": "SF Pro Text",
+                                        "size": 16,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "row",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 375,
+                            "h": 47
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 375,
+                                    "h": 47
+                                },
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)"
+                                }
+                            },
+                            {
+                                "name": "arrow-right",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 7,
+                                    "h": 12
+                                },
+                                "children": [
+                                    {
+                                        "name": "shape",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 7,
+                                            "h": 12
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(60, 60, 67)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "icon",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 29,
+                                    "h": 29
+                                },
+                                "children": [
+                                    {
+                                        "name": "rectangle",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 29,
+                                            "h": 29
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(75, 215, 99)",
+                                            "radius": 6
+                                        }
+                                    },
+                                    {
+                                        "name": "shape",
+                                        "type": "BOOLEAN_OPERATION",
+                                        "size": {
+                                            "w": 20,
+                                            "h": 20
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)"
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 20,
+                                                    "h": 20
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 17,
+                                                    "h": 17
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 10,
+                                                    "h": 9
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "chats",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 43,
+                                    "h": 22
+                                },
+                                "content": "Chats",
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)",
+                                    "text": {
+                                        "family": "SF Pro Text",
+                                        "size": 16,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "row",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 375,
+                            "h": 47
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 375,
+                                    "h": 47
+                                },
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)"
+                                }
+                            },
+                            {
+                                "name": "arrow-right",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 7,
+                                    "h": 12
+                                },
+                                "children": [
+                                    {
+                                        "name": "shape",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 7,
+                                            "h": 12
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(60, 60, 67)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "icon",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 29,
+                                    "h": 29
+                                },
+                                "children": [
+                                    {
+                                        "name": "rectangle",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 29,
+                                            "h": 29
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(75, 215, 99)",
+                                            "radius": 6
+                                        }
+                                    },
+                                    {
+                                        "name": "shape",
+                                        "type": "BOOLEAN_OPERATION",
+                                        "size": {
+                                            "w": 15,
+                                            "h": 13
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)"
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 7,
+                                                    "h": 12
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)"
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 7,
+                                                    "h": 12
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "data-and-storage-usa",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 177,
+                                    "h": 22
+                                },
+                                "content": "Data and Storage Usage",
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)",
+                                    "text": {
+                                        "family": "SF Pro Text",
+                                        "size": 16,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "row",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 375,
+                            "h": 47
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 375,
+                                    "h": 47
+                                },
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)"
+                                }
+                            },
+                            {
+                                "name": "arrow-right",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 7,
+                                    "h": 12
+                                },
+                                "children": [
+                                    {
+                                        "name": "shape",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 7,
+                                            "h": 12
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(60, 60, 67)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "icon",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 29,
+                                    "h": 29
+                                },
+                                "children": [
+                                    {
+                                        "name": "rectangle",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 29,
+                                            "h": 29
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 59, 47)",
+                                            "radius": 6
+                                        }
+                                    },
+                                    {
+                                        "name": "shape",
+                                        "type": "BOOLEAN_OPERATION",
+                                        "size": {
+                                            "w": 19,
+                                            "h": 19
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)"
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 16,
+                                                    "h": 16
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)"
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 8,
+                                                    "h": 8
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "notifications",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 92,
+                                    "h": 22
+                                },
+                                "content": "Notifications",
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)",
+                                    "text": {
+                                        "family": "SF Pro Text",
+                                        "size": 16,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "seperator",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 316,
+                            "h": 1
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 0,
+                                "color": "rgb(60, 60, 67)"
+                            }
+                        }
+                    },
+                    {
+                        "name": "seperator",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 316,
+                            "h": 1
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 0,
+                                "color": "rgb(60, 60, 67)"
+                            }
+                        }
+                    },
+                    {
+                        "name": "seperator",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 316,
+                            "h": 1
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 0,
+                                "color": "rgb(60, 60, 67)"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "navigation-bar",
+                "type": "FRAME",
+                "size": {
+                    "w": 375,
+                    "h": 88
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "rectangle",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 375,
+                            "h": 88
+                        },
+                        "styles": {
+                            "bg": "rgb(246, 246, 246)",
+                            "shadow": {
+                                "x": 0,
+                                "y": 0,
+                                "blur": 0,
+                                "color": "rgb(166, 166, 170)"
+                            }
+                        }
+                    },
+                    {
+                        "name": "settings",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 68,
+                            "h": 22
+                        },
+                        "content": "Settings",
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "text": {
+                                "family": "SF Pro Text",
+                                "size": 17,
+                                "weight": "400",
+                                "align": "center"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "tab-bar",
+                "type": "GROUP",
+                "size": {
+                    "w": 375,
+                    "h": 83
+                },
+                "children": [
+                    {
+                        "name": "rectangle",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 375,
+                            "h": 83
+                        },
+                        "styles": {
+                            "bg": "rgb(246, 246, 246)",
+                            "shadow": {
+                                "x": 0,
+                                "y": 0,
+                                "blur": 0,
+                                "color": "rgb(166, 166, 170)"
+                            }
+                        }
+                    },
+                    {
+                        "name": "tab-5",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 75,
+                            "h": 49
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 75,
+                                    "h": 49
+                                }
+                            },
+                            {
+                                "name": "settings",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 41,
+                                    "h": 12
+                                },
+                                "content": "Settings",
+                                "styles": {
+                                    "bg": "rgb(0, 122, 255)",
+                                    "text": {
+                                        "family": "SF Pro Text",
+                                        "size": 10,
+                                        "weight": "500",
+                                        "align": "center"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "icon",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 25,
+                                    "h": 25
+                                },
+                                "children": [
+                                    {
+                                        "name": "shape",
+                                        "type": "BOOLEAN_OPERATION",
+                                        "size": {
+                                            "w": 25,
+                                            "h": 25
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(0, 122, 255)"
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 25,
+                                                    "h": 25
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(0, 122, 255)"
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 20,
+                                                    "h": 20
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(168, 87, 87)"
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 13,
+                                                    "h": 8
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(168, 87, 87)"
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 6,
+                                                    "h": 15
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(168, 87, 87)"
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 9,
+                                                    "h": 9
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(168, 87, 87)"
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 13,
+                                                    "h": 8
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(168, 87, 87)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "tab-4",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 75,
+                            "h": 49
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 75,
+                                    "h": 49
+                                }
+                            },
+                            {
+                                "name": "shape",
+                                "type": "BOOLEAN_OPERATION",
+                                "size": {
+                                    "w": 31,
+                                    "h": 21
+                                },
+                                "styles": {
+                                    "bg": "rgb(151, 151, 151)"
+                                },
+                                "children": [
+                                    {
+                                        "name": "path",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 31,
+                                            "h": 21
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(151, 151, 151)"
+                                        }
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 22,
+                                            "h": 18
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(151, 151, 151)"
+                                        }
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 11,
+                                            "h": 17
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(151, 151, 151)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "chats",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 29,
+                                    "h": 12
+                                },
+                                "content": "Chats",
+                                "styles": {
+                                    "bg": "rgb(84, 84, 88)",
+                                    "text": {
+                                        "family": "SF Pro Text",
+                                        "size": 10,
+                                        "weight": "500",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "tab-3",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 75,
+                            "h": 49
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 75,
+                                    "h": 49
+                                }
+                            },
+                            {
+                                "name": "camera",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 38,
+                                    "h": 12
+                                },
+                                "content": "Camera",
+                                "styles": {
+                                    "bg": "rgb(84, 84, 88)",
+                                    "text": {
+                                        "family": "SF Pro Text",
+                                        "size": 10,
+                                        "weight": "500",
+                                        "align": "center"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "icon",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 26,
+                                    "h": 22
+                                },
+                                "children": [
+                                    {
+                                        "name": "shape",
+                                        "type": "BOOLEAN_OPERATION",
+                                        "size": {
+                                            "w": 26,
+                                            "h": 22
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(84, 84, 88)"
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 26,
+                                                    "h": 22
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(151, 151, 151)"
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 23,
+                                                    "h": 19
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(151, 151, 151)"
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 12,
+                                                    "h": 12
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(151, 151, 151)"
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 9,
+                                                    "h": 9
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(151, 151, 151)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "tab-2",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 75,
+                            "h": 49
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 75,
+                                    "h": 49
+                                }
+                            },
+                            {
+                                "name": "icon",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 23,
+                                    "h": 23
+                                },
+                                "children": [
+                                    {
+                                        "name": "shape",
+                                        "type": "BOOLEAN_OPERATION",
+                                        "size": {
+                                            "w": 23,
+                                            "h": 23
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(84, 84, 88)"
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 23,
+                                                    "h": 23
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(151, 151, 151)"
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 20,
+                                                    "h": 20
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(151, 151, 151)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "calls",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 25,
+                                    "h": 12
+                                },
+                                "content": "Calls",
+                                "styles": {
+                                    "bg": "rgb(84, 84, 88)",
+                                    "text": {
+                                        "family": "SF Pro Text",
+                                        "size": 10,
+                                        "weight": "500",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "tab-1",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 75,
+                            "h": 49
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 75,
+                                    "h": 49
+                                }
+                            },
+                            {
+                                "name": "icon",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 25,
+                                    "h": 25
+                                },
+                                "children": [
+                                    {
+                                        "name": "shape",
+                                        "type": "BOOLEAN_OPERATION",
+                                        "size": {
+                                            "w": 25,
+                                            "h": 25
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(84, 84, 88)"
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 10,
+                                                    "h": 16
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(151, 151, 151)"
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 10,
+                                                    "h": 16
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(151, 151, 151)"
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 18,
+                                                    "h": 18
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(151, 151, 151)"
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 16,
+                                                    "h": 16
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(151, 151, 151)"
+                                                }
+                                            },
+                                            {
+                                                "name": "path",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 18,
+                                                    "h": 5
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(151, 151, 151)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "status",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 32,
+                                    "h": 12
+                                },
+                                "content": "Status",
+                                "styles": {
+                                    "bg": "rgb(84, 84, 88)",
+                                    "text": {
+                                        "family": "SF Pro Text",
+                                        "size": 10,
+                                        "weight": "500",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "bars---home-indicator",
+                "type": "FRAME",
+                "size": {
+                    "w": 375,
+                    "h": 34
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "--background",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 375,
+                            "h": 34
+                        }
+                    },
+                    {
+                        "name": "line",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 134,
+                            "h": 5
+                        },
+                        "styles": {
+                            "bg": "rgb(6, 6, 6)",
+                            "radius": 100
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "bars---status-bar---iphone-x",
+                "type": "FRAME",
+                "size": {
+                    "w": 375,
+                    "h": 44
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "--background",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 375,
+                            "h": 44
+                        }
+                    },
+                    {
+                        "name": "battery",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 25,
+                            "h": 11
+                        },
+                        "children": [
+                            {
+                                "name": "combined-shape",
+                                "type": "BOOLEAN_OPERATION",
+                                "size": {
+                                    "w": 22,
+                                    "h": 11
+                                },
+                                "styles": {
+                                    "bg": "rgb(171, 171, 171)"
+                                },
+                                "children": [
+                                    {
+                                        "name": "rectangle",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 22,
+                                            "h": 11
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)",
+                                            "radius": 3
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 20,
+                                            "h": 9
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)",
+                                            "radius": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "combined-shape",
+                                "type": "BOOLEAN_OPERATION",
+                                "size": {
+                                    "w": 2,
+                                    "h": 4
+                                },
+                                "styles": {
+                                    "bg": "rgb(171, 171, 171)"
+                                },
+                                "children": [
+                                    {
+                                        "name": "oval",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 4,
+                                            "h": 4
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(62, 81, 85)",
+                                            "border": {
+                                                "width": 0,
+                                                "color": "rgb(151, 151, 151)"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 3,
+                                            "h": 4
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(62, 81, 85)",
+                                            "border": {
+                                                "width": 0,
+                                                "color": "rgb(151, 151, 151)"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 18,
+                                    "h": 7
+                                },
+                                "styles": {
+                                    "bg": "rgb(6, 6, 6)",
+                                    "radius": 1
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "wifi",
+                        "type": "BOOLEAN_OPERATION",
+                        "size": {
+                            "w": 15,
+                            "h": 11
+                        },
+                        "styles": {
+                            "bg": "rgb(6, 6, 6)"
+                        },
+                        "children": [
+                            {
+                                "name": "wifi-path",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 15,
+                                    "h": 5
+                                },
+                                "styles": {
+                                    "bg": "rgb(69, 81, 84)"
+                                }
+                            },
+                            {
+                                "name": "wifi-path",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 10,
+                                    "h": 4
+                                },
+                                "styles": {
+                                    "bg": "rgb(69, 81, 84)"
+                                }
+                            },
+                            {
+                                "name": "wifi-path",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 5,
+                                    "h": 3
+                                },
+                                "styles": {
+                                    "bg": "rgb(69, 81, 84)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "mobile-signal",
+                        "type": "BOOLEAN_OPERATION",
+                        "size": {
+                            "w": 17,
+                            "h": 11
+                        },
+                        "styles": {
+                            "bg": "rgb(6, 6, 6)"
+                        },
+                        "children": [
+                            {
+                                "name": "cellular_connection-path",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 3,
+                                    "h": 4
+                                },
+                                "styles": {
+                                    "bg": "rgb(69, 81, 84)"
+                                }
+                            },
+                            {
+                                "name": "cellular_connection-path",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 3,
+                                    "h": 6
+                                },
+                                "styles": {
+                                    "bg": "rgb(69, 81, 84)"
+                                }
+                            },
+                            {
+                                "name": "cellular_connection-path",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 3,
+                                    "h": 8
+                                },
+                                "styles": {
+                                    "bg": "rgb(69, 81, 84)"
+                                }
+                            },
+                            {
+                                "name": "cellular_connection-path",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 3,
+                                    "h": 11
+                                },
+                                "styles": {
+                                    "bg": "rgb(69, 81, 84)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "time-style",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 54,
+                            "h": 18
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "9-41",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 54,
+                                    "h": 18
+                                },
+                                "content": "9:41",
+                                "styles": {
+                                    "bg": "rgb(23, 23, 23)",
+                                    "text": {
+                                        "family": "SF Pro Text",
+                                        "size": 15,
+                                        "weight": "400",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "summary": {
+        "components": 0,
+        "instances": 0,
+        "frames": 19,
+        "texts": 18,
+        "hasAutoLayout": true,
+        "hasEffects": true
+    }
+}

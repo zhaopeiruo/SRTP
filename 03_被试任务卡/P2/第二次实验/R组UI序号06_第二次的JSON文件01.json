@@ -1,0 +1,1271 @@
+{
+    "metadata": {
+        "exportedAt": "2026-05-09T07:42:41.719Z",
+        "componentName": "Group 5",
+        "totalElements": 80,
+        "nestingDepth": 9,
+        "plugin": "Figma to JSON Exporter"
+    },
+    "designTokens": {
+        "colors": {
+            "color-rgb(255, 255, 255)": "rgb(255, 255, 255)",
+            "color-rgb(0, 0, 0)": "rgb(0, 0, 0)",
+            "color-rgb(34, 34, 34)": "rgb(34, 34, 34)",
+            "color-rgb(63, 63, 63)": "rgb(63, 63, 63)"
+        },
+        "fonts": {
+            "sf-pro-display": {
+                "family": "SF Pro Display",
+                "sizes": {
+                    "size-15": "15px",
+                    "size-80": "80px",
+                    "size-21": "21px"
+                },
+                "weights": {
+                    "weight-500": "500",
+                    "weight-400": "400",
+                    "weight-100": "100"
+                }
+            },
+            "sf-pro-text": {
+                "family": "SF Pro Text",
+                "sizes": {
+                    "size-12": "12px"
+                },
+                "weights": {
+                    "weight-500": "500"
+                }
+            }
+        },
+        "spacing": {
+            "padding-top-8": "8px",
+            "padding-right-8": "8px",
+            "padding-bottom-8": "8px",
+            "padding-left-8": "8px",
+            "gap-8": "8px",
+            "padding-top-9": "9px",
+            "padding-right-14": "14px",
+            "padding-bottom-9": "9px",
+            "padding-left-9": "9px",
+            "gap-1": "1px",
+            "gap-188": "188px"
+        },
+        "effects": {}
+    },
+    "structure": {
+        "name": "group-5",
+        "type": "GROUP",
+        "size": {
+            "w": 375,
+            "h": 852
+        },
+        "children": [
+            {
+                "name": "ios-15-push-notifications",
+                "type": "FRAME",
+                "size": {
+                    "w": 375,
+                    "h": 852
+                },
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "group-3",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 283,
+                            "h": 92
+                        },
+                        "children": [
+                            {
+                                "name": "icons-camera-circle",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 50,
+                                    "h": 50
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "icons-camera-circle",
+                                        "type": "GROUP",
+                                        "size": {
+                                            "w": 50,
+                                            "h": 50
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "fill-1",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 50,
+                                                    "h": 50
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(0, 0, 0)"
+                                                }
+                                            },
+                                            {
+                                                "name": "fill-1",
+                                                "type": "BOOLEAN_OPERATION",
+                                                "size": {
+                                                    "w": 22,
+                                                    "h": 16
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "path",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 1,
+                                                            "h": 1
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "path",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 3,
+                                                            "h": 1
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "path",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 8,
+                                                            "h": 8
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "path",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 10,
+                                                            "h": 10
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "path",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 22,
+                                                            "h": 16
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "icons-tourch-square",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 50,
+                                    "h": 50
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "icons-tourch-square",
+                                        "type": "GROUP",
+                                        "size": {
+                                            "w": 50,
+                                            "h": 50
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "fill-9",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 50,
+                                                    "h": 50
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(0, 0, 0)"
+                                                }
+                                            },
+                                            {
+                                                "name": "combined-shape",
+                                                "type": "BOOLEAN_OPERATION",
+                                                "size": {
+                                                    "w": 10,
+                                                    "h": 26
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "fill-11",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 2,
+                                                            "h": 2
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(255, 255, 255)"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "fill-13",
+                                                        "type": "BOOLEAN_OPERATION",
+                                                        "size": {
+                                                            "w": 10,
+                                                            "h": 23
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(255, 255, 255)"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "name": "path",
+                                                                "type": "VECTOR",
+                                                                "size": {
+                                                                    "w": 4,
+                                                                    "h": 6
+                                                                }
+                                                            },
+                                                            {
+                                                                "name": "path",
+                                                                "type": "VECTOR",
+                                                                "size": {
+                                                                    "w": 10,
+                                                                    "h": 23
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "fill-15",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 10,
+                                                            "h": 1
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(255, 255, 255)"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "rectangle",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 135,
+                                    "h": 5
+                                },
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)",
+                                    "border": {
+                                        "width": 0,
+                                        "color": "rgb(151, 151, 151)"
+                                    },
+                                    "radius": 3
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-6",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 375,
+                            "h": 104
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "column",
+                                "gap": 8,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                },
+                                "padding": [
+                                    8,
+                                    8,
+                                    8,
+                                    8
+                                ]
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "stack",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 359,
+                                    "h": 88
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "frame-1",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 359,
+                                            "h": 73
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)",
+                                            "radius": 16,
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 8,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "center"
+                                                },
+                                                "padding": [
+                                                    9,
+                                                    14,
+                                                    9,
+                                                    9
+                                                ]
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "image-1",
+                                                "type": "RECTANGLE",
+                                                "size": {
+                                                    "w": 42,
+                                                    "h": 42
+                                                },
+                                                "styles": {
+                                                    "radius": 10
+                                                }
+                                            },
+                                            {
+                                                "name": "frame-4",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 286,
+                                                    "h": 55
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "column",
+                                                        "gap": 1,
+                                                        "align": {
+                                                            "main": "center",
+                                                            "cross": "start"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "frame-3",
+                                                        "type": "FRAME",
+                                                        "size": {
+                                                            "w": 286,
+                                                            "h": 18
+                                                        },
+                                                        "styles": {
+                                                            "layout": {
+                                                                "direction": "row",
+                                                                "gap": 188,
+                                                                "align": {
+                                                                    "main": "space-between",
+                                                                    "cross": "end"
+                                                                }
+                                                            }
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "name": "title",
+                                                                "type": "TEXT",
+                                                                "size": {
+                                                                    "w": 102,
+                                                                    "h": 18
+                                                                },
+                                                                "content": "Shubham Gupta",
+                                                                "styles": {
+                                                                    "bg": "rgb(34, 34, 34)",
+                                                                    "text": {
+                                                                        "family": "SF Pro Display",
+                                                                        "size": 15,
+                                                                        "weight": "500",
+                                                                        "align": "left"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "name": "timestamp",
+                                                                "type": "TEXT",
+                                                                "size": {
+                                                                    "w": 24,
+                                                                    "h": 14
+                                                                },
+                                                                "content": "now",
+                                                                "styles": {
+                                                                    "bg": "rgb(63, 63, 63)",
+                                                                    "text": {
+                                                                        "family": "SF Pro Text",
+                                                                        "size": 12,
+                                                                        "weight": "500",
+                                                                        "align": "right"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "text",
+                                                        "type": "TEXT",
+                                                        "size": {
+                                                            "w": 286,
+                                                            "h": 36
+                                                        },
+                                                        "content": "Welcome ! Just 3 steps to your first healthy day. Let’s start your meal plan 🍽️",
+                                                        "styles": {
+                                                            "bg": "rgb(63, 63, 63)",
+                                                            "text": {
+                                                                "family": "SF Pro Display",
+                                                                "size": 15,
+                                                                "weight": "400",
+                                                                "align": "left"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-2",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 359,
+                            "h": 73
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "radius": 16,
+                            "layout": {
+                                "direction": "row",
+                                "gap": 8,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                },
+                                "padding": [
+                                    9,
+                                    14,
+                                    9,
+                                    9
+                                ]
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "image-1",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 42,
+                                    "h": 42
+                                },
+                                "styles": {
+                                    "radius": 10
+                                }
+                            },
+                            {
+                                "name": "frame-4",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 286,
+                                    "h": 55
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "column",
+                                        "gap": 1,
+                                        "align": {
+                                            "main": "center",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "frame-3",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 286,
+                                            "h": 18
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 188,
+                                                "align": {
+                                                    "main": "space-between",
+                                                    "cross": "end"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "title",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 102,
+                                                    "h": 18
+                                                },
+                                                "content": "Shubham Gupta",
+                                                "styles": {
+                                                    "bg": "rgb(34, 34, 34)",
+                                                    "text": {
+                                                        "family": "SF Pro Display",
+                                                        "size": 15,
+                                                        "weight": "500",
+                                                        "align": "left"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "timestamp",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 24,
+                                                    "h": 14
+                                                },
+                                                "content": "now",
+                                                "styles": {
+                                                    "bg": "rgb(63, 63, 63)",
+                                                    "text": {
+                                                        "family": "SF Pro Text",
+                                                        "size": 12,
+                                                        "weight": "500",
+                                                        "align": "right"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "text",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 286,
+                                            "h": 36
+                                        },
+                                        "content": "Take a fresh 3-day reset. No judgment 💙 Start today.",
+                                        "styles": {
+                                            "bg": "rgb(63, 63, 63)",
+                                            "text": {
+                                                "family": "SF Pro Display",
+                                                "size": 15,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-3",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 359,
+                            "h": 73
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "radius": 16,
+                            "layout": {
+                                "direction": "row",
+                                "gap": 8,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                },
+                                "padding": [
+                                    9,
+                                    14,
+                                    9,
+                                    9
+                                ]
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "image-1",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 42,
+                                    "h": 42
+                                },
+                                "styles": {
+                                    "radius": 10
+                                }
+                            },
+                            {
+                                "name": "frame-4",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 286,
+                                    "h": 55
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "column",
+                                        "gap": 1,
+                                        "align": {
+                                            "main": "center",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "frame-3",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 286,
+                                            "h": 18
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 188,
+                                                "align": {
+                                                    "main": "space-between",
+                                                    "cross": "end"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "title",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 102,
+                                                    "h": 18
+                                                },
+                                                "content": "Shubham Gupta",
+                                                "styles": {
+                                                    "bg": "rgb(34, 34, 34)",
+                                                    "text": {
+                                                        "family": "SF Pro Display",
+                                                        "size": 15,
+                                                        "weight": "500",
+                                                        "align": "left"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "timestamp",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 24,
+                                                    "h": 14
+                                                },
+                                                "content": "now",
+                                                "styles": {
+                                                    "bg": "rgb(63, 63, 63)",
+                                                    "text": {
+                                                        "family": "SF Pro Text",
+                                                        "size": 12,
+                                                        "weight": "500",
+                                                        "align": "right"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "text",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 286,
+                                            "h": 36
+                                        },
+                                        "content": "21 days done! Habits made 💥 Let’s hit the next goal.",
+                                        "styles": {
+                                            "bg": "rgb(63, 63, 63)",
+                                            "text": {
+                                                "family": "SF Pro Display",
+                                                "size": 15,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "frame-4",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 359,
+                            "h": 60
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "radius": 16,
+                            "layout": {
+                                "direction": "row",
+                                "gap": 8,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "center"
+                                },
+                                "padding": [
+                                    9,
+                                    14,
+                                    9,
+                                    9
+                                ]
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "image-1",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 42,
+                                    "h": 42
+                                },
+                                "styles": {
+                                    "radius": 10
+                                }
+                            },
+                            {
+                                "name": "frame-4",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 286,
+                                    "h": 37
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "column",
+                                        "gap": 1,
+                                        "align": {
+                                            "main": "center",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "frame-3",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 286,
+                                            "h": 18
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 188,
+                                                "align": {
+                                                    "main": "space-between",
+                                                    "cross": "end"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "title",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 102,
+                                                    "h": 18
+                                                },
+                                                "content": "Shubham Gupta",
+                                                "styles": {
+                                                    "bg": "rgb(34, 34, 34)",
+                                                    "text": {
+                                                        "family": "SF Pro Display",
+                                                        "size": 15,
+                                                        "weight": "500",
+                                                        "align": "left"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "name": "timestamp",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 24,
+                                                    "h": 14
+                                                },
+                                                "content": "now",
+                                                "styles": {
+                                                    "bg": "rgb(63, 63, 63)",
+                                                    "text": {
+                                                        "family": "SF Pro Text",
+                                                        "size": 12,
+                                                        "weight": "500",
+                                                        "align": "right"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "text",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 286,
+                                            "h": 18
+                                        },
+                                        "content": "Skipped lunch? Try this 5-min fiber-rich fix 🥗",
+                                        "styles": {
+                                            "bg": "rgb(63, 63, 63)",
+                                            "text": {
+                                                "family": "SF Pro Display",
+                                                "size": 15,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "group-4",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 375,
+                            "h": 216
+                        },
+                        "children": [
+                            {
+                                "name": "icons-lock-open",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 37,
+                                    "h": 39
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "icons-lock-open",
+                                        "type": "GROUP",
+                                        "size": {
+                                            "w": 36,
+                                            "h": 38
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "fill-1",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 36,
+                                                    "h": 38
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "9-41",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 140,
+                                    "h": 95
+                                },
+                                "content": "9:41",
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)",
+                                    "text": {
+                                        "family": "SF Pro Display",
+                                        "size": 80,
+                                        "weight": "100",
+                                        "align": "center"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "tuesday--23-june",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 162,
+                                    "h": 25
+                                },
+                                "content": "Tuesday,  23 June",
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)",
+                                    "text": {
+                                        "family": "SF Pro Display",
+                                        "size": 21,
+                                        "weight": "500",
+                                        "align": "center"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "status-bar-light",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 375,
+                                    "h": 40
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "status-bar-light",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 375,
+                                            "h": 40
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 0,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "fill-17",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 375,
+                                                    "h": 40
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)"
+                                                }
+                                            },
+                                            {
+                                                "name": "icons-network-status-bar",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 17,
+                                                    "h": 11
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "row",
+                                                        "gap": 0,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "start"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "icons-network-status-bar",
+                                                        "type": "GROUP",
+                                                        "size": {
+                                                            "w": 17,
+                                                            "h": 11
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "name": "fill-21",
+                                                                "type": "VECTOR",
+                                                                "size": {
+                                                                    "w": 3,
+                                                                    "h": 11
+                                                                },
+                                                                "styles": {
+                                                                    "bg": "rgb(255, 255, 255)"
+                                                                }
+                                                            },
+                                                            {
+                                                                "name": "fill-23",
+                                                                "type": "VECTOR",
+                                                                "size": {
+                                                                    "w": 3,
+                                                                    "h": 8
+                                                                },
+                                                                "styles": {
+                                                                    "bg": "rgb(255, 255, 255)"
+                                                                }
+                                                            },
+                                                            {
+                                                                "name": "fill-25",
+                                                                "type": "VECTOR",
+                                                                "size": {
+                                                                    "w": 3,
+                                                                    "h": 6
+                                                                },
+                                                                "styles": {
+                                                                    "bg": "rgb(255, 255, 255)"
+                                                                }
+                                                            },
+                                                            {
+                                                                "name": "fill-27",
+                                                                "type": "VECTOR",
+                                                                "size": {
+                                                                    "w": 3,
+                                                                    "h": 5
+                                                                },
+                                                                "styles": {
+                                                                    "bg": "rgb(255, 255, 255)"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "icons-wifi-status-bar",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 15,
+                                                    "h": 11
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "row",
+                                                        "gap": 0,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "start"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "icons-wifi-status-bar",
+                                                        "type": "GROUP",
+                                                        "size": {
+                                                            "w": 14,
+                                                            "h": 11
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "name": "fill-29",
+                                                                "type": "VECTOR",
+                                                                "size": {
+                                                                    "w": 4,
+                                                                    "h": 4
+                                                                },
+                                                                "styles": {
+                                                                    "bg": "rgb(255, 255, 255)"
+                                                                }
+                                                            },
+                                                            {
+                                                                "name": "fill-31",
+                                                                "type": "VECTOR",
+                                                                "size": {
+                                                                    "w": 9,
+                                                                    "h": 4
+                                                                },
+                                                                "styles": {
+                                                                    "bg": "rgb(255, 255, 255)"
+                                                                }
+                                                            },
+                                                            {
+                                                                "name": "fill-33",
+                                                                "type": "VECTOR",
+                                                                "size": {
+                                                                    "w": 14,
+                                                                    "h": 5
+                                                                },
+                                                                "styles": {
+                                                                    "bg": "rgb(255, 255, 255)"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "icons-buttary-status-bar",
+                                                "type": "FRAME",
+                                                "size": {
+                                                    "w": 25,
+                                                    "h": 11
+                                                },
+                                                "styles": {
+                                                    "layout": {
+                                                        "direction": "row",
+                                                        "gap": 0,
+                                                        "align": {
+                                                            "main": "start",
+                                                            "cross": "start"
+                                                        }
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "icons-buttary-status-bar",
+                                                        "type": "GROUP",
+                                                        "size": {
+                                                            "w": 24,
+                                                            "h": 11
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "name": "fill-35",
+                                                                "type": "VECTOR",
+                                                                "size": {
+                                                                    "w": 12,
+                                                                    "h": 7
+                                                                },
+                                                                "styles": {
+                                                                    "bg": "rgb(255, 255, 255)"
+                                                                }
+                                                            },
+                                                            {
+                                                                "name": "fill-37",
+                                                                "type": "BOOLEAN_OPERATION",
+                                                                "size": {
+                                                                    "w": 22,
+                                                                    "h": 11
+                                                                },
+                                                                "styles": {
+                                                                    "bg": "rgb(255, 255, 255)"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "name": "path",
+                                                                        "type": "VECTOR",
+                                                                        "size": {
+                                                                            "w": 20,
+                                                                            "h": 9
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "name": "path",
+                                                                        "type": "VECTOR",
+                                                                        "size": {
+                                                                            "w": 22,
+                                                                            "h": 11
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "fill-39",
+                                                                "type": "VECTOR",
+                                                                "size": {
+                                                                    "w": 2,
+                                                                    "h": 4
+                                                                },
+                                                                "styles": {
+                                                                    "bg": "rgb(255, 255, 255)"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "9-41",
+                                                "type": "TEXT",
+                                                "size": {
+                                                    "w": 30,
+                                                    "h": 18
+                                                },
+                                                "content": "9:41",
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)",
+                                                    "text": {
+                                                        "family": "SF Pro Display",
+                                                        "size": 15,
+                                                        "weight": "400",
+                                                        "align": "left"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "summary": {
+        "components": 0,
+        "instances": 0,
+        "frames": 23,
+        "texts": 15,
+        "hasAutoLayout": true,
+        "hasEffects": true
+    }
+}

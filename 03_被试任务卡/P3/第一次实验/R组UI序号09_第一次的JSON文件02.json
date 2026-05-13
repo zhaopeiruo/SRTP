@@ -1,0 +1,1106 @@
+{
+    "metadata": {
+        "exportedAt": "2026-05-09T07:54:57.872Z",
+        "componentName": "Página de pesquisa",
+        "totalElements": 83,
+        "nestingDepth": 5,
+        "plugin": "Figma to JSON Exporter"
+    },
+    "designTokens": {
+        "colors": {
+            "color-rgb(26, 26, 26)": "rgb(26, 26, 26)",
+            "color-rgb(114, 39, 44)": "rgb(114, 39, 44)",
+            "color-rgb(69, 69, 69)": "rgb(69, 69, 69)",
+            "color-rgb(255, 255, 255)": "rgb(255, 255, 255)",
+            "color-rgb(30, 30, 30)": "rgb(30, 30, 30)",
+            "color-rgb(165, 9, 48)": "rgb(165, 9, 48)"
+        },
+        "fonts": {
+            "poppins": {
+                "family": "Poppins",
+                "sizes": {
+                    "size-14": "14px",
+                    "size-16": "16px",
+                    "size-13": "13px",
+                    "size-12": "12px",
+                    "size-24": "24px"
+                },
+                "weights": {
+                    "weight-400": "400",
+                    "weight-700": "700",
+                    "weight-600": "600",
+                    "weight-300": "300",
+                    "weight-500": "500"
+                }
+            }
+        },
+        "spacing": {},
+        "effects": {
+            "shadow-44-7": {
+                "x": -3,
+                "y": -4,
+                "blur": 44,
+                "color": "rgba(0, 0, 0, 0.550000011920929)"
+            }
+        }
+    },
+    "structure": {
+        "name": "p-gina-de-pesquisa",
+        "type": "FRAME",
+        "size": {
+            "w": 412,
+            "h": 917
+        },
+        "styles": {
+            "bg": "rgb(26, 26, 26)",
+            "layout": {
+                "direction": "row",
+                "gap": 0,
+                "align": {
+                    "main": "start",
+                    "cross": "start"
+                }
+            }
+        },
+        "children": [
+            {
+                "name": "fundo",
+                "type": "GROUP",
+                "size": {
+                    "w": 319,
+                    "h": 1030
+                },
+                "children": [
+                    {
+                        "name": "ellipse-2",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 274,
+                            "h": 234
+                        },
+                        "styles": {
+                            "bg": "rgb(114, 39, 44)"
+                        }
+                    },
+                    {
+                        "name": "ellipse-1",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 297,
+                            "h": 172
+                        },
+                        "styles": {
+                            "bg": "rgb(114, 39, 44)"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "barra-de-pesquisa",
+                "type": "GROUP",
+                "size": {
+                    "w": 347,
+                    "h": 38
+                },
+                "children": [
+                    {
+                        "name": "fundo",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 347,
+                            "h": 38
+                        },
+                        "styles": {
+                            "bg": "rgb(69, 69, 69)",
+                            "radius": 71
+                        }
+                    },
+                    {
+                        "name": "lupa",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 20,
+                            "h": 14
+                        },
+                        "children": [
+                            {
+                                "name": "ellipse-3",
+                                "type": "ELLIPSE",
+                                "size": {
+                                    "w": 15,
+                                    "h": 14
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 2,
+                                        "color": "rgb(255, 255, 255)"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "line-7",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 8,
+                                    "h": 0
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 2,
+                                        "color": "rgb(255, 255, 255)"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "buscar-m-sica-ou-playlist",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 180,
+                            "h": 21
+                        },
+                        "content": "buscar música ou playlist",
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "text": {
+                                "family": "Poppins",
+                                "size": 14,
+                                "weight": "400",
+                                "align": "left"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "categorias",
+                "type": "GROUP",
+                "size": {
+                    "w": 388,
+                    "h": 774
+                },
+                "children": [
+                    {
+                        "name": "categorias",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 388,
+                            "h": 724
+                        },
+                        "children": [
+                            {
+                                "name": "bossa-nova",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 173,
+                                    "h": 104
+                                },
+                                "children": [
+                                    {
+                                        "name": "fundo",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 155,
+                                            "h": 104
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(69, 69, 69)",
+                                            "radius": 16
+                                        }
+                                    },
+                                    {
+                                        "name": "3d6ca80a-dce9-4eba-8f7b-27d35cbd6631-1",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 83,
+                                            "h": 84
+                                        },
+                                        "styles": {
+                                            "radius": 127
+                                        }
+                                    },
+                                    {
+                                        "name": "bossa-nova",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 63,
+                                            "h": 40
+                                        },
+                                        "content": "Bossa nova",
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)",
+                                            "text": {
+                                                "family": "Poppins",
+                                                "size": 16,
+                                                "weight": "700",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "mpb",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 180,
+                                    "h": 104
+                                },
+                                "children": [
+                                    {
+                                        "name": "fundo",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 155,
+                                            "h": 104
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(69, 69, 69)",
+                                            "radius": 16
+                                        }
+                                    },
+                                    {
+                                        "name": "3d6ca80a-dce9-4eba-8f7b-27d35cbd6631-2",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 83,
+                                            "h": 84
+                                        },
+                                        "styles": {
+                                            "radius": 127
+                                        }
+                                    },
+                                    {
+                                        "name": "mpb",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 63,
+                                            "h": 20
+                                        },
+                                        "content": "MPB",
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)",
+                                            "text": {
+                                                "family": "Poppins",
+                                                "size": 16,
+                                                "weight": "700",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "classico",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 173,
+                                    "h": 104
+                                },
+                                "children": [
+                                    {
+                                        "name": "fundo",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 155,
+                                            "h": 104
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(69, 69, 69)",
+                                            "radius": 16
+                                        }
+                                    },
+                                    {
+                                        "name": "3d6ca80a-dce9-4eba-8f7b-27d35cbd6631-1",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 83,
+                                            "h": 84
+                                        },
+                                        "styles": {
+                                            "radius": 127
+                                        }
+                                    },
+                                    {
+                                        "name": "cl-ssico",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 81,
+                                            "h": 20
+                                        },
+                                        "content": "Clássico",
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)",
+                                            "text": {
+                                                "family": "Poppins",
+                                                "size": 16,
+                                                "weight": "700",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "rock",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 180,
+                                    "h": 104
+                                },
+                                "children": [
+                                    {
+                                        "name": "fundo",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 155,
+                                            "h": 104
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(69, 69, 69)",
+                                            "radius": 16
+                                        }
+                                    },
+                                    {
+                                        "name": "3d6ca80a-dce9-4eba-8f7b-27d35cbd6631-2",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 83,
+                                            "h": 84
+                                        },
+                                        "styles": {
+                                            "radius": 127
+                                        }
+                                    },
+                                    {
+                                        "name": "rock",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 63,
+                                            "h": 20
+                                        },
+                                        "content": "Rock",
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)",
+                                            "text": {
+                                                "family": "Poppins",
+                                                "size": 16,
+                                                "weight": "700",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "jazz",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 173,
+                                    "h": 104
+                                },
+                                "children": [
+                                    {
+                                        "name": "fundo",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 155,
+                                            "h": 104
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(69, 69, 69)",
+                                            "radius": 16
+                                        }
+                                    },
+                                    {
+                                        "name": "3d6ca80a-dce9-4eba-8f7b-27d35cbd6631-1",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 83,
+                                            "h": 84
+                                        },
+                                        "styles": {
+                                            "radius": 127
+                                        }
+                                    },
+                                    {
+                                        "name": "jazz",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 63,
+                                            "h": 20
+                                        },
+                                        "content": "Jazz",
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)",
+                                            "text": {
+                                                "family": "Poppins",
+                                                "size": 16,
+                                                "weight": "700",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "indie",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 180,
+                                    "h": 104
+                                },
+                                "children": [
+                                    {
+                                        "name": "fundo",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 155,
+                                            "h": 104
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(69, 69, 69)",
+                                            "radius": 16
+                                        }
+                                    },
+                                    {
+                                        "name": "3d6ca80a-dce9-4eba-8f7b-27d35cbd6631-2",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 83,
+                                            "h": 84
+                                        },
+                                        "styles": {
+                                            "radius": 127
+                                        }
+                                    },
+                                    {
+                                        "name": "indie",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 63,
+                                            "h": 20
+                                        },
+                                        "content": "Indie",
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)",
+                                            "text": {
+                                                "family": "Poppins",
+                                                "size": 16,
+                                                "weight": "700",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "pop",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 173,
+                                    "h": 104
+                                },
+                                "children": [
+                                    {
+                                        "name": "fundo",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 155,
+                                            "h": 104
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(69, 69, 69)",
+                                            "radius": 16
+                                        }
+                                    },
+                                    {
+                                        "name": "3d6ca80a-dce9-4eba-8f7b-27d35cbd6631-1",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 83,
+                                            "h": 84
+                                        },
+                                        "styles": {
+                                            "radius": 127
+                                        }
+                                    },
+                                    {
+                                        "name": "pop",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 63,
+                                            "h": 20
+                                        },
+                                        "content": "Pop",
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)",
+                                            "text": {
+                                                "family": "Poppins",
+                                                "size": 16,
+                                                "weight": "700",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "instrumental",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 207,
+                                    "h": 104
+                                },
+                                "children": [
+                                    {
+                                        "name": "fundo",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 155,
+                                            "h": 104
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(69, 69, 69)",
+                                            "radius": 16
+                                        }
+                                    },
+                                    {
+                                        "name": "3d6ca80a-dce9-4eba-8f7b-27d35cbd6631-2",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 82,
+                                            "h": 84
+                                        },
+                                        "styles": {
+                                            "radius": 127
+                                        }
+                                    },
+                                    {
+                                        "name": "instrumental",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 119,
+                                            "h": 13
+                                        },
+                                        "content": "Instrumental",
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)",
+                                            "text": {
+                                                "family": "Poppins",
+                                                "size": 13,
+                                                "weight": "700",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "vazio",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 342,
+                                    "h": 104
+                                },
+                                "children": [
+                                    {
+                                        "name": "fundo",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 155,
+                                            "h": 104
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(69, 69, 69)",
+                                            "radius": 16
+                                        }
+                                    },
+                                    {
+                                        "name": "fundo",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 155,
+                                            "h": 104
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(69, 69, 69)",
+                                            "radius": 16
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "hip-hop",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 173,
+                                    "h": 104
+                                },
+                                "children": [
+                                    {
+                                        "name": "fundo",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 155,
+                                            "h": 104
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(69, 69, 69)",
+                                            "radius": 16
+                                        }
+                                    },
+                                    {
+                                        "name": "3d6ca80a-dce9-4eba-8f7b-27d35cbd6631-1",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 83,
+                                            "h": 84
+                                        },
+                                        "styles": {
+                                            "radius": 127
+                                        }
+                                    },
+                                    {
+                                        "name": "hip-hop",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 77,
+                                            "h": 16
+                                        },
+                                        "content": "Hip-Hop",
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)",
+                                            "text": {
+                                                "family": "Poppins",
+                                                "size": 16,
+                                                "weight": "700",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "lofi",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 180,
+                                    "h": 104
+                                },
+                                "children": [
+                                    {
+                                        "name": "fundo",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 155,
+                                            "h": 104
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(69, 69, 69)",
+                                            "radius": 16
+                                        }
+                                    },
+                                    {
+                                        "name": "3d6ca80a-dce9-4eba-8f7b-27d35cbd6631-2",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 83,
+                                            "h": 84
+                                        },
+                                        "styles": {
+                                            "radius": 127
+                                        }
+                                    },
+                                    {
+                                        "name": "lo-fi",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 63,
+                                            "h": 20
+                                        },
+                                        "content": "Lo-fi",
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)",
+                                            "text": {
+                                                "family": "Poppins",
+                                                "size": 16,
+                                                "weight": "700",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "descubra-novos-estilos-m-sicais",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 266,
+                            "h": 24
+                        },
+                        "content": "Descubra novos estilos músicais",
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "text": {
+                                "family": "Poppins",
+                                "size": 16,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "menu-em-baixo",
+                "type": "GROUP",
+                "size": {
+                    "w": 508,
+                    "h": 120
+                },
+                "children": [
+                    {
+                        "name": "fundo",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 508,
+                            "h": 120
+                        },
+                        "styles": {
+                            "bg": "rgb(30, 30, 30)",
+                            "shadow": {
+                                "x": -3,
+                                "y": -4,
+                                "blur": 44,
+                                "color": "rgba(0, 0, 0, 0.550000011920929)"
+                            }
+                        }
+                    },
+                    {
+                        "name": "aqui",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 20,
+                            "h": 20
+                        },
+                        "styles": {
+                            "bg": "rgb(165, 9, 48)"
+                        }
+                    },
+                    {
+                        "name": "biblioteca",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 60,
+                            "h": 47
+                        },
+                        "children": [
+                            {
+                                "name": "bot-o-biblioteca",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 22,
+                                    "h": 28
+                                },
+                                "children": [
+                                    {
+                                        "name": "vector-4",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 8,
+                                            "h": 28
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)",
+                                            "radius": 1
+                                        }
+                                    },
+                                    {
+                                        "name": "ellipse-3",
+                                        "type": "ELLIPSE",
+                                        "size": {
+                                            "w": 4,
+                                            "h": 4
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)"
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-2",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 13,
+                                            "h": 22
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "biblioteca",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 60,
+                                    "h": 18
+                                },
+                                "content": "biblioteca",
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)",
+                                    "text": {
+                                        "family": "Poppins",
+                                        "size": 12,
+                                        "weight": "300",
+                                        "align": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "buscar",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 46,
+                            "h": 49
+                        },
+                        "children": [
+                            {
+                                "name": "bot-o-lupa",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 33,
+                                    "h": 25
+                                },
+                                "children": [
+                                    {
+                                        "name": "ellipse-2",
+                                        "type": "ELLIPSE",
+                                        "size": {
+                                            "w": 25,
+                                            "h": 25
+                                        },
+                                        "styles": {
+                                            "border": {
+                                                "width": 4,
+                                                "color": "rgb(255, 255, 255)"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "line-6",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 13,
+                                            "h": 0
+                                        },
+                                        "styles": {
+                                            "border": {
+                                                "width": 4,
+                                                "color": "rgb(255, 255, 255)"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "buscar",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 46,
+                                    "h": 18
+                                },
+                                "content": "buscar",
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)",
+                                    "text": {
+                                        "family": "Poppins",
+                                        "size": 12,
+                                        "weight": "300",
+                                        "align": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "inicio",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 37,
+                            "h": 45
+                        },
+                        "children": [
+                            {
+                                "name": "bot-o-de-home",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 32,
+                                    "h": 24
+                                },
+                                "children": [
+                                    {
+                                        "name": "vector-3",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 32,
+                                            "h": 12
+                                        },
+                                        "styles": {
+                                            "border": {
+                                                "width": 3,
+                                                "color": "rgb(255, 255, 255)"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "rectangle-1",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 21,
+                                            "h": 24
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "in-cio",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 36,
+                                    "h": 18
+                                },
+                                "content": "início",
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)",
+                                    "text": {
+                                        "family": "Poppins",
+                                        "size": 12,
+                                        "weight": "300",
+                                        "align": "left"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "parte-superior",
+                "type": "GROUP",
+                "size": {
+                    "w": 361,
+                    "h": 36
+                },
+                "children": [
+                    {
+                        "name": "navbar",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 27,
+                            "h": 15
+                        },
+                        "children": [
+                            {
+                                "name": "linha-navbar",
+                                "type": "LINE",
+                                "size": {
+                                    "w": 27,
+                                    "h": 0
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 3,
+                                        "color": "rgb(255, 255, 255)"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "linha-navbar",
+                                "type": "LINE",
+                                "size": {
+                                    "w": 27,
+                                    "h": 0
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 3,
+                                        "color": "rgb(255, 255, 255)"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "linha-navbar",
+                                "type": "LINE",
+                                "size": {
+                                    "w": 27,
+                                    "h": 0
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 3,
+                                        "color": "rgb(255, 255, 255)"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "foto-de-perfil",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 30,
+                            "h": 30
+                        },
+                        "styles": {
+                            "radius": 17
+                        }
+                    },
+                    {
+                        "name": "inside-me",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 115,
+                            "h": 36
+                        },
+                        "content": "INSIDE ME",
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "text": {
+                                "family": "Poppins",
+                                "size": 24,
+                                "weight": "500",
+                                "align": "left"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "p-gina_de-pesquisa",
+                "type": "SLICE",
+                "size": {
+                    "w": 412,
+                    "h": 917
+                }
+            }
+        ]
+    },
+    "summary": {
+        "components": 0,
+        "instances": 0,
+        "frames": 1,
+        "texts": 16,
+        "hasAutoLayout": true,
+        "hasEffects": true
+    }
+}

@@ -1,0 +1,645 @@
+{
+    "metadata": {
+        "exportedAt": "2026-05-09T06:59:14.533Z",
+        "componentName": "DashBoard",
+        "totalElements": 39,
+        "nestingDepth": 4,
+        "plugin": "Figma to JSON Exporter"
+    },
+    "designTokens": {
+        "colors": {
+            "color-rgb(240, 244, 243)": "rgb(240, 244, 243)",
+            "color-rgb(80, 194, 201)": "rgb(80, 194, 201)",
+            "color-rgb(217, 217, 217)": "rgb(217, 217, 217)",
+            "color-rgb(255, 255, 255)": "rgb(255, 255, 255)",
+            "color-rgb(241, 253, 254)": "rgb(241, 253, 254)",
+            "color-rgb(46, 143, 149)": "rgb(46, 143, 149)",
+            "color-rgb(125, 201, 206)": "rgb(125, 201, 206)",
+            "color-rgb(200, 200, 200)": "rgb(200, 200, 200)",
+            "color-rgb(0, 0, 0)": "rgb(0, 0, 0)",
+            "color-rgb(223, 223, 223)": "rgb(223, 223, 223)"
+        },
+        "fonts": {
+            "poppins": {
+                "family": "Poppins",
+                "sizes": {
+                    "size-18": "18px",
+                    "size-10": "10px",
+                    "size-12": "12px",
+                    "size-14": "14px"
+                },
+                "weights": {
+                    "weight-700": "700",
+                    "weight-600": "600"
+                }
+            }
+        },
+        "spacing": {},
+        "effects": {
+            "shadow-4-4": {
+                "x": 0,
+                "y": 4,
+                "blur": 4,
+                "color": "rgba(0, 0, 0, 0.25)"
+            },
+            "shadow-10-4": {
+                "x": 0,
+                "y": 4,
+                "blur": 10,
+                "color": "rgba(0, 0, 0, 0.25)"
+            }
+        }
+    },
+    "structure": {
+        "name": "dashboard",
+        "type": "FRAME",
+        "size": {
+            "w": 430,
+            "h": 932
+        },
+        "styles": {
+            "bg": "rgb(240, 244, 243)",
+            "layout": {
+                "direction": "row",
+                "gap": 0,
+                "align": {
+                    "main": "start",
+                    "cross": "start"
+                }
+            }
+        },
+        "children": [
+            {
+                "name": "rectangle-4",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 430,
+                    "h": 292
+                },
+                "styles": {
+                    "bg": "rgb(80, 194, 201)"
+                }
+            },
+            {
+                "name": "shape",
+                "type": "INSTANCE",
+                "size": {
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "name": "notification",
+                "type": "INSTANCE",
+                "size": {
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "name": "ellipse-3",
+                "type": "ELLIPSE",
+                "size": {
+                    "w": 100,
+                    "h": 100
+                },
+                "styles": {
+                    "bg": "rgb(217, 217, 217)"
+                }
+            },
+            {
+                "name": "welcome-jeegar-goyani",
+                "type": "TEXT",
+                "size": {
+                    "w": 225,
+                    "h": 27
+                },
+                "content": "Welcome Jeegar goyani",
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 18,
+                        "weight": "700",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "clock",
+                "type": "COMPONENT",
+                "size": {
+                    "w": 120,
+                    "h": 120
+                },
+                "component": {
+                    "type": "main",
+                    "name": null
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "ellipse-4",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 120,
+                            "h": 120
+                        },
+                        "styles": {
+                            "bg": "rgb(241, 253, 254)",
+                            "shadow": {
+                                "x": 0,
+                                "y": 4,
+                                "blur": 4,
+                                "color": "rgba(0, 0, 0, 0.25)"
+                            }
+                        }
+                    },
+                    {
+                        "name": "rectangle-5",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 43,
+                            "h": 1
+                        },
+                        "styles": {
+                            "bg": "rgb(46, 143, 149)",
+                            "radius": 100
+                        }
+                    },
+                    {
+                        "name": "rectangle-6",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 43,
+                            "h": 1
+                        },
+                        "styles": {
+                            "bg": "rgb(125, 201, 206)",
+                            "radius": 100
+                        }
+                    },
+                    {
+                        "name": "rectangle-7",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 43,
+                            "h": 1
+                        },
+                        "styles": {
+                            "bg": "rgb(200, 200, 200)",
+                            "radius": 100
+                        }
+                    },
+                    {
+                        "name": "ellipse-5",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 10,
+                            "h": 10
+                        },
+                        "styles": {
+                            "bg": "rgb(240, 244, 243)",
+                            "shadow": {
+                                "x": 0,
+                                "y": 4,
+                                "blur": 4,
+                                "color": "rgba(0, 0, 0, 0.25)"
+                            }
+                        }
+                    },
+                    {
+                        "name": "12",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 10,
+                            "h": 15
+                        },
+                        "content": "12",
+                        "styles": {
+                            "bg": "rgb(46, 143, 149)",
+                            "text": {
+                                "family": "Poppins",
+                                "size": 10,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "6",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 7,
+                            "h": 15
+                        },
+                        "content": "6",
+                        "styles": {
+                            "bg": "rgb(46, 143, 149)",
+                            "text": {
+                                "family": "Poppins",
+                                "size": 10,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "3",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 6,
+                            "h": 15
+                        },
+                        "content": "3",
+                        "styles": {
+                            "bg": "rgb(46, 143, 149)",
+                            "text": {
+                                "family": "Poppins",
+                                "size": 10,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "9",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 7,
+                            "h": 15
+                        },
+                        "content": "9",
+                        "styles": {
+                            "bg": "rgb(46, 143, 149)",
+                            "text": {
+                                "family": "Poppins",
+                                "size": 10,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "good-afternoon",
+                "type": "TEXT",
+                "size": {
+                    "w": 97,
+                    "h": 18
+                },
+                "content": "Good Afternoon",
+                "styles": {
+                    "bg": "rgb(0, 0, 0)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 12,
+                        "weight": "600",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "task-list",
+                "type": "TEXT",
+                "size": {
+                    "w": 58,
+                    "h": 21
+                },
+                "content": "Task list",
+                "styles": {
+                    "bg": "rgb(0, 0, 0)",
+                    "text": {
+                        "family": "Poppins",
+                        "size": 14,
+                        "weight": "600",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "rectangle-8",
+                "type": "VECTOR",
+                "size": {
+                    "w": 382,
+                    "h": 309
+                },
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "radius": 12,
+                    "shadow": {
+                        "x": 0,
+                        "y": 4,
+                        "blur": 10,
+                        "color": "rgba(0, 0, 0, 0.25)"
+                    }
+                }
+            },
+            {
+                "name": "task_heading",
+                "type": "GROUP",
+                "size": {
+                    "w": 333,
+                    "h": 25
+                },
+                "children": [
+                    {
+                        "name": "daily-task",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 63,
+                            "h": 18
+                        },
+                        "content": "Daily Task",
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "text": {
+                                "family": "Poppins",
+                                "size": 12,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "plus",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 25,
+                            "h": 25
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "vector",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 22,
+                                    "h": 22
+                                },
+                                "styles": {
+                                    "bg": "rgb(80, 194, 201)"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "task",
+                "type": "GROUP",
+                "size": {
+                    "w": 219,
+                    "h": 18
+                },
+                "children": [
+                    {
+                        "name": "learning-programming-by-12pm",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 193,
+                            "h": 18
+                        },
+                        "content": "Learning Programming by 12PM",
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "text": {
+                                "family": "Poppins",
+                                "size": 12,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "rectangle-9",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 17,
+                            "h": 17
+                        },
+                        "styles": {
+                            "bg": "rgb(80, 194, 201)",
+                            "border": {
+                                "width": 2,
+                                "color": "rgb(0, 0, 0)"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "task",
+                "type": "GROUP",
+                "size": {
+                    "w": 180,
+                    "h": 18
+                },
+                "children": [
+                    {
+                        "name": "learn-how-to-cook-by-1pm",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 154,
+                            "h": 18
+                        },
+                        "content": "Learn how to cook by 1PM",
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "text": {
+                                "family": "Poppins",
+                                "size": 12,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "rectangle-9",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 17,
+                            "h": 17
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "border": {
+                                "width": 2,
+                                "color": "rgb(0, 0, 0)"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "task",
+                "type": "GROUP",
+                "size": {
+                    "w": 177,
+                    "h": 18
+                },
+                "children": [
+                    {
+                        "name": "learn-how-to-play-at-2pm",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 151,
+                            "h": 18
+                        },
+                        "content": "Learn how to play at 2PM",
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "text": {
+                                "family": "Poppins",
+                                "size": 12,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "rectangle-9",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 17,
+                            "h": 17
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "border": {
+                                "width": 2,
+                                "color": "rgb(0, 0, 0)"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "task",
+                "type": "GROUP",
+                "size": {
+                    "w": 140,
+                    "h": 18
+                },
+                "children": [
+                    {
+                        "name": "have-lunch-at-4pm",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 114,
+                            "h": 18
+                        },
+                        "content": "Have lunch at 4PM",
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "text": {
+                                "family": "Poppins",
+                                "size": 12,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "rectangle-9",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 17,
+                            "h": 17
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "border": {
+                                "width": 2,
+                                "color": "rgb(0, 0, 0)"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "task",
+                "type": "GROUP",
+                "size": {
+                    "w": 145,
+                    "h": 18
+                },
+                "children": [
+                    {
+                        "name": "going-to-travel-6pm",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 119,
+                            "h": 18
+                        },
+                        "content": "Going to travel 6PM",
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "text": {
+                                "family": "Poppins",
+                                "size": 12,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "rectangle-9",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 17,
+                            "h": 17
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "border": {
+                                "width": 2,
+                                "color": "rgb(0, 0, 0)"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "rectangle-10",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 3,
+                    "h": 86
+                },
+                "styles": {
+                    "bg": "rgb(223, 223, 223)",
+                    "radius": 100
+                }
+            }
+        ]
+    },
+    "summary": {
+        "components": 1,
+        "instances": 2,
+        "frames": 2,
+        "texts": 13,
+        "hasAutoLayout": true,
+        "hasEffects": true
+    }
+}

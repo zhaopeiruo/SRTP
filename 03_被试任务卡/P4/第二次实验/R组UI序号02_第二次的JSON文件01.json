@@ -1,0 +1,669 @@
+{
+    "metadata": {
+        "exportedAt": "2026-05-09T07:11:03.376Z",
+        "componentName": "Login",
+        "totalElements": 43,
+        "nestingDepth": 5,
+        "plugin": "Figma to JSON Exporter"
+    },
+    "designTokens": {
+        "colors": {
+            "color-rgb(217, 217, 217)": "rgb(217, 217, 217)",
+            "color-rgb(255, 255, 255)": "rgb(255, 255, 255)",
+            "color-rgb(34, 34, 34)": "rgb(34, 34, 34)",
+            "color-rgb(0, 0, 0)": "rgb(0, 0, 0)",
+            "color-rgb(41, 41, 41)": "rgb(41, 41, 41)",
+            "color-rgb(80, 80, 80)": "rgb(80, 80, 80)",
+            "color-rgb(255, 193, 7)": "rgb(255, 193, 7)",
+            "color-rgb(255, 61, 0)": "rgb(255, 61, 0)",
+            "color-rgb(76, 175, 80)": "rgb(76, 175, 80)",
+            "color-rgb(25, 118, 210)": "rgb(25, 118, 210)"
+        },
+        "fonts": {
+            "inter": {
+                "family": "Inter",
+                "sizes": {
+                    "size-14": "14px",
+                    "size-16": "16px",
+                    "size-18": "18px",
+                    "size-30": "30px",
+                    "size-12": "12px"
+                },
+                "weights": {
+                    "weight-600": "600",
+                    "weight-500": "500",
+                    "weight-400": "400"
+                }
+            }
+        },
+        "spacing": {},
+        "effects": {}
+    },
+    "structure": {
+        "name": "login",
+        "type": "FRAME",
+        "size": {
+            "w": 430,
+            "h": 932
+        },
+        "styles": {
+            "bg": "rgb(217, 217, 217)",
+            "border": {
+                "width": 6,
+                "color": "rgb(90, 90, 90)"
+            },
+            "radius": 45,
+            "layout": {
+                "direction": "row",
+                "gap": 0,
+                "align": {
+                    "main": "start",
+                    "cross": "start"
+                }
+            }
+        },
+        "children": [
+            {
+                "name": "rectangle-102",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 430,
+                    "h": 536
+                },
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "radius": 47
+                }
+            },
+            {
+                "name": "bottom",
+                "type": "GROUP",
+                "size": {
+                    "w": 382,
+                    "h": 364
+                },
+                "children": [
+                    {
+                        "name": "view_hide_light",
+                        "type": "COMPONENT",
+                        "size": {
+                            "w": 24,
+                            "h": 24
+                        },
+                        "component": {
+                            "type": "main",
+                            "name": null
+                        },
+                        "styles": {
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "subtract_light",
+                                "type": "BOOLEAN_OPERATION",
+                                "size": {
+                                    "w": 8,
+                                    "h": 8
+                                },
+                                "styles": {
+                                    "bg": "rgb(34, 34, 34)"
+                                },
+                                "children": [
+                                    {
+                                        "name": "ellipse-65",
+                                        "type": "ELLIPSE",
+                                        "size": {
+                                            "w": 8,
+                                            "h": 8
+                                        },
+                                        "styles": {
+                                            "border": {
+                                                "width": 1,
+                                                "color": "rgb(51, 54, 63)"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "vector-115",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 18,
+                                            "h": 18
+                                        },
+                                        "styles": {
+                                            "border": {
+                                                "width": 3,
+                                                "color": "rgb(0, 0, 0)"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "subtract_light",
+                                "type": "BOOLEAN_OPERATION",
+                                "size": {
+                                    "w": 19,
+                                    "h": 13
+                                },
+                                "styles": {
+                                    "bg": "rgb(34, 34, 34)"
+                                },
+                                "children": [
+                                    {
+                                        "name": "ellipse-66",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 18,
+                                            "h": 12
+                                        },
+                                        "styles": {
+                                            "border": {
+                                                "width": 1,
+                                                "color": "rgb(51, 54, 63)"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "vector-116",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 18,
+                                            "h": 18
+                                        },
+                                        "styles": {
+                                            "border": {
+                                                "width": 3,
+                                                "color": "rgb(0, 0, 0)"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "vector-116_light",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 16,
+                                    "h": 16
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 1,
+                                        "color": "rgb(34, 34, 34)"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "line-5",
+                        "type": "LINE",
+                        "size": {
+                            "w": 382,
+                            "h": 0
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 1,
+                                "color": "rgb(0, 0, 0)"
+                            }
+                        }
+                    },
+                    {
+                        "name": "line-6",
+                        "type": "LINE",
+                        "size": {
+                            "w": 382,
+                            "h": 0
+                        },
+                        "styles": {
+                            "border": {
+                                "width": 1,
+                                "color": "rgb(0, 0, 0)"
+                            }
+                        }
+                    },
+                    {
+                        "name": "email-address",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 94,
+                            "h": 17
+                        },
+                        "content": "Email Address",
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "text": {
+                                "family": "Inter",
+                                "size": 14,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "password",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 65,
+                            "h": 17
+                        },
+                        "content": "Password",
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "text": {
+                                "family": "Inter",
+                                "size": 14,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "frogot-password-",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 136,
+                            "h": 19
+                        },
+                        "content": "Frogot Password?",
+                        "styles": {
+                            "bg": "rgb(41, 41, 41)",
+                            "text": {
+                                "family": "Inter",
+                                "size": 16,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "rectangle-96",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 381,
+                            "h": 55
+                        },
+                        "styles": {
+                            "bg": "rgb(80, 80, 80)",
+                            "radius": 7
+                        }
+                    },
+                    {
+                        "name": "log-in",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 55,
+                            "h": 22
+                        },
+                        "content": "Log in",
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "text": {
+                                "family": "Inter",
+                                "size": 18,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "don--have-an-account--sign-up",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 228,
+                            "h": 19
+                        },
+                        "content": "Don’ have an account? Sign up",
+                        "styles": {
+                            "text": {
+                                "family": "Inter",
+                                "size": 16,
+                                "weight": "500",
+                                "align": "left"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "top",
+                "type": "GROUP",
+                "size": {
+                    "w": 215,
+                    "h": 414
+                },
+                "children": [
+                    {
+                        "name": "back",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 38,
+                            "h": 19
+                        },
+                        "content": "Back",
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "text": {
+                                "family": "Inter",
+                                "size": 16,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "log-in",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 86,
+                            "h": 36
+                        },
+                        "content": "Log in",
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "text": {
+                                "family": "Inter",
+                                "size": 30,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "img",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 48,
+                            "h": 48
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle-101",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 48,
+                                    "h": 48
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 3,
+                                        "color": "rgb(0, 0, 0)"
+                                    },
+                                    "radius": 16
+                                }
+                            },
+                            {
+                                "name": "ellipse-70",
+                                "type": "ELLIPSE",
+                                "size": {
+                                    "w": 9,
+                                    "h": 9
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 3,
+                                        "color": "rgb(0, 0, 0)"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "vector-110",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 44,
+                                    "h": 18
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 3,
+                                        "color": "rgb(0, 0, 0)"
+                                    },
+                                    "radius": 3
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "bar",
+                "type": "GROUP",
+                "size": {
+                    "w": 376,
+                    "h": 19
+                },
+                "children": [
+                    {
+                        "name": "ellipse-28",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 9,
+                            "h": 9
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)"
+                        }
+                    },
+                    {
+                        "name": "ellipse-29",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 9,
+                            "h": 9
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)"
+                        }
+                    },
+                    {
+                        "name": "ellipse-30",
+                        "type": "ELLIPSE",
+                        "size": {
+                            "w": 9,
+                            "h": 9
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)"
+                        }
+                    },
+                    {
+                        "name": "9-45",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 34,
+                            "h": 19
+                        },
+                        "content": "9:45",
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "text": {
+                                "family": "Inter",
+                                "size": 16,
+                                "weight": "400",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "vector-5",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 24,
+                            "h": 17
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)"
+                        }
+                    },
+                    {
+                        "name": "98-",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 25,
+                            "h": 15
+                        },
+                        "content": "98%",
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)",
+                            "text": {
+                                "family": "Inter",
+                                "size": 12,
+                                "weight": "400",
+                                "align": "left"
+                            }
+                        }
+                    },
+                    {
+                        "name": "vector",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 24,
+                            "h": 10
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 0, 0)"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "or",
+                "type": "TEXT",
+                "size": {
+                    "w": 18,
+                    "h": 22
+                },
+                "content": "or",
+                "styles": {
+                    "bg": "rgb(0, 0, 0)",
+                    "text": {
+                        "family": "Inter",
+                        "size": 18,
+                        "weight": "600",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "google-color-1",
+                "type": "FRAME",
+                "size": {
+                    "w": 55,
+                    "h": 55
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "vector",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 46,
+                            "h": 46
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 193, 7)"
+                        }
+                    },
+                    {
+                        "name": "vector",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 36,
+                            "h": 18
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 61, 0)"
+                        }
+                    },
+                    {
+                        "name": "vector",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 36,
+                            "h": 18
+                        },
+                        "styles": {
+                            "bg": "rgb(76, 175, 80)"
+                        }
+                    },
+                    {
+                        "name": "vector",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 23,
+                            "h": 22
+                        },
+                        "styles": {
+                            "bg": "rgb(25, 118, 210)"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "facebook-color-2",
+                "type": "FRAME",
+                "size": {
+                    "w": 55,
+                    "h": 55
+                },
+                "styles": {
+                    "layout": {
+                        "direction": "row",
+                        "gap": 0,
+                        "align": {
+                            "main": "start",
+                            "cross": "start"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "vector",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 46,
+                            "h": 46
+                        }
+                    },
+                    {
+                        "name": "vector",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 19,
+                            "h": 36
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "summary": {
+        "components": 1,
+        "instances": 0,
+        "frames": 3,
+        "texts": 10,
+        "hasAutoLayout": true,
+        "hasEffects": false
+    }
+}

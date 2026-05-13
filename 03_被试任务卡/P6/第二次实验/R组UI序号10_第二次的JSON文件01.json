@@ -1,0 +1,894 @@
+{
+    "metadata": {
+        "exportedAt": "2026-05-09T07:58:16.935Z",
+        "componentName": "Hospitals",
+        "totalElements": 61,
+        "nestingDepth": 6,
+        "plugin": "Figma to JSON Exporter"
+    },
+    "designTokens": {
+        "colors": {
+            "color-rgb(246, 199, 199)": "rgb(246, 199, 199)",
+            "color-rgb(246, 2, 2)": "rgb(246, 2, 2)",
+            "color-rgb(255, 255, 255)": "rgb(255, 255, 255)",
+            "color-rgb(0, 18, 84)": "rgb(0, 18, 84)",
+            "color-rgb(0, 49, 84)": "rgb(0, 49, 84)",
+            "color-rgb(68, 68, 68)": "rgb(68, 68, 68)",
+            "color-rgb(0, 0, 0)": "rgb(0, 0, 0)"
+        },
+        "fonts": {
+            "inter": {
+                "family": "Inter",
+                "sizes": {
+                    "size-24": "24px"
+                },
+                "weights": {
+                    "weight-400": "400"
+                }
+            },
+            "asap": {
+                "family": "Asap",
+                "sizes": {
+                    "size-14": "14px",
+                    "size-10": "10px"
+                },
+                "weights": {
+                    "weight-700": "700",
+                    "weight-600": "600"
+                }
+            }
+        },
+        "spacing": {},
+        "effects": {
+            "shadow-6-3": {
+                "x": 0,
+                "y": 3,
+                "blur": 6,
+                "color": "rgba(95, 95, 95, 0.25)"
+            }
+        }
+    },
+    "structure": {
+        "name": "hospitals",
+        "type": "FRAME",
+        "size": {
+            "w": 360,
+            "h": 800
+        },
+        "styles": {
+            "bg": "rgb(246, 199, 199)",
+            "layout": {
+                "direction": "row",
+                "gap": 0,
+                "align": {
+                    "main": "start",
+                    "cross": "start"
+                }
+            }
+        },
+        "children": [
+            {
+                "name": "rectangle-2",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 304,
+                    "h": 207
+                },
+                "styles": {
+                    "radius": 33,
+                    "shadow": {
+                        "x": 0,
+                        "y": 3,
+                        "blur": 6,
+                        "color": "rgba(95, 95, 95, 0.25)"
+                    }
+                }
+            },
+            {
+                "name": "hospitals-near-you",
+                "type": "TEXT",
+                "size": {
+                    "w": 360,
+                    "h": 121
+                },
+                "content": "Hospitals Near you",
+                "styles": {
+                    "bg": "rgb(246, 2, 2)",
+                    "text": {
+                        "family": "Inter",
+                        "size": 24,
+                        "weight": "400",
+                        "align": "center"
+                    },
+                    "border": {
+                        "width": 1,
+                        "color": "rgb(0, 0, 0)"
+                    }
+                }
+            },
+            {
+                "name": "mask-group",
+                "type": "GROUP",
+                "size": {
+                    "w": 302,
+                    "h": 84
+                },
+                "children": [
+                    {
+                        "name": "strava-info",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 302,
+                            "h": 84
+                        },
+                        "children": [
+                            {
+                                "name": "servi-o",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 302,
+                                    "h": 79
+                                },
+                                "children": [
+                                    {
+                                        "name": "rectangle-6",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 302,
+                                            "h": 79
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)",
+                                            "radius": 10,
+                                            "shadow": {
+                                                "x": 0,
+                                                "y": 3,
+                                                "blur": 6,
+                                                "color": "rgba(95, 95, 95, 0.25)"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "kpcl-yelahanka-hospital-dfy",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 162,
+                                    "h": 29
+                                },
+                                "content": "KPCL Yelahanka Hospital DFY",
+                                "styles": {
+                                    "bg": "rgb(0, 18, 84)",
+                                    "text": {
+                                        "family": "Asap",
+                                        "size": 14,
+                                        "weight": "700",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "kpcl-campus--doddaballapur-main-rd--near-ananthapura-street--yelah--------",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 229,
+                                    "h": 41
+                                },
+                                "content": "Kpcl Campus, Doddaballapur \nMain Rd, near Ananthapura Street, Yelah . . . .",
+                                "styles": {
+                                    "text": {
+                                        "family": "Asap",
+                                        "size": 10,
+                                        "weight": "600",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "group-2",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 18,
+                                    "h": 18
+                                },
+                                "children": [
+                                    {
+                                        "name": "vector",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 18,
+                                            "h": 18
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(0, 49, 84)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "sign-up-button",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 44,
+                                    "h": 45
+                                },
+                                "children": [
+                                    {
+                                        "name": "rectangle-4",
+                                        "type": "RECTANGLE",
+                                        "size": {
+                                            "w": 44,
+                                            "h": 45
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(0, 49, 84)",
+                                            "radius": 39,
+                                            "shadow": {
+                                                "x": 0,
+                                                "y": 3,
+                                                "blur": 6,
+                                                "color": "rgba(95, 95, 95, 0.25)"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "vector",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 25,
+                                    "h": 22
+                                },
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)"
+                                }
+                            },
+                            {
+                                "name": "strava-info",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 302,
+                                    "h": 79
+                                },
+                                "children": [
+                                    {
+                                        "name": "servi-o",
+                                        "type": "GROUP",
+                                        "size": {
+                                            "w": 302,
+                                            "h": 79
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "rectangle-6",
+                                                "type": "RECTANGLE",
+                                                "size": {
+                                                    "w": 302,
+                                                    "h": 79
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)",
+                                                    "radius": 10,
+                                                    "shadow": {
+                                                        "x": 0,
+                                                        "y": 3,
+                                                        "blur": 6,
+                                                        "color": "rgba(95, 95, 95, 0.25)"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "kpcl-yelahanka-hospital-dfy",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 162,
+                                            "h": 29
+                                        },
+                                        "content": "KPCL Yelahanka Hospital DFY",
+                                        "styles": {
+                                            "bg": "rgb(0, 18, 84)",
+                                            "text": {
+                                                "family": "Asap",
+                                                "size": 14,
+                                                "weight": "700",
+                                                "align": "left"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "group-2",
+                                        "type": "GROUP",
+                                        "size": {
+                                            "w": 18,
+                                            "h": 18
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "vector",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 18,
+                                                    "h": 18
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(0, 49, 84)"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "sign-up-button",
+                                        "type": "GROUP",
+                                        "size": {
+                                            "w": 44,
+                                            "h": 45
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "rectangle-4",
+                                                "type": "RECTANGLE",
+                                                "size": {
+                                                    "w": 44,
+                                                    "h": 45
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(0, 49, 84)",
+                                                    "radius": 39,
+                                                    "shadow": {
+                                                        "x": 0,
+                                                        "y": 3,
+                                                        "blur": 6,
+                                                        "color": "rgba(95, 95, 95, 0.25)"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "vector",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 25,
+                                            "h": 22
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "strava-info",
+                                "type": "GROUP",
+                                "size": {
+                                    "w": 302,
+                                    "h": 79
+                                },
+                                "children": [
+                                    {
+                                        "name": "servi-o",
+                                        "type": "GROUP",
+                                        "size": {
+                                            "w": 302,
+                                            "h": 79
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "rectangle-6",
+                                                "type": "RECTANGLE",
+                                                "size": {
+                                                    "w": 302,
+                                                    "h": 79
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(255, 255, 255)",
+                                                    "radius": 10,
+                                                    "shadow": {
+                                                        "x": 0,
+                                                        "y": 3,
+                                                        "blur": 6,
+                                                        "color": "rgba(95, 95, 95, 0.25)"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "group-2",
+                                        "type": "GROUP",
+                                        "size": {
+                                            "w": 18,
+                                            "h": 18
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "vector",
+                                                "type": "VECTOR",
+                                                "size": {
+                                                    "w": 18,
+                                                    "h": 18
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(0, 49, 84)"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "sign-up-button",
+                                        "type": "GROUP",
+                                        "size": {
+                                            "w": 44,
+                                            "h": 45
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "rectangle-4",
+                                                "type": "RECTANGLE",
+                                                "size": {
+                                                    "w": 44,
+                                                    "h": 45
+                                                },
+                                                "styles": {
+                                                    "bg": "rgb(0, 49, 84)",
+                                                    "radius": 39,
+                                                    "shadow": {
+                                                        "x": 0,
+                                                        "y": 3,
+                                                        "blur": 6,
+                                                        "color": "rgba(95, 95, 95, 0.25)"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "vector",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 25,
+                                            "h": 22
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "no-1236--ward-no-4--b-sector--hig-1-2-phase--yelahanka-new-town",
+                "type": "TEXT",
+                "size": {
+                    "w": 192,
+                    "h": 22
+                },
+                "content": "NO.1236, WARD NO:4, B SECTOR, HIG 1&2 PHASE, Yelahanka New Town",
+                "styles": {
+                    "bg": "rgb(68, 68, 68)",
+                    "text": {
+                        "family": "Asap",
+                        "size": 10,
+                        "weight": "600",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "servi-o",
+                "type": "GROUP",
+                "size": {
+                    "w": 302,
+                    "h": 79
+                },
+                "children": [
+                    {
+                        "name": "rectangle-6",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 302,
+                            "h": 79
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)",
+                            "radius": 10,
+                            "shadow": {
+                                "x": 0,
+                                "y": 3,
+                                "blur": 6,
+                                "color": "rgba(95, 95, 95, 0.25)"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "sign-up-button",
+                "type": "GROUP",
+                "size": {
+                    "w": 44,
+                    "h": 45
+                },
+                "children": [
+                    {
+                        "name": "rectangle-4",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 44,
+                            "h": 45
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 49, 84)",
+                            "radius": 39,
+                            "shadow": {
+                                "x": 0,
+                                "y": 3,
+                                "blur": 6,
+                                "color": "rgba(95, 95, 95, 0.25)"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "vector",
+                "type": "VECTOR",
+                "size": {
+                    "w": 25,
+                    "h": 22
+                },
+                "styles": {
+                    "bg": "rgb(255, 255, 255)"
+                }
+            },
+            {
+                "name": "kpcl-yelahanka-hospital-dfy",
+                "type": "TEXT",
+                "size": {
+                    "w": 162,
+                    "h": 29
+                },
+                "content": "KPCL Yelahanka Hospital DFY",
+                "styles": {
+                    "bg": "rgb(0, 18, 84)",
+                    "text": {
+                        "family": "Asap",
+                        "size": 14,
+                        "weight": "700",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "group-2",
+                "type": "GROUP",
+                "size": {
+                    "w": 18,
+                    "h": 18
+                },
+                "children": [
+                    {
+                        "name": "vector",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 18,
+                            "h": 18
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 49, 84)"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "kpcl-campus--doddaballapur-main-rd--near-ananthapura-street--yelah--------",
+                "type": "TEXT",
+                "size": {
+                    "w": 229,
+                    "h": 41
+                },
+                "content": "Kpcl Campus, Doddaballapur \nMain Rd, near Ananthapura Street, Yelah . . . .",
+                "styles": {
+                    "text": {
+                        "family": "Asap",
+                        "size": 10,
+                        "weight": "600",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "omega-multispeciality-hospital",
+                "type": "TEXT",
+                "size": {
+                    "w": 195,
+                    "h": 16
+                },
+                "content": "Omega Multispeciality Hospital",
+                "styles": {
+                    "bg": "rgb(0, 18, 84)",
+                    "text": {
+                        "family": "Asap",
+                        "size": 14,
+                        "weight": "700",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "rectangle-6",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 302,
+                    "h": 79
+                },
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "radius": 10,
+                    "shadow": {
+                        "x": 0,
+                        "y": 3,
+                        "blur": 6,
+                        "color": "rgba(95, 95, 95, 0.25)"
+                    }
+                }
+            },
+            {
+                "name": "sign-up-button",
+                "type": "GROUP",
+                "size": {
+                    "w": 44,
+                    "h": 45
+                },
+                "children": [
+                    {
+                        "name": "rectangle-4",
+                        "type": "RECTANGLE",
+                        "size": {
+                            "w": 44,
+                            "h": 45
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 49, 84)",
+                            "radius": 39,
+                            "shadow": {
+                                "x": 0,
+                                "y": 3,
+                                "blur": 6,
+                                "color": "rgba(95, 95, 95, 0.25)"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "vector",
+                "type": "VECTOR",
+                "size": {
+                    "w": 25,
+                    "h": 22
+                },
+                "styles": {
+                    "bg": "rgb(255, 255, 255)"
+                }
+            },
+            {
+                "name": "neha-prakash-hospital",
+                "type": "TEXT",
+                "size": {
+                    "w": 162,
+                    "h": 29
+                },
+                "content": "Neha Prakash Hospital",
+                "styles": {
+                    "bg": "rgb(0, 18, 84)",
+                    "text": {
+                        "family": "Asap",
+                        "size": 14,
+                        "weight": "700",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "group-2",
+                "type": "GROUP",
+                "size": {
+                    "w": 18,
+                    "h": 18
+                },
+                "children": [
+                    {
+                        "name": "vector",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 18,
+                            "h": 18
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 49, 84)"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "strava-info",
+                "type": "GROUP",
+                "size": {
+                    "w": 229,
+                    "h": 41
+                },
+                "children": [
+                    {
+                        "name": "-4h4c-mq2--8--6th-main-rd--yelahanka-5th-phase--yelahanka-new-town--bengaluru--karnataka-560064",
+                        "type": "TEXT",
+                        "size": {
+                            "w": 229,
+                            "h": 41
+                        },
+                        "content": "4H4C+MQ2, 8, 6th Main Rd, Yelahanka \n5th Phase, Yelahanka New Town, Bengaluru, Karnataka 560064",
+                        "styles": {
+                            "bg": "rgb(68, 68, 68)",
+                            "text": {
+                                "family": "Asap",
+                                "size": 10,
+                                "weight": "600",
+                                "align": "left"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "rectangle-6",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 302,
+                    "h": 79
+                },
+                "styles": {
+                    "bg": "rgb(255, 255, 255)",
+                    "radius": 10,
+                    "shadow": {
+                        "x": 0,
+                        "y": 3,
+                        "blur": 6,
+                        "color": "rgba(95, 95, 95, 0.25)"
+                    }
+                }
+            },
+            {
+                "name": "apple-hospital",
+                "type": "TEXT",
+                "size": {
+                    "w": 162,
+                    "h": 29
+                },
+                "content": "Apple Hospital",
+                "styles": {
+                    "bg": "rgb(0, 18, 84)",
+                    "text": {
+                        "family": "Asap",
+                        "size": 14,
+                        "weight": "700",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "sh-9--rwf-west-colony--yelahanka-new-town--bengaluru--karnataka-560064",
+                "type": "TEXT",
+                "size": {
+                    "w": 229,
+                    "h": 41
+                },
+                "content": "SH 9, RWF West Colony, Yelahanka New Town, Bengaluru, Karnataka 560064",
+                "styles": {
+                    "bg": "rgb(68, 68, 68)",
+                    "text": {
+                        "family": "Asap",
+                        "size": 10,
+                        "weight": "600",
+                        "align": "left"
+                    }
+                }
+            },
+            {
+                "name": "group-2",
+                "type": "GROUP",
+                "size": {
+                    "w": 18,
+                    "h": 18
+                },
+                "children": [
+                    {
+                        "name": "vector",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 18,
+                            "h": 18
+                        },
+                        "styles": {
+                            "bg": "rgb(0, 49, 84)"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "strava-info",
+                "type": "GROUP",
+                "size": {
+                    "w": 44,
+                    "h": 45
+                },
+                "children": [
+                    {
+                        "name": "sign-up-button",
+                        "type": "GROUP",
+                        "size": {
+                            "w": 44,
+                            "h": 45
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle-4",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 44,
+                                    "h": 45
+                                },
+                                "styles": {
+                                    "bg": "rgb(0, 49, 84)",
+                                    "radius": 39,
+                                    "shadow": {
+                                        "x": 0,
+                                        "y": 3,
+                                        "blur": 6,
+                                        "color": "rgba(95, 95, 95, 0.25)"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "vector",
+                        "type": "VECTOR",
+                        "size": {
+                            "w": 25,
+                            "h": 22
+                        },
+                        "styles": {
+                            "bg": "rgb(255, 255, 255)"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "vector",
+                "type": "VECTOR",
+                "size": {
+                    "w": 15,
+                    "h": 14
+                },
+                "styles": {
+                    "bg": "rgb(0, 0, 0)"
+                }
+            }
+        ]
+    },
+    "summary": {
+        "components": 0,
+        "instances": 0,
+        "frames": 1,
+        "texts": 12,
+        "hasAutoLayout": true,
+        "hasEffects": true
+    }
+}

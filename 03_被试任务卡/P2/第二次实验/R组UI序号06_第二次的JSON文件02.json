@@ -1,0 +1,708 @@
+{
+    "metadata": {
+        "exportedAt": "2026-05-09T07:43:00.783Z",
+        "componentName": "Group 7",
+        "totalElements": 46,
+        "nestingDepth": 8,
+        "plugin": "Figma to JSON Exporter"
+    },
+    "designTokens": {
+        "colors": {
+            "color-rgb(242, 245, 250)": "rgb(242, 245, 250)",
+            "color-rgb(37, 99, 234)": "rgb(37, 99, 234)",
+            "color-rgb(255, 255, 255)": "rgb(255, 255, 255)",
+            "color-rgb(0, 51, 156)": "rgb(0, 51, 156)",
+            "color-rgb(166, 204, 249)": "rgb(166, 204, 249)",
+            "color-rgb(39, 91, 174)": "rgb(39, 91, 174)",
+            "color-rgb(0, 0, 0)": "rgb(0, 0, 0)",
+            "color-rgb(223, 243, 252)": "rgb(223, 243, 252)",
+            "color-rgb(244, 129, 14)": "rgb(244, 129, 14)",
+            "color-rgb(34, 49, 70)": "rgb(34, 49, 70)"
+        },
+        "fonts": {
+            "arial": {
+                "family": "Arial",
+                "sizes": {
+                    "size-22": "22px"
+                },
+                "weights": {
+                    "weight-400": "400"
+                }
+            },
+            "sf-pro-display": {
+                "family": "SF Pro Display",
+                "sizes": {
+                    "size-15": "15px"
+                },
+                "weights": {
+                    "weight-400": "400"
+                }
+            },
+            "trebuchet-ms": {
+                "family": "Trebuchet MS",
+                "sizes": {
+                    "size-10": "10px",
+                    "size-13": "13px"
+                },
+                "weights": {
+                    "weight-700": "700"
+                }
+            },
+            "webdings": {
+                "family": "Webdings",
+                "sizes": {
+                    "size-31": "31px",
+                    "size-16": "16px"
+                },
+                "weights": {
+                    "weight-400": "400"
+                }
+            },
+            "baloo-2": {
+                "family": "Baloo 2",
+                "sizes": {
+                    "size-24": "24px"
+                },
+                "weights": {
+                    "weight-700": "700"
+                }
+            },
+            "baloo-bhaijaan-2": {
+                "family": "Baloo Bhaijaan 2",
+                "sizes": {
+                    "size-13": "13px"
+                },
+                "weights": {
+                    "weight-700": "700"
+                }
+            }
+        },
+        "spacing": {},
+        "effects": {
+            "shadow-4-4": {
+                "x": 0,
+                "y": 4,
+                "blur": 4,
+                "color": "rgba(0, 0, 0, 0.25)"
+            }
+        }
+    },
+    "structure": {
+        "name": "group-7",
+        "type": "GROUP",
+        "size": {
+            "w": 393,
+            "h": 852
+        },
+        "children": [
+            {
+                "name": "group-6",
+                "type": "GROUP",
+                "size": {
+                    "w": 393,
+                    "h": 852
+                },
+                "children": [
+                    {
+                        "name": "iphone-16---1",
+                        "type": "FRAME",
+                        "size": {
+                            "w": 393,
+                            "h": 852
+                        },
+                        "styles": {
+                            "bg": "rgb(242, 245, 250)",
+                            "layout": {
+                                "direction": "row",
+                                "gap": 0,
+                                "align": {
+                                    "main": "start",
+                                    "cross": "start"
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "rectangle-1",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 400,
+                                    "h": 399
+                                },
+                                "styles": {
+                                    "bg": "rgb(37, 99, 234)"
+                                }
+                            },
+                            {
+                                "name": "good-afternoon--shubham",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 158,
+                                    "h": 60
+                                },
+                                "content": "Good Afternoon,\nShubham",
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)",
+                                    "text": {
+                                        "family": "Arial",
+                                        "size": 22,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "status-bar-light",
+                                "type": "FRAME",
+                                "size": {
+                                    "w": 402,
+                                    "h": 40
+                                },
+                                "styles": {
+                                    "layout": {
+                                        "direction": "row",
+                                        "gap": 0,
+                                        "align": {
+                                            "main": "start",
+                                            "cross": "start"
+                                        }
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "name": "fill-17",
+                                        "type": "VECTOR",
+                                        "size": {
+                                            "w": 402,
+                                            "h": 40
+                                        },
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)"
+                                        }
+                                    },
+                                    {
+                                        "name": "icons-network-status-bar",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 18,
+                                            "h": 11
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 0,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "icons-network-status-bar",
+                                                "type": "GROUP",
+                                                "size": {
+                                                    "w": 18,
+                                                    "h": 11
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "fill-21",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 3,
+                                                            "h": 11
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(255, 255, 255)"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "fill-23",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 3,
+                                                            "h": 8
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(255, 255, 255)"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "fill-25",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 3,
+                                                            "h": 6
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(255, 255, 255)"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "fill-27",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 3,
+                                                            "h": 5
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(255, 255, 255)"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "icons-wifi-status-bar",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 16,
+                                            "h": 11
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 0,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "icons-wifi-status-bar",
+                                                "type": "GROUP",
+                                                "size": {
+                                                    "w": 15,
+                                                    "h": 11
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "fill-29",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 5,
+                                                            "h": 4
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(255, 255, 255)"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "fill-31",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 10,
+                                                            "h": 4
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(255, 255, 255)"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "fill-33",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 15,
+                                                            "h": 5
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(255, 255, 255)"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "icons-buttary-status-bar",
+                                        "type": "FRAME",
+                                        "size": {
+                                            "w": 27,
+                                            "h": 11
+                                        },
+                                        "styles": {
+                                            "layout": {
+                                                "direction": "row",
+                                                "gap": 0,
+                                                "align": {
+                                                    "main": "start",
+                                                    "cross": "start"
+                                                }
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "icons-buttary-status-bar",
+                                                "type": "GROUP",
+                                                "size": {
+                                                    "w": 26,
+                                                    "h": 11
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "fill-35",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 13,
+                                                            "h": 7
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(255, 255, 255)"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "fill-37",
+                                                        "type": "BOOLEAN_OPERATION",
+                                                        "size": {
+                                                            "w": 24,
+                                                            "h": 11
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(255, 255, 255)"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "name": "path",
+                                                                "type": "VECTOR",
+                                                                "size": {
+                                                                    "w": 21,
+                                                                    "h": 9
+                                                                }
+                                                            },
+                                                            {
+                                                                "name": "path",
+                                                                "type": "VECTOR",
+                                                                "size": {
+                                                                    "w": 24,
+                                                                    "h": 11
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "fill-39",
+                                                        "type": "VECTOR",
+                                                        "size": {
+                                                            "w": 2,
+                                                            "h": 4
+                                                        },
+                                                        "styles": {
+                                                            "bg": "rgb(255, 255, 255)"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "9-41",
+                                        "type": "TEXT",
+                                        "size": {
+                                            "w": 32,
+                                            "h": 18
+                                        },
+                                        "content": "9:41",
+                                        "styles": {
+                                            "bg": "rgb(255, 255, 255)",
+                                            "text": {
+                                                "family": "SF Pro Display",
+                                                "size": 15,
+                                                "weight": "400",
+                                                "align": "left"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "ellipse-1",
+                                "type": "ELLIPSE",
+                                "size": {
+                                    "w": 51,
+                                    "h": 51
+                                },
+                                "styles": {
+                                    "bg": "rgb(0, 51, 156)"
+                                }
+                            },
+                            {
+                                "name": "user",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 36,
+                                    "h": 35
+                                }
+                            },
+                            {
+                                "name": "rectangle-2",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 232,
+                                    "h": 31
+                                },
+                                "styles": {
+                                    "bg": "rgb(166, 204, 249)",
+                                    "radius": 10
+                                }
+                            },
+                            {
+                                "name": "your-health-questions-are-encrypted",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 182,
+                                    "h": 30
+                                },
+                                "content": "Your health questions are encrypted",
+                                "styles": {
+                                    "bg": "rgb(39, 91, 174)",
+                                    "text": {
+                                        "family": "Trebuchet MS",
+                                        "size": 10,
+                                        "weight": "700",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "ask-any-medical-or-health-question",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 254,
+                                    "h": 100
+                                },
+                                "content": "Ask any medical or \nhealth question",
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)",
+                                    "text": {
+                                        "family": "Webdings",
+                                        "size": 31,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "rectangle-3",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 313,
+                                    "h": 135
+                                },
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)",
+                                    "radius": 20,
+                                    "shadow": {
+                                        "x": 0,
+                                        "y": 4,
+                                        "blur": 4,
+                                        "color": "rgba(0, 0, 0, 0.25)"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "-are-kidney-stones-treatable-",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 193,
+                                    "h": 50
+                                },
+                                "content": "“Are kidney stones treatable”",
+                                "styles": {
+                                    "bg": "rgb(0, 0, 0)",
+                                    "text": {
+                                        "family": "Webdings",
+                                        "size": 16,
+                                        "weight": "400",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "language",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 44,
+                                    "h": 44
+                                }
+                            },
+                            {
+                                "name": "ellipse-2",
+                                "type": "ELLIPSE",
+                                "size": {
+                                    "w": 71,
+                                    "h": 64
+                                },
+                                "styles": {
+                                    "bg": "rgb(37, 99, 234)",
+                                    "shadow": {
+                                        "x": 0,
+                                        "y": 4,
+                                        "blur": 4,
+                                        "color": "rgba(0, 0, 0, 0.25)"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "ellipse-3",
+                                "type": "ELLIPSE",
+                                "size": {
+                                    "w": 45,
+                                    "h": 45
+                                },
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)"
+                                }
+                            },
+                            {
+                                "name": "rectangle-4",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 338,
+                                    "h": 213
+                                },
+                                "styles": {
+                                    "bg": "rgb(223, 243, 252)",
+                                    "radius": 20,
+                                    "shadow": {
+                                        "x": 0,
+                                        "y": 4,
+                                        "blur": 4,
+                                        "color": "rgba(0, 0, 0, 0.25)"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "rectangle-5",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 46,
+                                    "h": 24
+                                },
+                                "styles": {
+                                    "bg": "rgb(244, 129, 14)",
+                                    "radius": 5
+                                }
+                            },
+                            {
+                                "name": "new",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 27,
+                                    "h": 30
+                                },
+                                "content": "NEW",
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)",
+                                    "text": {
+                                        "family": "Trebuchet MS",
+                                        "size": 13,
+                                        "weight": "700",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "take-control-of-diabetes--naturally-with-ai",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 187,
+                                    "h": 90
+                                },
+                                "content": "Take Control of Diabetes, naturally with AI",
+                                "styles": {
+                                    "bg": "rgb(34, 49, 70)",
+                                    "text": {
+                                        "family": "Baloo 2",
+                                        "size": 24,
+                                        "weight": "700",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "senior-citizen-act-removebg-preview-1",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 189,
+                                    "h": 173
+                                }
+                            },
+                            {
+                                "name": "rectangle-6",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 147,
+                                    "h": 37
+                                },
+                                "styles": {
+                                    "bg": "rgb(37, 99, 234)",
+                                    "radius": 30
+                                }
+                            },
+                            {
+                                "name": "get-started-at---199-month",
+                                "type": "TEXT",
+                                "size": {
+                                    "w": 139,
+                                    "h": 30
+                                },
+                                "content": "Get started at ₹ 199/month",
+                                "styles": {
+                                    "bg": "rgb(255, 255, 255)",
+                                    "text": {
+                                        "family": "Baloo Bhaijaan 2",
+                                        "size": 13,
+                                        "weight": "700",
+                                        "align": "left"
+                                    }
+                                }
+                            },
+                            {
+                                "name": "microphone",
+                                "type": "RECTANGLE",
+                                "size": {
+                                    "w": 38,
+                                    "h": 38
+                                }
+                            },
+                            {
+                                "name": "line-1",
+                                "type": "VECTOR",
+                                "size": {
+                                    "w": 153,
+                                    "h": 0
+                                },
+                                "styles": {
+                                    "border": {
+                                        "width": 6,
+                                        "color": "rgb(0, 0, 0)"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "privacy",
+                "type": "RECTANGLE",
+                "size": {
+                    "w": 25,
+                    "h": 25
+                }
+            }
+        ]
+    },
+    "summary": {
+        "components": 0,
+        "instances": 0,
+        "frames": 5,
+        "texts": 8,
+        "hasAutoLayout": true,
+        "hasEffects": true
+    }
+}
